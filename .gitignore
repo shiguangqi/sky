@@ -1,0 +1,6 @@
+/.project
+*.o
+*.lo
+/admin/composer.lock
+/admin/vendor
+/.idea
