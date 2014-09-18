@@ -29,6 +29,9 @@ class Node extends \Sky\Service implements \Sky\IService
             case 'delnode':
                 $this->delNode($server, $fd, $from_id);
                 break;
+            case 'addname':
+                $this->addName($server, $fd, $from_id,$data['params']);
+                break;
             case 'getnode':
                 $this->getNode($server, $fd, $from_id,$data['params']);
                 break;
@@ -174,6 +177,16 @@ class Node extends \Sky\Service implements \Sky\IService
         }
         $this->log("del node nodes:".print_r($this->sky->nodes,1));
         $this->log("del node ctls:".print_r($this->sky->ctl,1));
+    }
+
+    public function addName($server, $fd, $from_id,$params)
+    {
+
+        if (isset($this->sky->nodes[$fd]) and !empty($this->sky->nodes[$fd]))
+        {
+            $this->sky->nodes[$fd]['name'] = $params['n'];
+        }
+        $this->log("add name ".print_r($this->sky->nodes,1));
     }
     /*
      * 支持多worker

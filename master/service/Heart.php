@@ -15,7 +15,7 @@ class Heart extends \Sky\Service implements \Sky\IService
         $this->setRes($this->service,$this->cmd);
         switch ($this->cmd)
         {
-            case 'send':
+            case 'bit':
                 $this->bit($server, $fd, $from_id,$data['params']);
                 break;
         }
@@ -27,6 +27,14 @@ class Heart extends \Sky\Service implements \Sky\IService
         if (!empty($this->sky->ctl))
         {
             $this->updateLastTime();
+            if (isset($params['d']))
+            {
+                $daemons = json_decode($params['d'],1);
+                if ($daemons)
+                {
+                    $this->sky->nodes[$fd]['daemon'] = $daemons;
+                }
+            }
             foreach ($this->sky->ctl as $f => $info)
             {
                 $this->send($f,$this->sky->nodes);

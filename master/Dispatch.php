@@ -28,6 +28,8 @@ class Dispatch
 
     public function onStart(\swoole_server $server, $worker_id)
     {
+        global $argv;
+        cli_set_process_title("$argv[0] [master server] : worker");
         $this->worker_id = $worker_id;
         if ($this->worker_id == 0)
         {

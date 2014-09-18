@@ -184,7 +184,7 @@ class File extends \Sky\Service implements \Sky\IService
             $this->send($fd, $return);
             return;
         }
-        $msg = $this->getResponse($client);
+        $msg = $this->getResponse($client,$params);
         $return['msg'] = $msg;
         $this->send($fd, $return);
         $return['msg'] = "Start transport. file={$file}, size={$size}\n";
@@ -202,7 +202,7 @@ class File extends \Sky\Service implements \Sky\IService
                 break;
             }
         }
-        $msg = $this->getResponse($client);
+        $msg = $this->getResponse($client,$params);
         $return['msg'] = $msg;
         $this->send($fd, $return);
         $return['msg'] = "Success. send_size = $size\n";
@@ -234,7 +234,7 @@ class File extends \Sky\Service implements \Sky\IService
     }
 
 
-    public function getResponse(\swoole_client $client)
+    public function getResponse(\swoole_client $client,$params)
     {
         $recv = $client->recv();
         if (!$recv) {
@@ -247,6 +247,6 @@ class File extends \Sky\Service implements \Sky\IService
         if ($respCode['code'] != 0) {
             return ("Server: message={$respCode['msg']}.\n");
         } else
-            return "[FromServer]\t{$respCode['msg']}\n";
+            return "[FromServer {$params['h']}]\t{$respCode['msg']}\n";
     }
 }

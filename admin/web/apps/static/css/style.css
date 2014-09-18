@@ -105,23 +105,21 @@ body {
     border-radius: 50%;
 }
 
-.well-sm > ul {
-    width: 400px;
-}
-
 .btn-release {
     width: 200px;
 }
 .file-list {
     margin-top: 20px;
+    width: 500px;
 }
-.file-list > li {
-    position: relative;
-    display: block;
-    padding: 2px 15px;
-    margin-bottom: -1px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+.file-list > a {
+    padding: 5px 15px;
+}
+
+.file-list >a:hover, .file-list>a:focus {
+    text-decoration: none;
+    background-color: #eee;
+    color: #2a6496;
 }
 
 .upload {

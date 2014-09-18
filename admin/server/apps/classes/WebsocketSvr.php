@@ -2,7 +2,7 @@
 namespace App;
 
 
-class WebsocketSvr extends \Swoole\Network\Protocol\WebSocket
+class WebsocketSvr extends \Swoole\Protocol\WebSocket
 {
     public $config;
     public $client;
@@ -17,6 +17,9 @@ class WebsocketSvr extends \Swoole\Network\Protocol\WebSocket
 
     function onStart($server)
     {
+        global $argv;
+        cli_set_process_title("php $argv[0] : worker");
+
         $this->client = new \swoole_client(SWOOLE_TCP | SWOOLE_KEEP, SWOOLE_SOCK_ASYNC);
         $this->client->on("connect", array($this,"clientConnect"));
         $this->client->on("receive", array($this,"clientReceive"));
@@ -43,7 +46,7 @@ class WebsocketSvr extends \Swoole\Network\Protocol\WebSocket
             $return = json_decode($line,1);
             print_r($return);
             if (($return['service'] == 'node' && ($return['cmd'] == 'addnode' || $return['cmd'] == 'delnode'))
-                || ($return['service'] == 'heart' && $return['cmd'] == 'send')
+                || ($return['service'] == 'heart' && $return['cmd'] == 'bit')
                 )
             {
                 if (!empty($this->connections))

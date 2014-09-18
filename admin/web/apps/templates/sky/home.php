@@ -34,53 +34,87 @@
             <?php require __DIR__.'/../include/leftmenu.php';?>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <div class="page-header">
-                <h3><small>项目</small></h3>
-            </div>
-            <div class="well well-sm">
-                <ul class="nav nav-pills" role="tablist">
-                    <?php
-                        if (!empty($projects))
-                        {
-                            foreach ($projects as $f)
-                            {
-                    ?>
-                        <li role="presentation" class="project" name="<?php echo $f['project_name'];?>"><a href="#"><?php echo $f['nick_name'];?></a></li>
-                    <?php
-                            }
-                        }
-                    ?>
-                </ul>
-                <ul class="list-group file-list">
-                </ul>
-            </div>
-            <div class="page-header">
-                <h3><small>服务群组</small></h3>
-            </div>
-            <table id="node-list" class="table table-bordered">
-                <thead>
-                    <tr class="info">
-                        <th>选择</th>
-                        <th>节点</th>
-                        <th>地址</th>
-                        <th>端口</th>
-<!--                        <th>分组</th>-->
-                        <th>最后一次心跳时间</th>
-                    </tr>
-                </thead>
-            </table>
-
-            <button type="button" class="btn btn-success btn-release">安装</button>
-
-
-            <div class="page-header">
-                <h4><small>Console</small></h4>
-            </div>
-            <div class="console-box panel panel-default" style="background-color: #222;color: #fff;height: 150px;overflow-y: scroll;">
-                <div class="console-bg panel-body" >
-                    <div class="console">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+<!--                    <div class="panel-heading">-->
+<!--                        <h4 class="panel-title">-->
+                            <a style="color: #fff;width: 100%;display: inline-block;text-align: left" class="btn btn-warning btn-sm" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                项目
+                            </a>
+<!--                        </h4>-->
+<!--                    </div>-->
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel">
+                        <div class="panel-body">
+<!--                            <div class="well well-sm">-->
+                                <ul class="nav nav-pills" role="tablist">
+                                    <?php
+                                    if (!empty($projects))
+                                    {
+                                        foreach ($projects as $f)
+                                        {
+                                            ?>
+                                            <li role="presentation" class="project" name="<?php echo $f['project_name'];?>"><a href="#"><?php echo $f['nick_name'];?></a></li>
+                                        <?php
+                                        }
+                                    }
+                                    ?>
+                                </ul>
+                                <input name="project" type="hidden" value="">
+                                <div class="list-group file-list">
+                                </div>
+                                <input name="file" type="hidden" value="">
+                                <h6><small>背景绿色为已安装版本,蓝色表示当前选择版本</small></h6>
+<!--                            </div>-->
+                        </div>
                     </div>
                 </div>
+                <div class="panel panel-default">
+<!--                    <div class="panel-heading">-->
+<!--                        <h4 class="panel-title">-->
+                            <a style="color: #fff;width: 100%;display: inline-block;text-align: left" class="btn btn-success btn-sm" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                节点服务群组
+                            </a>
+<!--                        </h4>-->
+<!--                    </div>-->
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+                        <div class="panel-body">
+                            <table id="node-list" class="table table-bordered table-condensed">
+                                <thead>
+                                <tr class="info">
+                                    <th>选择</th>
+                                    <th>节点</th>
+                                    <th>地址</th>
+                                    <th>端口</th>
+                                    <!--                        <th>分组</th>-->
+                                    <th>最后一次心跳时间</th>
+                                </tr>
+                                </thead>
+                            </table>
+
+                            <button type="button" class="btn btn-success btn-release">安装</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+<!--                    <div class="panel-heading">-->
+<!--                        <h4 class="panel-title">-->
+                            <a style="color: #fff;width: 100%;display: inline-block;text-align: left" class="btn btn-info btn-sm" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Console
+                            </a>
+<!--                        </h4>-->
+<!--                    </div>-->
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+                        <div class="panel-body">
+                            <div class="console-box panel panel-default" style="background-color: #222;color: #fff;height: 150px;overflow-y: scroll;">
+                                <div class="console-bg panel-body" >
+                                    <div class="console">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -92,6 +126,9 @@
 <script src="/apps/static/js/php.js"></script>
 <script src="/apps/static/js/sky.js"></script>
 <script>
+    $('.collapse').collapse({
+        toggle: false
+    });
     var config = <?php echo json_encode($config);?>;
     var term = {};
     term.ps1_flag = "<span class='ps1'> ></span>";
@@ -128,24 +165,22 @@
         $('input:checkbox:checked').each(function() {
             checked.push($(this).val());
         });
-        var filename = $("input[name='file']:checked").val();
-        var project = '';
-        $(".project").each(function(){
-            if ($(this).hasClass("active"))
-            {
-                project = $(this).attr('name');
-            }
-        });
-
-        if (filename == undefined)
+        var filename = $("input[name='file']").val();
+        var project = $("input[name='project']").val();
+        if (project == '')
+        {
+            alert('请选择项目');
+            return false;
+        }
+        else if (filename == '')
         {
             alert('请选择项目文件');
-            return;
+            return false;
         }
-        if (count(checked) == 0)
+        else if (count(checked) == 0)
         {
             alert('请选择节点');
-            return;
+            return false;
         }
         else
         {
@@ -156,6 +191,7 @@
             msg.f = filename;
             msg.p = project;
             ws.send($.toJSON(msg));
+            return true;
         }
     });
 
@@ -228,7 +264,7 @@
 
                 for (var i in text)
                 {
-                    node = node + "<tr id='"+text[i]['fd']+"' class='success'><td><input type='checkbox' value='"+text[i]['fd']+"'></td><td>"+text[i]['fd']+"</td><td>"+text[i]['host']+"</td><td>"+text[i]['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text[i]['last_time'])+"</td></tr>";
+                    node += addTr(text[i]);//"<tr id='"+text[i]['fd']+"' class='success'><td><input type='checkbox' value='"+text[i]['fd']+"'></td><td>"+text[i]['name']+"</td><td>"+text[i]['host']+"</td><td>"+text[i]['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text[i]['last_time'])+"</td></tr>";
                     console = console + "<div>host:"+text[i]['host']+" -- port:"+text[i]['port']+" -- group:"+text[i]['group']+"</div>";
                 }
                 term.echo(console);
@@ -248,7 +284,7 @@
                 {
                     $("#"+text['fd']).remove();
                 }
-                var node = "<tr id='"+text['fd']+"' class='success'><td><input type='checkbox' value='"+text['fd']+"'></td><td>"+text['fd']+"</td><td>"+text['host']+"</td><td>"+text['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text['last_time'])+"</td></tr>";
+                var node = addTr(text[i]);//"<tr id='"+text['fd']+"' class='success'><td><input type='checkbox' value='"+text['fd']+"'></td><td>"+text['name']+"</td><td>"+text['host']+"</td><td>"+text['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text['last_time'])+"</td></tr>";
                 var console = '<div>Master新增节点</div>';
                 console = console + "<div>host:"+text['host']+" -- port:"+text['port']+" -- group:"+text['group']+"</div>";
                 term.echo(console);
@@ -257,20 +293,70 @@
         }
     }
 
+    function addTr(o)
+    {
+        var tr = '';
+        tr = "<tr id='"+o['fd']+"' class='success'  onclick=showDaemon(this)>" +
+                "<td><input type='checkbox' value='"+o['fd']+"'></td>" +
+                "<td>"+o['name']+"</td><td>"+o['host']+"</td>" +
+                "<td>"+o['port']+"</td>" +
+                "<td class='last_time'>"+date('Y-m-d H:i:s',o['last_time'])+"</td>" +
+            "</tr>";
+        return tr;
+    }
+
     function heartHandler(res)
     {
-        //console.info(res);
         switch(res.cmd)
         {
-            case 'send' :
+            case 'bit' :
                 var text = res.data;
                 for (var i in text)
                 {
                     $("#"+i).children('.last_time').empty().html(date('Y-m-d H:i:s',text[i].last_time));
                     $("#"+i).children('.last_time').css('background-color','#419641');
                     $("#"+i).children('.last_time').css('color','#fff');
-                }
+                    var daemon = text[i].daemon;
 
+                    if (daemon != undefined)
+                    {
+
+                        for (var j in daemon)
+                        {
+                            var td = "<td colspan=5>" +
+                                        "<div class='row show-grid info'>" +
+                                            "<div class='col-md-12'>"+daemon[j].name+"</div>" +
+                                        "</div>" +
+                                        "<div class='row show-grid'>" +
+                                            "<div class='col-md-2'>Host</div>" +
+                                            "<div class='col-md-10'>"+daemon[j].host+"</div>" +
+                                        "</div>" +
+                                        "<div class='row show-grid'>" +
+                                            "<div class='col-md-2'>port</div>" +
+                                            "<div class='col-md-10'>"+daemon[j].port+"</div>" +
+                                        "</div>" +
+                                        "<div class='row show-grid'>" +
+                                            "<div class='col-md-2'>pid</div>" +
+                                            "<div class='col-md-10'>"+daemon[j]._pid+"</div>" +
+                                        "</div>" +
+                                        "<div class='row show-grid'>" +
+                                            "<div class='col-md-2'>lasttime</div>" +
+                                            "<div class='col-md-10'>"+date('Y-m-d H:i:s',text[i].last_time)+"</div>" +
+                                        "</div>" +
+                                     "</td>";
+                            var tr = "<tr class='"+i+"_daemon danger' style='display:none' id='"+i+"_"+daemon[j].name+"'>" + td + "</tr>";
+                            console.log(tr);
+                            if ((daemon[j].name != undefined) && ($("#"+i+"_"+daemon[j].name).length == 0))
+                            {
+                                $("#"+i).after(tr);
+                            }
+                            else
+                            {
+                                $("#"+i+"_"+daemon[j].name).html(td);
+                            }
+                        }
+                    }
+                }
         }
     }
     function fileHandler(res)
@@ -283,6 +369,12 @@
                 break;
         }
 
+    }
+
+    function showDaemon(o)
+    {
+        var id = $(o).attr('id');
+        $("."+id+"_daemon").toggle();
     }
 
 </script>

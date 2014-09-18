@@ -11,6 +11,7 @@ class Sky
     public $white_list;
 
     public $serverSetting;
+    public $config;
 
     public $service;
     public $dispatch;
@@ -31,6 +32,7 @@ class Sky
 
     public function init($config)
     {
+        $this->config = $config;
         $this->port = $config['server']['port'];
         $this->server = new \swoole_server($config['server']['host'], $config['server']['port'], SWOOLE_PROCESS, SWOOLE_SOCK_TCP);
         $this->server->sky = $this;
@@ -74,9 +76,16 @@ class Sky
         return self::$sky;
     }
 
-    public function onMasterStart($serv)
+    public function onMasterStart($server)
     {
+        global $argv;
+        cli_set_process_title("{$argv[0]} [master server] : master -host= {$this->config['server']['host']} -port={$this->config['server']['port']}");
+    }
 
+    function onManagerStart($server)
+    {
+        global $argv;
+        cli_set_process_title("$argv[0] [master server] : manager");
     }
 
     public function run($setting=array())
@@ -84,6 +93,7 @@ class Sky
         $set = array_merge($this->serverSetting, $setting);
         $this->server->set($set);
         $this->server->on('Start', array($this, 'onMasterStart'));
+        $this->server->on('ManagerStart', array($this, 'onManagerStart'));
         $this->server->on('WorkerStart', array($this->dispatch, 'onStart'));
         $this->server->on('Connect', array($this->dispatch, 'onConnect'));
         $this->server->on('Receive', array($this->dispatch, 'onReceive'));

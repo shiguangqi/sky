@@ -51,6 +51,8 @@
                     }
                     ?>
                 </ul>
+                <div class="list-group file-list">
+                </div>
                     <form id="form1" role="form" action="/file/upload_action/" method="post" enctype="multipart/form-data">
                         <div class="well well-sm">
                             <div class="form-group">
@@ -72,13 +74,6 @@
 <script src="/apps/static/js/php.js"></script>
 <script>
     $(document).ready(function () {
-        $(".project").click(function(){
-            $(this).addClass('active');
-            $(this).siblings().removeClass('active');
-            $("#project").val($(this).attr('name'));
-            $(".file-list").empty();
-        });
-
         $("#submit").click(function(){
             var project = $("#project").val();
             if (project == '')
@@ -92,7 +87,59 @@
                 return false;
             }
             $("#form1").submit();
+            return true;
         });
+
+        initFiles();
+        $(".project").click(function(){
+            $(this).addClass('active');
+            $(this).siblings().removeClass('active');
+            var project = $(this).attr('name');
+            $("#project").val(project);
+            getProjectFiles(project);
+        });
+
+        function initFiles()
+        {
+            var project = $(".project").first().addClass('active').attr('name');
+            $("#project").val(project);
+            getProjectFiles(project);
+        }
+
+        function getProjectFiles(project)
+        {
+            $(".file-list").empty();
+            $.ajax({
+                url: '/sky/getProjectFiles',
+                dataType : 'json',
+                data: {'name':project},
+                method: 'post',
+                success: function(data) {
+                    if (data.status == 200)
+                    {
+                        var content = data.content;
+                        var current_release = data.current_release;
+                        var line = '';
+                        for (var i in content)
+                        {
+                            if (current_release == content[i].release)
+                            {
+                                line += '<a class="list-group-item files list-group-item-success">';
+                            }
+                            else
+                            {
+                                line += '<a class="list-group-item files">';
+                            }
+
+                            line += content[i].filename;
+                            line += '</a>';
+                        }
+                        $(".file-list").append(line);
+                    }
+                }
+            });
+        }
+
     });
 </script>
 </body>

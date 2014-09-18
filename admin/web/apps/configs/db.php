@@ -7,7 +7,7 @@ $db['master'] = array(
     'engine'  => 'MyISAM',
     'user'    => "root",
     'passwd'  => "bufferme",
-    'name'    => "mostat",
+    'name'    => "sky",
     'charset' => "utf8",
     'setname' => true,
 );

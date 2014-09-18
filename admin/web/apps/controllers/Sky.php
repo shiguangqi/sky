@@ -13,26 +13,6 @@ class Sky extends \App\LoginController
         $this->display();
     }
 
-    public function getFiles()
-    {
-        $this->path =  WEBPATH.'/static/upload';
-        $params['order'] = 'id asc';
-        $params['id'] = 1;
-        $projects = table('project')->get(1)->get();
-
-        $dirs = scandir($this->path.'/'.$projects['project_name']);
-        $filenames = array();
-        foreach ($dirs as $filename)
-        {
-            if ($filename == '.' || $filename == '..')
-            {
-                continue;
-            }
-            $filenames[] = $filename;
-        }
-        return $filenames;
-    }
-
     public function getProjectFiles()
     {
         $this->path =  WEBPATH.'/static/upload';
@@ -44,18 +24,28 @@ class Sky extends \App\LoginController
         else
         {
             $project = $_POST['name'];
+            $info = table('project')->get($project,'project_name')->get();
             $dirs = scandir($this->path.'/'.$project);
-            foreach ($dirs as $filename)
+            $content = array();
+            foreach ($dirs as $k => $filename)
             {
                 if ($filename == '.' || $filename == '..')
                 {
                     continue;
                 }
-                $content[] = $filename;
+                $content[$k]['filename'] = $filename;
+                $content[$k]['release'] = $this->getRelease($filename);
             }
             $return['status'] = 200;
             $return['content'] = $content;
+            $return['current_release'] = $info['current_release'];
         }
         echo json_encode($return);
+    }
+
+    public function getRelease($name)
+    {
+        $tmp = explode('_',$name);
+        return $tmp[1];
     }
 }
