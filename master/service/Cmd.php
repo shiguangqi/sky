@@ -29,8 +29,8 @@ class Cmd extends \Sky\Service implements \Sky\IService
             case 'stop':
                 $this->start($server, $fd, $from_id,$data['params']);
                 break;
-            case 'rep_install':
-                $this->rep_install($server, $fd, $from_id,$data['params']);
+            case 'pre_install':
+                $this->pre_install($server, $fd, $from_id,$data['params']);
                 break;
             default:
                 $return['msg'] = "命令不存在\n";
@@ -97,14 +97,24 @@ class Cmd extends \Sky\Service implements \Sky\IService
         $node_fd = $this->getNodeByIp($params['h']);
         $file = basename($params['f']);
         $return['f'] =  $file; //上传文件的文件名
-        $return['c'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+        $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+        $return['c'] =  $params['c']; //client id
         $this->send($node_fd, $return);
     }
 
-
+    //node 节点返回安装
     public function pre_install($server, $fd, $from_id,$params)
     {
-
+        if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
+        {
+            $ctl_fd = $params['fd'];
+            $return['c'] = $params['c'];
+            $return['s'] = $params['s'];
+            $return['o'] = $params['o'];
+            $return['f'] = $params['f'];
+            $return['fd'] = $params['fd'];
+            $this->send($ctl_fd, array('params'=>$return));
+        }
     }
 
     public function post_install($server, $fd, $from_id,$params)
@@ -112,8 +122,4 @@ class Cmd extends \Sky\Service implements \Sky\IService
 
     }
 
-    public function rep_install($server, $fd, $from_id,$params)
-    {
-        var_dump($params);
-    }
 }

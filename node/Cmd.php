@@ -28,20 +28,20 @@ class Cmd
             switch ($data['cmd'])
             {
                 case 'install':
-                    $main = $data['data'];
-                    $ctl_fd = $main['c'];
-                    $file = $main['f']; //文件名称
+                    $file = $data['data']['f']; //文件名称
                     exec(__DIR__."/install.sh {$file}",$output,$return);
-                    var_dump($return);
                     if ($return === 0)
                     {
                         $output[] = 'install success';
+                        $params['status'] = 0;
                         $client->send($this->buildInstallMsg($params,$output));
                     }
-                    else
-                    {
-                        $client->send($this->buildInstallMsg($params,$output));
-                    }
+//                    else
+//                    {
+//                        $output[] = 'install failed';
+//                        $params['status'] = 1;
+//                        $client->send($this->buildInstallMsg($params,$output));
+//                    }
                     break;
             }
         }
@@ -49,9 +49,9 @@ class Cmd
 
     public function buildInstallMsg($params,$output)
     {
-        $o = json_encode($output);
+        $o = implode("\n",$output);
         $data = $params['content'];
-        $line = $this->cmd_header."rep_install -f {$data['data']['f']} -c {$data['data']['c']} -o $o ".$this->protocol_end;
+        $line = $this->cmd_header."pre_install -s {$params['status']} -f {$data['data']['f']} -fd {$data['data']['fd']} -c {$data['data']['c']} -o $o ".$this->protocol_end;
         var_dump($line);
         return $line;
     }

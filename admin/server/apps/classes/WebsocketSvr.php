@@ -43,8 +43,11 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
             {
                 continue;
             }
-
             $return = json_decode($line,1);
+            if ($return['service'] == 'cmd')
+            {
+                print_r($return);
+            }
             if (($return['service'] == 'node' && ($return['cmd'] == 'addnode' || $return['cmd'] == 'delnode' || $return['cmd'] == 'addname'))
                 || ($return['service'] == 'heart' && $return['cmd'] == 'bit')
                 )
@@ -60,7 +63,7 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
             else
             {
                 $fd = $return['data']['params']['c'];
-                unset($return['data']['params']);
+                //unset($return['data']['params']);
                 $this->sendJson($fd,$return);
             }
         }

@@ -26,6 +26,7 @@ class ClientHandler
     function clientReceive($client, $data)
     {
         //暂时不区分daemon 服务和命令服务 一个入口
+        var_dump($data);
         $lines = explode("\r\n",$data);
         foreach ($lines as $line)
         {

@@ -92,7 +92,8 @@
                                 </thead>
                             </table>
 
-                            <button type="button" class="btn btn-success btn-release" data-loading-text="安装中...">安装</button>
+                            <button type="button" id="install" class="btn btn-success btn-release" data-loading-text="安装中...">安装</button>
+                            <button style="display: none" type="button" id="start" class="btn btn-success btn-release" data-loading-text="启动中...">启动</button>
                         </div>
                     </div>
                 </div>
@@ -161,8 +162,7 @@
         connect();
     });
 
-    $(".btn-release").click(function(){
-        //$btn.button('reset');
+    $("#install").click(function(){
         var checked = [];
         $('input:checkbox:checked').each(function() {
             checked.push($(this).val());
@@ -187,6 +187,7 @@
         else
         {
             var $btn = $(this).button('loading');
+            //$btn.button('reset');
             msg = {};
             msg.service = 'file';
             msg.cmd = 'sendnodes';
@@ -252,6 +253,9 @@
                 break;
             case 'heart':
                 heartHandler(res);
+                break;
+            case 'cmd':
+                cmdHandler(res);
                 break;
         }
     }
@@ -377,7 +381,29 @@
                 term.echo(res.data.msg+"</br>");
                 break;
         }
+    }
 
+    function cmdHandler(res)
+    {
+        var content = res.data.params;
+        console.log(res);
+        switch(res.cmd)
+        {
+            case 'pre_install':
+                var status = content.s;
+                if (status == 0)
+                {
+                    //取消安装按钮禁用状态并隐藏
+                    $("#install").button('reset').hide();
+                    $("#start").show();
+                }
+                else
+                {
+                    $("#install").button('reset');
+                }
+                term.echo(content.o+"</br>");
+                break;
+        }
     }
 
     function toggleDaemon(o)

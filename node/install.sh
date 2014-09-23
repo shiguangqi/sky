@@ -7,11 +7,11 @@ if [ ! -d /var/www/node ]; then
     echo 'create first time';
     mkdir -p /var/www/node
 else
+    echo 'update project';
     mv /var/www/node /var/www/node.${DATE}.bak
 fi
 
 if [ $? -eq 0 ];then
-    echo 'update project first time';
     mv node /var/www/node
 elif [ $? -eq 0 ];then
     exit 0

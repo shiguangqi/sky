@@ -103,7 +103,6 @@ class Dispatch
 
     protected function parse($server, $fd, $from_id, $params)
     {
-        var_dump($params);
         $res = $this->getOpt($params);
         if ($res === 1)// "\r\n" 跳出
         {
@@ -138,26 +137,32 @@ class Dispatch
         {
             return 1;
         }
-        $tmp = explode("\r\n", $params, 3);
+        $tmp = explode("\r\n", $params);
         $cmd_line = explode(' ', $tmp[0], 3);
         $return['service'] = $cmd_line[0];
         $return['cmd'] = $cmd_line[1];
         $return['params'] = array();
         if (isset($cmd_line[2]) and !empty($cmd_line[2]))
         {
-            $tmp = explode(' ',trim($cmd_line[2]));
+            $tmp = explode('-',trim($cmd_line[2]));
             $_data = array();
-            foreach ($tmp as $k => $v)
+            foreach ($tmp as $v)
             {
-                if (!empty($v) && $v{0} == '-')
+                if (!empty($v))
                 {
-                    $name = substr($v,1);
-                    $val = trim($tmp[$k+1]);
-                    if ($val{0} != '-')
-                    {
-                        $_data[$name] = $tmp[$k+1];
-                    }
+                    $tmp = explode(' ',$v,2);
+                    if (!empty($tmp[0]) and !empty($tmp[1]))
+                    $_data[trim($tmp[0])] = trim($tmp[1]);
                 }
+//                if (!empty($v) && $v{0} == '-')
+//                {
+//                    $name = substr($v,1);
+//                    $val = trim($tmp[$k+1]);
+//                    if ($val{0} != '-')
+//                    {
+//                        $_data[$name] = $tmp[$k+1];
+//                    }
+//                }
             }
             $return['params'] = $_data;
         }
