@@ -8,15 +8,11 @@ class File extends \Sky\Log
     {
         if (is_string($file))
         {
-            $conf = array('file' => $file);
-        }
-        if (isset($file['file']))
-        {
-            $this->log_file = $file['file'];
+            $this->log_file = $file;
         }
         else
         {
-            throw new \Exception(__CLASS__.": require \$conf[file]");
+            throw new \Exception(__CLASS__.": require $file");
         }
 
         $this->fp = fopen($this->log_file, 'a+');

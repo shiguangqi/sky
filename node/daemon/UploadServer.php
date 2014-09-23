@@ -1,6 +1,7 @@
 <?php
 namespace Sky;
 
+require_once __DIR__."/../utils/libs.php";
 class UploadServer
 {
     /**
@@ -17,11 +18,23 @@ class UploadServer
     private $pid;
     private $pid_file;
 
+    public $loger;
+
     function __construct($config)
     {
         $this->config = $config;
         $this->pid_file = $config['pid'];
         $this->root_path = rtrim($this->root_path, ' /');
+    }
+
+    public function setLoger($log)
+    {
+        $this->loger = $log;
+    }
+
+    public function log($msg)
+    {
+        $this->loger->log($msg);
     }
 
     function onConnect($server, $fd, $from_id)
@@ -32,14 +45,14 @@ class UploadServer
     function message($fd, $code, $msg)
     {
         $this->server->send($fd, json_encode(array('code' => $code, 'msg' => $msg)));
-        $this->log("[-->$fd]\t$code\t$msg\n");
+        $this->log("[-->$fd]\t$code\t$msg");
         if ($code != 0) {
             $this->server->close($fd);
         }
         return true;
     }
 
-    function onReceive(swoole_serverer $server, $fd, $from_id, $data)
+    function onReceive($server, $fd, $from_id, $data)
     {
         //传输尚未开始
         if (empty($this->files[$fd])) {
@@ -86,8 +99,8 @@ class UploadServer
     function onMasterStart($server)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [upload_server] : master -host= {$this->config['host']} -port={$this->config['port']}");
-        $this->log("upload server starting\n");
+        setProcessName("{$argv[0]} [upload_server] : master -host= {$this->config['host']} -port={$this->config['port']}");
+        $this->log("upload server starting");
         $this->pid = $server->master_pid;
         file_put_contents($this->pid_file,$this->pid);
     }
@@ -95,25 +108,25 @@ class UploadServer
     function onManagerStart($server)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [upload_server] : manager");
+        setProcessName("{$argv[0]} [upload_server] : manager");
     }
 
     function onWorkerStart($server)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [upload_server] : worker");
+        setProcessName("{$argv[0]} [upload_server] : worker");
     }
 
     function onShutdown($server)
     {
-        $this->log("upload server stop\n");
+        $this->log("upload server stop");
         unlink($this->pid_file);
     }
 
     function onclose($server, $fd, $from_id)
     {
         unset($this->files[$fd]);
-        $this->log("upload client[$fd] closed.\n");
+        $this->log("upload client[$fd] closed.");
     }
 
     function start()
@@ -134,18 +147,8 @@ class UploadServer
         $server->start();
     }
 
-    function test()
-    {
-        echo 'from upload server test'."\n";
-    }
-
     function stop()
     {
         $this->server->shutdown();
-    }
-
-    function log($msg)
-    {
-        echo "$msg\n";
     }
 }

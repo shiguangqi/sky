@@ -1,5 +1,5 @@
 <?php
-
+require __DIR__."/utils/libs.php";
 require __DIR__.'/Dispatch.php';
 require __DIR__.'/Response.php';
 class Sky
@@ -79,13 +79,13 @@ class Sky
     public function onMasterStart($server)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [master server] : master -host= {$this->config['server']['host']} -port={$this->config['server']['port']}");
+        setProcessName("{$argv[0]} [master server] : master -host= {$this->config['server']['host']} -port={$this->config['server']['port']}");
     }
 
     function onManagerStart($server)
     {
         global $argv;
-        cli_set_process_title("$argv[0] [master server] : manager");
+        setProcessName("$argv[0] [master server] : manager");
     }
 
     public function run($setting=array())

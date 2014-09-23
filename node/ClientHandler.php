@@ -25,12 +25,32 @@ class ClientHandler
 
     function clientReceive($client, $data)
     {
-        echo "received: $data\n";
+        //暂时不区分daemon 服务和命令服务 一个入口
+        $lines = explode("\r\n",$data);
+        foreach ($lines as $line)
+        {
+            if (empty($line))
+            {
+                continue;
+            }
+            $data = json_decode($data,1);
+            if (in_array($data['cmd'],array('start','stop')))
+            {
+                call_user_func(array($this->node->daemon,"cmd"),$data);
+            }
+            else //指令服务
+            {
+                call_user_func(array($this->node->cmd,"dispatch"),array('client'=>$client,'content'=>$data));
+            }
+        }
+
+
     }
 
     function clientClose($client)
     {
-        echo "clientClose\n";
+        $this->node->log("clientClose passive");
+        $this->node->server->shutdown();
     }
 
     function clientError($client)
@@ -40,7 +60,6 @@ class ClientHandler
 
     function clientTimer(\swoole_client $client)
     {
-        echo $this->timer_header.$this->getNodeDaemon().$this->protocol_end;
         $client->send($this->timer_header.$this->getNodeDaemon().$this->protocol_end);
     }
 

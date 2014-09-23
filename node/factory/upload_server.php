@@ -12,5 +12,10 @@ else
 require __DIR__."/../daemon/UploadServer.php";
 $config['daemon']['upload_server']['pid'] = __DIR__."/..".$config['daemon']['upload_server']['pid'];
 $up = new \Sky\UploadServer($config['daemon']['upload_server']);
-
+require __DIR__.'/../Loger.php';
+$fconfig = array(
+    'type' => 'file',
+    'file' => 'upload_server.log',
+);
+$up->setLoger(\Sky\Loger::getLoger($fconfig));
 $up->start();

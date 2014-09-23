@@ -1,8 +1,9 @@
 <?php
 namespace Sky;
-
+require __DIR__."/utils/libs.php";
 require __DIR__."/ClientHandler.php";
 require __DIR__."/Daemon.php";
+require __DIR__."/Cmd.php";
 class Node
 {
     public $client;
@@ -10,7 +11,7 @@ class Node
     public $node_name;
     static public $node;
 
-    protected $server;
+    public $server;
     protected $worker_id;
     public $config;
     protected $setting;//swoole setting
@@ -36,10 +37,10 @@ class Node
     function onStart(\swoole_server $server, $worker_id)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [node server] : worker");
+        setProcessName("{$argv[0]} [node server] : worker");
 
         $this->worker_id = $worker_id;
-        $this->client = new \swoole_client(SWOOLE_TCP, SWOOLE_SOCK_ASYNC);
+        $this->client = new \swoole_client(SWOOLE_TCP | SWOOLE_KEEP, SWOOLE_SOCK_ASYNC);
         $this->client_handler = new \Sky\ClientHandler($this);
         $this->client->on("connect", array($this->client_handler,"clientConnect"));
         $this->client->on("receive", array($this->client_handler,"clientReceive"));
@@ -49,9 +50,13 @@ class Node
         $server->addtimer($this->config['node']['heartbeat']);
     }
 
+    function onWorkerStop(\swoole_server $server, $worker_id)
+    {
+    }
+
     function onReceive($server, $fd, $from_id, $data)
     {
-        //empty
+        var_dump($data);
         return;
     }
 
@@ -70,26 +75,28 @@ class Node
         $this->config = $config;
         $this->setting = $this->config['swoole'];
         $this->server = new \swoole_server($config['node']['host'], $config['node']['port'], SWOOLE_PROCESS, SWOOLE_TCP);
+
         $this->node_name = $config['node']['name'];
-        $this->daemon = new \Sky\Daemon($config['daemon']);
+        $this->daemon = new \Sky\Daemon($config['daemon'],$this);
         $this->daemon->autostart();
+        $this->cmd = new \Sky\Cmd($this);
     }
 
     function onMasterStart($server)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [node server] : master -host= {$this->config['node']['host']} -port={$this->config['node']['port']}");
+        setProcessName("{$argv[0]} [node server] : master -host= {$this->config['node']['host']} -port={$this->config['node']['port']}");
     }
 
     function onManagerStart($server)
     {
         global $argv;
-        cli_set_process_title("{$argv[0]} [node server] : manager");
+        setProcessName("{$argv[0]} [node server] : manager");
     }
 
     function onShutdown($server)
     {
-
+        $this->log("server shutdown");
     }
 
     function run($setting=array())
@@ -100,6 +107,7 @@ class Node
         $this->server->on('Shutdown', array($this, 'onShutdown'));
         $this->server->on('ManagerStart', array($this, 'onManagerStart'));
         $this->server->on('workerStart', array($this, 'onStart'));
+        $this->server->on('WorkerStop', array($this, 'onWorkerStop'));
         $this->server->on('receive', array($this, 'onReceive'));
         $this->server->on('timer', array($this, 'onTimer'));
         $this->server->start();

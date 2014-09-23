@@ -38,4 +38,41 @@ class Service
     {
         $this->loger->log($msg, $level);
     }
+
+    /*
+     * params $ip
+     *
+     * return fd
+     */
+    public function getNodeByIp($ip)
+    {
+        $ip = strval($ip);
+        if ($ip && !empty($this->sky->nodes))
+        {
+            foreach ($this->sky->nodes as $fd => $info)
+            {
+                if ($info['host'] == $ip)
+                {
+                    return $fd;
+                }
+            }
+        }
+        return false;
+    }
+
+    public function getCtlByIp($ip)
+    {
+        $ip = strval($ip);
+        if ($ip && !empty($this->sky->ctl))
+        {
+            foreach ($this->sky->ctl as $fd => $info)
+            {
+                if ($info['host'] == $ip)
+                {
+                    return $fd;
+                }
+            }
+        }
+        return false;
+    }
 }

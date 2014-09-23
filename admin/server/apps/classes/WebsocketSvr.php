@@ -43,9 +43,9 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
             {
                 continue;
             }
+
             $return = json_decode($line,1);
-            print_r($return);
-            if (($return['service'] == 'node' && ($return['cmd'] == 'addnode' || $return['cmd'] == 'delnode'))
+            if (($return['service'] == 'node' && ($return['cmd'] == 'addnode' || $return['cmd'] == 'delnode' || $return['cmd'] == 'addname'))
                 || ($return['service'] == 'heart' && $return['cmd'] == 'bit')
                 )
             {
@@ -68,6 +68,7 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
 
     function clientClose($cli)
     {
+        $this->server->shutdown();
         echo "clientClose\n";
     }
 
@@ -79,7 +80,6 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
     function onMessage($client_id, $ws)
     {
         $msg = json_decode($ws['message'], true);
-        print_r($msg);
         if (empty($msg['service']))
         {
             $this->sendErrorMessage($client_id,"服务错误");
@@ -108,6 +108,14 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
         if (!empty($msg['p']))
         {
             $line .= ' -p '.$msg['p'];
+        }
+        if (!empty($msg['sn']))
+        {
+            $line .= ' -sn '.$msg['sn'];
+        }
+        if (!empty($msg['s']))
+        {
+            $line .= ' -s '.$msg['s'];
         }
         $line .= ' -c '.$msg['c'];//client_id
         $line .= $this->eol;

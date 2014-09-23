@@ -126,3 +126,15 @@ body {
     margin-top: 20px;
     padding: 6px 75px;
 }
+.show-grid {
+    margin-right: 0;
+    margin-left: 0;
+}
+.show-grid [class^=col-] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /*background-color: #eee;*/
+    background-color: rgba(86,61,124,.15);
+    /*border: 1px solid #ddd;*/
+    border: 1px solid rgba(86,61,124,.2);
+}

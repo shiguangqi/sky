@@ -78,9 +78,10 @@
 <!--                    </div>-->
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
                         <div class="panel-body">
-                            <table id="node-list" class="table table-bordered table-condensed">
+                            <table id="node-list" class="table table-bordered table-hover table-condensed">
                                 <thead>
                                 <tr class="info">
+                                    <th style='width: 30px'></th>
                                     <th>选择</th>
                                     <th>节点</th>
                                     <th>地址</th>
@@ -91,7 +92,7 @@
                                 </thead>
                             </table>
 
-                            <button type="button" class="btn btn-success btn-release">安装</button>
+                            <button type="button" class="btn btn-success btn-release" data-loading-text="安装中...">安装</button>
                         </div>
                     </div>
                 </div>
@@ -161,6 +162,7 @@
     });
 
     $(".btn-release").click(function(){
+        //$btn.button('reset');
         var checked = [];
         $('input:checkbox:checked').each(function() {
             checked.push($(this).val());
@@ -184,6 +186,7 @@
         }
         else
         {
+            var $btn = $(this).button('loading');
             msg = {};
             msg.service = 'file';
             msg.cmd = 'sendnodes';
@@ -259,15 +262,15 @@
         {
             case 'webinit':
                 var text = res.data.node;
-                var console = '<div>成功获取以下节点</div>';
+                var string = '<div>成功获取以下节点</div>';
                 var node = '';
 
                 for (var i in text)
                 {
                     node += addTr(text[i]);//"<tr id='"+text[i]['fd']+"' class='success'><td><input type='checkbox' value='"+text[i]['fd']+"'></td><td>"+text[i]['name']+"</td><td>"+text[i]['host']+"</td><td>"+text[i]['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text[i]['last_time'])+"</td></tr>";
-                    console = console + "<div>host:"+text[i]['host']+" -- port:"+text[i]['port']+" -- group:"+text[i]['group']+"</div>";
+                    string = string + "<div>host:"+text[i]['host']+" -- port:"+text[i]['port']+" -- group:"+text[i]['group']+"</div>";
                 }
-                term.echo(console);
+                term.echo(string);
                 $("#node-list").append(node);
                 break;
             case 'delnode':
@@ -276,7 +279,9 @@
                 $("#"+text.fd).removeClass("success");
                 $("#"+text.fd).children('.last_time').css('background-color','#c12e2a');
                 $("#"+text.fd).css('background-color','#c12e2a');
+                $("."+text.fd+"_daemon").remove();
                 break;
+            case 'addname':
             case 'addnode':
                 var text = res.data;
                 var node = '';
@@ -284,10 +289,10 @@
                 {
                     $("#"+text['fd']).remove();
                 }
-                var node = addTr(text[i]);//"<tr id='"+text['fd']+"' class='success'><td><input type='checkbox' value='"+text['fd']+"'></td><td>"+text['name']+"</td><td>"+text['host']+"</td><td>"+text['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text['last_time'])+"</td></tr>";
-                var console = '<div>Master新增节点</div>';
-                console = console + "<div>host:"+text['host']+" -- port:"+text['port']+" -- group:"+text['group']+"</div>";
-                term.echo(console);
+                var node = addTr(text);//"<tr id='"+text['fd']+"' class='success'><td><input type='checkbox' value='"+text['fd']+"'></td><td>"+text['name']+"</td><td>"+text['host']+"</td><td>"+text['port']+"</td><td class='last_time'>"+date('Y-m-d H:i:s',text['last_time'])+"</td></tr>";
+                var string = '<div>Master新增节点</div>';
+                string = string + "<div>host:"+text['host']+" -- port:"+text['port']+" -- group:"+text['group']+"</div>";
+                term.echo(string);
                 $("#node-list").append(node);
                 break;
         }
@@ -296,11 +301,17 @@
     function addTr(o)
     {
         var tr = '';
-        tr = "<tr id='"+o['fd']+"' class='success'  onclick=showDaemon(this)>" +
-                "<td><input type='checkbox' value='"+o['fd']+"'></td>" +
-                "<td>"+o['name']+"</td><td>"+o['host']+"</td>" +
-                "<td>"+o['port']+"</td>" +
-                "<td class='last_time'>"+date('Y-m-d H:i:s',o['last_time'])+"</td>" +
+        var name = o.fd;
+        if (o.name != undefined)
+        {
+            name = o.name;
+        }
+        tr = "<tr id='"+ o.fd+"' class='success'>" +
+                "<td><span id='"+ o.fd+"_toggle' style='display: none' class='glyphicon glyphicon-play' onclick=toggleDaemon(this) ></span></td>" +
+                "<td><span><input type='checkbox' value='"+ o.fd+"'></span></td>" +
+                "<td>"+ name +"</td><td>"+o.host+"</td>" +
+                "<td>"+ o.port+"</td>" +
+                "<td class='last_time'>"+date('Y-m-d H:i:s', o.last_time)+"</td>" +
             "</tr>";
         return tr;
     }
@@ -314,8 +325,9 @@
                 for (var i in text)
                 {
                     $("#"+i).children('.last_time').empty().html(date('Y-m-d H:i:s',text[i].last_time));
-                    $("#"+i).children('.last_time').css('background-color','#419641');
-                    $("#"+i).children('.last_time').css('color','#fff');
+                    $("#"+i+"_toggle").show();
+//                    $("#"+i).children('.last_time').css('background-color','#419641');
+//                    $("#"+i).children('.last_time').css('color','#fff');
                     var daemon = text[i].daemon;
 
                     if (daemon != undefined)
@@ -323,29 +335,26 @@
 
                         for (var j in daemon)
                         {
-                            var td = "<td colspan=5>" +
-                                        "<div class='row show-grid info'>" +
-                                            "<div class='col-md-12'>"+daemon[j].name+"</div>" +
-                                        "</div>" +
+                            var running = '正在运行<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
+                                'class="btn btn-danger btn-xs" onclick="stopService(this)">停止服务</button></span>';
+                            var status_flag = '<span class="glyphicon glyphicon-ok"></span>';
+                            if (daemon[j]._pid == 0)
+                            {
+                                status_flag = '<span class="glyphicon glyphicon-remove"></span>';
+                                running = '停止运行<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
+                                    'class="btn btn-success btn-xs" onclick="startService(this)">启动服务</button></span>';
+                            }
+                            var td = "<td colspan=6 style='padding: 0'>" +
                                         "<div class='row show-grid'>" +
-                                            "<div class='col-md-2'>Host</div>" +
-                                            "<div class='col-md-10'>"+daemon[j].host+"</div>" +
-                                        "</div>" +
-                                        "<div class='row show-grid'>" +
-                                            "<div class='col-md-2'>port</div>" +
-                                            "<div class='col-md-10'>"+daemon[j].port+"</div>" +
-                                        "</div>" +
-                                        "<div class='row show-grid'>" +
-                                            "<div class='col-md-2'>pid</div>" +
-                                            "<div class='col-md-10'>"+daemon[j]._pid+"</div>" +
-                                        "</div>" +
-                                        "<div class='row show-grid'>" +
-                                            "<div class='col-md-2'>lasttime</div>" +
-                                            "<div class='col-md-10'>"+date('Y-m-d H:i:s',text[i].last_time)+"</div>" +
-                                        "</div>" +
+                                            "<div class='col-sm-2'><span class='glyphicon glyphicon-user'></span>Name:"+daemon[j].name+"</div>" +
+                                            "<div class='col-sm-2'><span class='glyphicon glyphicon-home'></span>Host:"+text[i].host+"</div>" +
+                                            "<div class='col-sm-2'><span class='glyphicon glyphicon-record'></span>Port:"+daemon[j].port+"</div>" +
+                                            "<div class='col-sm-2'><span class='glyphicon glyphicon-circle-arrow-right'></span>Pid:"+daemon[j]._pid+"</div>" +
+                                            "<div class='col-sm-2'>"+status_flag+running+"</div>" +
+                                            "<div class='col-sm-2'><span class='glyphicon glyphicon-time'></span>"+date('Y-m-d H:i:s',text[i].last_time)+"</div>" +
+                                        "</div>" +//
                                      "</td>";
-                            var tr = "<tr class='"+i+"_daemon danger' style='display:none' id='"+i+"_"+daemon[j].name+"'>" + td + "</tr>";
-                            console.log(tr);
+                            var tr = "<tr class='"+i+"_daemon' style='display:none' id='"+i+"_"+daemon[j].name+"'>" + td + "</tr>";
                             if ((daemon[j].name != undefined) && ($("#"+i+"_"+daemon[j].name).length == 0))
                             {
                                 $("#"+i).after(tr);
@@ -371,10 +380,38 @@
 
     }
 
-    function showDaemon(o)
+    function toggleDaemon(o)
     {
-        var id = $(o).attr('id');
+        var id = $(o).parent().parent().attr('id');
         $("."+id+"_daemon").toggle();
+    }
+
+    function startService(o)
+    {
+        $(o).remove();
+        var node = $(o).attr("node");
+        var service = $(o).attr("service");
+        msg = {};
+        msg.service = 'cmd';
+        msg.cmd = 'start';
+        msg.sn = node;
+        msg.s = service;
+        ws.send($.toJSON(msg));
+        return true;
+    }
+
+    function stopService(o)
+    {
+        $(o).remove();
+        var node = $(o).attr("node");
+        var service = $(o).attr("service");
+        msg = {};
+        msg.service = 'cmd';
+        msg.cmd = 'stop';
+        msg.sn = node;
+        msg.s = service;
+        ws.send($.toJSON(msg));
+        return true;
     }
 
 </script>

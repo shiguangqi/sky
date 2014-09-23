@@ -8,6 +8,7 @@ require __DIR__.'/service/File.php';
 require __DIR__.'/service/Str.php';
 require __DIR__.'/service/Sub.php';
 require __DIR__.'/service/Heart.php';
+require __DIR__.'/service/Cmd.php';
 
 class Dispatch
 {
@@ -17,6 +18,7 @@ class Dispatch
         'file',//文件服务
         'sub', //订阅服务
         'heart', //node心跳
+        'cmd', //指令服务
     );
     public $service = array();
 
@@ -29,7 +31,7 @@ class Dispatch
     public function onStart(\swoole_server $server, $worker_id)
     {
         global $argv;
-        cli_set_process_title("$argv[0] [master server] : worker");
+        setProcessName("$argv[0] [master server] : worker");
         $this->worker_id = $worker_id;
         if ($this->worker_id == 0)
         {
@@ -101,6 +103,7 @@ class Dispatch
 
     protected function parse($server, $fd, $from_id, $params)
     {
+        var_dump($params);
         $res = $this->getOpt($params);
         if ($res === 1)// "\r\n" 跳出
         {

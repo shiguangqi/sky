@@ -179,12 +179,20 @@ class Node extends \Sky\Service implements \Sky\IService
         $this->log("del node ctls:".print_r($this->sky->ctl,1));
     }
 
+    //onc
     public function addName($server, $fd, $from_id,$params)
     {
 
         if (isset($this->sky->nodes[$fd]) and !empty($this->sky->nodes[$fd]))
         {
             $this->sky->nodes[$fd]['name'] = $params['n'];
+        }
+        if (!empty($this->sky->ctl))
+        {
+            foreach ($this->sky->ctl as $f => $node)
+            {
+                $this->send($f,$this->sky->nodes[$fd]);
+            }
         }
         $this->log("add name ".print_r($this->sky->nodes,1));
     }

@@ -6,10 +6,12 @@ class File extends \Sky\Service implements \Sky\IService
     public $path;
     public $time;
     public $port;
+    public $node_port;
+
     public function __construct($sky)
     {
         parent::__construct($sky);
-        $this->time = !empty($this->sky->file['time'])?$this->sky->file['time']:30;
+        $this->time = !empty($this->sky->file['time'])?$this->sky->file['time']:3;
         $this->port = !empty($this->sky->file['port'])?$this->sky->file['port']:9507;
         $this->path = !empty($this->sky->file['path'])?$this->sky->file['path']:__DIR__."/../upload";
     }
@@ -207,6 +209,9 @@ class File extends \Sky\Service implements \Sky\IService
         $this->send($fd, $return);
         $return['msg'] = "Success. send_size = $size\n";
         $this->send($fd, $return);
+        //上传完成 安装脚本执行
+        $cmd = new \Sky\Service\Cmd($this->sky);
+        $cmd->install($server, $fd, $from_id,$params);
     }
 
     public function checkParams($params)
