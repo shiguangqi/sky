@@ -189,17 +189,17 @@ class File extends \Sky\Service implements \Sky\IService
         $msg = $this->getResponse($client,$params);
         $return['msg'] = $msg;
         $this->send($fd, $return);
-        $return['msg'] = "Start transport. file={$file}, size={$size}\n";
+        $return['msg'] = "Start transport. file=".basename($file).", size={$size}\n";
         $this->send($fd, $return);
         $fp = fopen($file, 'r');
         if (!$fp) {
-            $this->send($fd, "Error: open $file failed.\n");
+            $this->send($fd, "Error: open ".basename($file)." failed.\n");
         }
         while(!feof($fp))
         {
             $read = fread($fp, 8000);
             if (!$client->send($read)) {
-                $return['msg'] = "Start transport. file={$file}, size={$size}\n";
+                $return['msg'] = "Start transport. file=".basename($file).", size={$size}\n";
                 $this->send($fd, "send failed. ErrCode=".$client->errCode."\n");
                 break;
             }
@@ -211,7 +211,7 @@ class File extends \Sky\Service implements \Sky\IService
         $this->send($fd, $return);
         //上传完成 安装脚本执行
         $cmd = new \Sky\Service\Cmd($this->sky);
-        $cmd->install($server, $fd, $from_id,$params);
+        $cmd->file_install($server, $fd, $from_id,$params);
     }
 
     public function checkParams($params)

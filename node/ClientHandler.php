@@ -26,7 +26,6 @@ class ClientHandler
     function clientReceive($client, $data)
     {
         //暂时不区分daemon 服务和命令服务 一个入口
-        var_dump($data);
         $lines = explode("\r\n",$data);
         foreach ($lines as $line)
         {
@@ -35,7 +34,7 @@ class ClientHandler
                 continue;
             }
             $data = json_decode($data,1);
-            if (in_array($data['cmd'],array('start','stop')))
+            if (in_array($data['cmd'],array('start_service','stop_service')))
             {
                 call_user_func(array($this->node->daemon,"cmd"),$data);
             }
@@ -61,16 +60,18 @@ class ClientHandler
 
     function clientTimer(\swoole_client $client)
     {
-        $client->send($this->timer_header.$this->getNodeDaemon().$this->protocol_end);
+        $client->send($this->timer_header.$this->getNodeBit().$this->protocol_end);
     }
 
-    function getNodeDaemon()
+    function getNodeBit()
     {
         $daemons = $this->node->daemon->getDaemons();
+        $monitors = $this->node->monitor->getMonitors();
+        $data = array_merge($daemons,$monitors);
         $str = '';
-        if (!empty($daemons))
+        if (!empty($data))
         {
-            $str = json_encode($daemons);
+            $str = json_encode($data);
         }
         return " -d $str";
     }

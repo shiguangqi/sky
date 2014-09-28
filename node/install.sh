@@ -1,13 +1,15 @@
-#!/bin/sh
+#! /bin/sh
+
+# 项目安装脚本
+# @ shiguangqi
+#
+
 DATE=$(date +%Y%m%d%H:%M:%S)
-cd /tmp/
-tar zxf $1
 #第一次创建
+
 if [ ! -d /var/www/node ]; then
-    echo 'create first time';
     mkdir -p /var/www/node
 else
-    echo 'update project';
     mv /var/www/node /var/www/node.${DATE}.bak
 fi
 

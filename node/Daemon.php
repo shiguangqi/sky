@@ -25,6 +25,7 @@ class Daemon
             $this->config = $config;
         }
         $this->node = $node;
+        $this->autostart();
     }
 
     //启动配置的服务
@@ -135,7 +136,7 @@ class Daemon
         {
             switch ($return['cmd'])
             {
-                case 'start':
+                case 'start_service':
                     $workers = array();
                     $worker = new \swoole_process(array($this, 'startUploadServer'), false, true);
                     $pid = $worker->start();
@@ -147,7 +148,7 @@ class Daemon
                         unset($workers[$ret['pid']]);
                     }
                     break;
-                case 'stop':
+                case 'stop_service':
                     $this->stop($return['data']['s']);
                     break;
             }

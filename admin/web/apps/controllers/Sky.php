@@ -6,10 +6,12 @@ class Sky extends \App\LoginController
 {
     public function home()
     {
+
         $config = $this->config['websocket'];
         $projects = table('project')->gets(array('order'=>'id asc'));
         $this->assign('projects', $projects);
         $this->assign('config', $config);
+        $this->assign('user', $_SESSION['userinfo']);
         $this->display();
     }
 

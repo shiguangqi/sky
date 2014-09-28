@@ -27,21 +27,21 @@ class Cmd
         {
             switch ($data['cmd'])
             {
-                case 'install':
+                case 'file_install':
                     $file = $data['data']['f']; //文件名称
-                    exec(__DIR__."/install.sh {$file}",$output,$return);
+                    exec(__DIR__."/sh/init.sh {$file}",$output,$return);
                     if ($return === 0)
                     {
                         $output[] = 'install success';
                         $params['status'] = 0;
                         $client->send($this->buildInstallMsg($params,$output));
                     }
-//                    else
-//                    {
-//                        $output[] = 'install failed';
-//                        $params['status'] = 1;
-//                        $client->send($this->buildInstallMsg($params,$output));
-//                    }
+                    else
+                    {
+                        $output[] = 'install failed';
+                        $params['status'] = 1;
+                        $client->send($this->buildInstallMsg($params,$output));
+                    }
                     break;
             }
         }
@@ -51,8 +51,7 @@ class Cmd
     {
         $o = implode("\n",$output);
         $data = $params['content'];
-        $line = $this->cmd_header."pre_install -s {$params['status']} -f {$data['data']['f']} -fd {$data['data']['fd']} -c {$data['data']['c']} -o $o ".$this->protocol_end;
-        var_dump($line);
+        $line = $this->cmd_header."install -s {$params['status']} -f {$data['data']['f']} -fd {$data['data']['fd']} -c {$data['data']['c']} -o $o ".$this->protocol_end;
         return $line;
     }
 }

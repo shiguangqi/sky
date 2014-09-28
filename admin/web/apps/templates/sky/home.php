@@ -83,11 +83,12 @@
                                 <tr class="info">
                                     <th style='width: 30px'></th>
                                     <th>选择</th>
-                                    <th>节点</th>
-                                    <th>地址</th>
-                                    <th>端口</th>
+                                    <th><span class='glyphicon glyphicon-user'></span>节点</th>
+                                    <th><span class='glyphicon glyphicon-home'></span>地址</th>
+                                    <th><span class='glyphicon glyphicon-record'></span>端口</th>
                                     <!--                        <th>分组</th>-->
-                                    <th>最后一次心跳时间</th>
+                                    <th><span class='glyphicon glyphicon-time'></span>LastHreatBit</th>
+                                    <th><span class="glyphicon glyphicon-wrench"></span>操作</th>
                                 </tr>
                                 </thead>
                             </table>
@@ -133,7 +134,7 @@
     });
     var config = <?php echo json_encode($config);?>;
     var term = {};
-    term.ps1_flag = "<span class='ps1'> ></span>";
+    term.ps1_flag = "<span class='ps1'><?php echo !empty($user['username'])?$user['username']:'sky';?>@sky# <span>|</span></span>";
     term.welcome = "<span>欢迎SKY</span>";
     term.echo = function($msg) {
         var line = "<span>"+$msg+"</span>";
@@ -310,12 +311,15 @@
         {
             name = o.name;
         }
+        var action = '<span style="padding-left: 5px"><button node='+o.fd +
+            'style="height: 18px;" type="button" class="btn btn-info btn-xs" onclick="restartNode(this)">重启服务</button></span>';
         tr = "<tr id='"+ o.fd+"' class='success'>" +
                 "<td><span id='"+ o.fd+"_toggle' style='display: none' class='glyphicon glyphicon-play' onclick=toggleDaemon(this) ></span></td>" +
                 "<td><span><input type='checkbox' value='"+ o.fd+"'></span></td>" +
                 "<td>"+ name +"</td><td>"+o.host+"</td>" +
                 "<td>"+ o.port+"</td>" +
                 "<td class='last_time'>"+date('Y-m-d H:i:s', o.last_time)+"</td>" +
+                "<td>"+action+"</td>" +
             "</tr>";
         return tr;
     }
@@ -330,32 +334,34 @@
                 {
                     $("#"+i).children('.last_time').empty().html(date('Y-m-d H:i:s',text[i].last_time));
                     $("#"+i+"_toggle").show();
-//                    $("#"+i).children('.last_time').css('background-color','#419641');
-//                    $("#"+i).children('.last_time').css('color','#fff');
                     var daemon = text[i].daemon;
-
                     if (daemon != undefined)
                     {
-
                         for (var j in daemon)
                         {
-                            var running = '正在运行<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
+                            var running = '<span style="color: green">正在运行</span>';
+                            var status_flag = '<span style="color: green" class="glyphicon glyphicon-ok"></span>';
+                            var action1 = '<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
                                 'class="btn btn-danger btn-xs" onclick="stopService(this)">停止服务</button></span>';
-                            var status_flag = '<span class="glyphicon glyphicon-ok"></span>';
+                            var action2 = '<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
+                                'class="btn btn-success btn-xs" onclick="startService(this)">启动服务</button></span>';
+                            var action3 = '<span style="padding-left: 5px"><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
+                                'class="btn btn-info btn-xs" onclick="reStartService(this)">重启服务</button></span>';
+                            var button = action1+action3;
                             if (daemon[j]._pid == 0)
                             {
-                                status_flag = '<span class="glyphicon glyphicon-remove"></span>';
-                                running = '停止运行<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
-                                    'class="btn btn-success btn-xs" onclick="startService(this)">启动服务</button></span>';
+                                status_flag = '<span style="color: red" class="glyphicon glyphicon-remove"></span>';
+                                running = '<span style="color: red">停止运行</span>';
+                                button = action2;
                             }
-                            var td = "<td colspan=6 style='padding: 0'>" +
+                            var td = "<td colspan=7 style='padding: 0'>" +
                                         "<div class='row show-grid'>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-user'></span>Name:"+daemon[j].name+"</div>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-home'></span>Host:"+text[i].host+"</div>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-record'></span>Port:"+daemon[j].port+"</div>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-circle-arrow-right'></span>Pid:"+daemon[j]._pid+"</div>" +
                                             "<div class='col-sm-2'>"+status_flag+running+"</div>" +
-                                            "<div class='col-sm-2'><span class='glyphicon glyphicon-time'></span>"+date('Y-m-d H:i:s',text[i].last_time)+"</div>" +
+                                            "<div class='col-sm-2'>"+button+"</div>" +
                                         "</div>" +//
                                      "</td>";
                             var tr = "<tr class='"+i+"_daemon' style='display:none' id='"+i+"_"+daemon[j].name+"'>" + td + "</tr>";
@@ -412,6 +418,17 @@
         $("."+id+"_daemon").toggle();
     }
 
+    function reStartNode(o)
+    {
+        var node = $(o).attr("node");
+        msg = {};
+        msg.service = 'cmd';
+        msg.cmd = 'restart_node';
+        msg.sn = node;
+        msg.s = service;
+        ws.send($.toJSON(msg));
+    }
+
     function startService(o)
     {
         $(o).remove();
@@ -419,7 +436,7 @@
         var service = $(o).attr("service");
         msg = {};
         msg.service = 'cmd';
-        msg.cmd = 'start';
+        msg.cmd = 'start_service';
         msg.sn = node;
         msg.s = service;
         ws.send($.toJSON(msg));
@@ -433,7 +450,7 @@
         var service = $(o).attr("service");
         msg = {};
         msg.service = 'cmd';
-        msg.cmd = 'stop';
+        msg.cmd = 'start_service';
         msg.sn = node;
         msg.s = service;
         ws.send($.toJSON(msg));

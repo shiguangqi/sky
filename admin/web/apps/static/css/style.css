@@ -138,3 +138,23 @@ body {
     /*border: 1px solid #ddd;*/
     border: 1px solid rgba(86,61,124,.2);
 }
+
+@-webkit-keyframes twinkling{	/*透明度由0到1*/
+    0%{
+        opacity:0;				/*透明度为0*/
+    }
+    100%{
+        opacity:1;				/*透明度为1*/
+    }
+}
+
+.ps1 > span{
+    -webkit-animation: twinkling 1s infinite ease-in-out;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: #fff;
+    width: 9px;
+    height: 15px;
+    line-height: 15px;
+}
+

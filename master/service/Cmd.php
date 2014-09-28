@@ -23,14 +23,14 @@ class Cmd extends \Sky\Service implements \Sky\IService
         $this->setRes($this->service,$this->cmd);
         switch ($this->cmd)
         {
-            case 'start':
-                $this->start($server, $fd, $from_id,$data['params']);
+            case 'start_service':
+                $this->start_service($server, $fd, $from_id,$data['params']);
                 break;
-            case 'stop':
-                $this->start($server, $fd, $from_id,$data['params']);
+            case 'stop_service':
+                $this->stop_service($server, $fd, $from_id,$data['params']);
                 break;
-            case 'pre_install':
-                $this->pre_install($server, $fd, $from_id,$data['params']);
+            case 'install':
+                $this->install($server, $fd, $from_id,$data['params']);
                 break;
             default:
                 $return['msg'] = "命令不存在\n";
@@ -40,7 +40,7 @@ class Cmd extends \Sky\Service implements \Sky\IService
         }
     }
 
-    public function start($server, $fd, $from_id,$params)
+    public function start_service($server, $fd, $from_id,$params)
     {
         if (!empty($params['sn']) and !empty($params['s']))
         {
@@ -65,7 +65,7 @@ class Cmd extends \Sky\Service implements \Sky\IService
         }
     }
 
-    public function stop($server, $fd, $from_id,$params)
+    public function stop_service($server, $fd, $from_id,$params)
     {
         if (!empty($params['sn']) and !empty($params['s']))
         {
@@ -91,9 +91,9 @@ class Cmd extends \Sky\Service implements \Sky\IService
     }
 
     //master upload完成触发  模拟pre_install 前置脚本执行
-    public function install($server, $fd, $from_id,$params)
+    public function file_install($server, $fd, $from_id,$params)
     {
-        $this->setRes('cmd','install');
+        $this->setRes('cmd','file_install');
         $node_fd = $this->getNodeByIp($params['h']);
         $file = basename($params['f']);
         $return['f'] =  $file; //上传文件的文件名
@@ -103,7 +103,7 @@ class Cmd extends \Sky\Service implements \Sky\IService
     }
 
     //node 节点返回安装
-    public function pre_install($server, $fd, $from_id,$params)
+    public function install($server, $fd, $from_id,$params)
     {
         if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
         {
@@ -115,11 +115,6 @@ class Cmd extends \Sky\Service implements \Sky\IService
             $return['fd'] = $params['fd'];
             $this->send($ctl_fd, array('params'=>$return));
         }
-    }
-
-    public function post_install($server, $fd, $from_id,$params)
-    {
-
     }
 
 }

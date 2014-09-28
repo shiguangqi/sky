@@ -3,6 +3,7 @@ namespace Sky;
 require __DIR__."/utils/libs.php";
 require __DIR__."/ClientHandler.php";
 require __DIR__."/Daemon.php";
+require __DIR__."/Monitor.php";
 require __DIR__."/Cmd.php";
 class Node
 {
@@ -16,9 +17,12 @@ class Node
     public $config;
     protected $setting;//swoole setting
 
+
     public $loger;
     public $daemon;
+    public $monitor;
 
+    public $pid_file;
     static function getInstance()
     {
         if (!self::$node)
@@ -73,12 +77,13 @@ class Node
     function init($config)
     {
         $this->config = $config;
+        $this->pid_file = __DIR__.$config['node']['pid'];
         $this->setting = $this->config['swoole'];
         $this->server = new \swoole_server($config['node']['host'], $config['node']['port'], SWOOLE_PROCESS, SWOOLE_TCP);
 
         $this->node_name = $config['node']['name'];
         $this->daemon = new \Sky\Daemon($config['daemon'],$this);
-        $this->daemon->autostart();
+        $this->monitor = new \Sky\Monitor($config['monitor'],$this);
         $this->cmd = new \Sky\Cmd($this);
     }
 
@@ -86,6 +91,7 @@ class Node
     {
         global $argv;
         setProcessName("{$argv[0]} [node server] : master -host= {$this->config['node']['host']} -port={$this->config['node']['port']}");
+        file_put_contents($this->pid_file,$server->master_pid);
     }
 
     function onManagerStart($server)
@@ -97,6 +103,7 @@ class Node
     function onShutdown($server)
     {
         $this->log("server shutdown");
+        unlink($this->pid_file);
     }
 
     function run($setting=array())

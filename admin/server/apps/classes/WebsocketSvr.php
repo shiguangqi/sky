@@ -18,7 +18,7 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
     function onStart($server)
     {
         global $argv;
-        cli_set_process_title("php $argv[0] : worker");
+        \Swoole\Console::setProcessName("php $argv[0] : worker");
 
         $this->client = new \swoole_client(SWOOLE_TCP | SWOOLE_KEEP, SWOOLE_SOCK_ASYNC);
         $this->client->on("connect", array($this,"clientConnect"));
