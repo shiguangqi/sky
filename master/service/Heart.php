@@ -32,7 +32,7 @@ class Heart extends \Sky\Service implements \Sky\IService
                 $daemons = json_decode($params['d'],1);
                 if ($daemons)
                 {
-                    $this->sky->nodes[$fd]['daemon'] = $daemons;
+                    $this->sky->nodes[$fd]['server'] = $daemons;
                 }
             }
             foreach ($this->sky->ctl as $f => $info)

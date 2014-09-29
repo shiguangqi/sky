@@ -66,8 +66,9 @@ class ClientHandler
     function getNodeBit()
     {
         $daemons = $this->node->daemon->getDaemons();
-        $monitors = $this->node->monitor->getMonitors();
-        $data = array_merge($daemons,$monitors);
+        $monitors = $this->node->cmd->getMonitors();
+        $data['daemon'] = $daemons;
+        $data['monitor'] = $monitors;
         $str = '';
         if (!empty($data))
         {

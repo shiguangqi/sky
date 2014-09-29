@@ -15,11 +15,11 @@ class Daemon
             {
                 if (isset($c['pid']))
                 {
-                    $config[$k]['pid'] = ROOT.$c['pid'];
+                    $config[$k]['pid'] = $c['pid'];
                 }
                 if (isset($c['log_file']))
                 {
-                    $config[$k]['log_file'] = ROOT.$c['log_file'];
+                    $config[$k]['log_file'] = $c['log_file'];
                 }
             }
             $this->config = $config;
@@ -53,6 +53,8 @@ class Daemon
                         }
                         break;
                 }
+//                echo 'start upload server';
+//                exec($cc['init']." _start",$output,$return);
             }
             while(count($workers) > 0)
             {
@@ -69,7 +71,7 @@ class Daemon
         {
             $this->node->client->close();
         }
-        $worker->exec("/usr/bin/php",array(__DIR__."/factory/upload_server.php"));
+        $worker->exec("/usr/bin/php",array(__DIR__."/factory/upload_server"));
     }
     public function stopall()
     {
@@ -93,6 +95,10 @@ class Daemon
             exec("ps -eaf |grep " . $name . " |grep -v grep |awk '{print $2}'|xargs kill -9");
             echo "stop service upload server ok\n";
         }
+//        $init = $this->config[$name]['init'];
+//        echo "init file is $init";
+//        exec($init." _stop",$output,$return);
+//        var_dump($output);var_dump($return);
     }
 
     public function restart($name)
@@ -137,6 +143,10 @@ class Daemon
             switch ($return['cmd'])
             {
                 case 'start_service':
+//                    echo 'start upload server';
+//                    $init = $this->config[$return['data']['s']]['init'];
+//                    exec($init." _start",$output,$return);
+//                    var_dump($output);var_dump($return);
                     $workers = array();
                     $worker = new \swoole_process(array($this, 'startUploadServer'), false, true);
                     $pid = $worker->start();

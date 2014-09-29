@@ -334,13 +334,13 @@
                 {
                     $("#"+i).children('.last_time').empty().html(date('Y-m-d H:i:s',text[i].last_time));
                     $("#"+i+"_toggle").show();
-                    var daemon = text[i].daemon;
+                    var daemon = text[i].server.daemon;
+                    var monitor = text[i].server.monitor;
                     if (daemon != undefined)
                     {
                         for (var j in daemon)
                         {
-                            var running = '<span style="color: green">正在运行</span>';
-                            var status_flag = '<span style="color: green" class="glyphicon glyphicon-ok"></span>';
+                            var running = '<span style="color: green"><span class="glyphicon glyphicon-ok"></span>正在运行</span>';
                             var action1 = '<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
                                 'class="btn btn-danger btn-xs" onclick="stopService(this)">停止服务</button></span>';
                             var action2 = '<span><button node='+i+' service='+daemon[j].name+' style="height: 18px;" type="button" ' +
@@ -350,17 +350,16 @@
                             var button = action1+action3;
                             if (daemon[j]._pid == 0)
                             {
-                                status_flag = '<span style="color: red" class="glyphicon glyphicon-remove"></span>';
-                                running = '<span style="color: red">停止运行</span>';
+                                running = '<span style="color: red"><span class="glyphicon glyphicon-remove"></span>停止运行</span>';
                                 button = action2;
                             }
                             var td = "<td colspan=7 style='padding: 0'>" +
-                                        "<div class='row show-grid'>" +
+                                        "<div class='row'>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-user'></span>Name:"+daemon[j].name+"</div>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-home'></span>Host:"+text[i].host+"</div>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-record'></span>Port:"+daemon[j].port+"</div>" +
                                             "<div class='col-sm-2'><span class='glyphicon glyphicon-circle-arrow-right'></span>Pid:"+daemon[j]._pid+"</div>" +
-                                            "<div class='col-sm-2'>"+status_flag+running+"</div>" +
+                                            "<div class='col-sm-2'>"+running+"</div>" +
                                             "<div class='col-sm-2'>"+button+"</div>" +
                                         "</div>" +//
                                      "</td>";
@@ -375,9 +374,53 @@
                             }
                         }
                     }
+                    if (monitor != undefined)
+                    {
+                        for (var j in monitor)
+                        {
+                            var running = '<span style="color: green"><span class="glyphicon glyphicon-ok"></span>正在运行</span>';
+                            var action1 = '<span><button node='+i+' service='+monitor[j].name+' style="height: 18px;" type="button" ' +
+                                'class="btn btn-danger btn-xs" onclick="stopMonitor(this)">停止服务</button></span>';
+                            var action2 = '<span><button node='+i+' service='+monitor[j].name+' style="height: 18px;" type="button" ' +
+                                'class="btn btn-success btn-xs" onclick="startMonitor(this)">启动服务</button></span>';
+                            var action3 = '<span style="padding-left: 5px"><button node='+i+' service='+monitor[j].name+' style="height: 18px;" type="button" ' +
+                                'class="btn btn-info btn-xs" onclick="reStartMonitor(this)">重启服务</button></span>';
+                            var button = action1+action3;
+                            if (monitor[j]._pid == 0)
+                            {
+                                running = '<span style="color: red"><span class="glyphicon glyphicon-remove"></span>停止运行</span>';
+                                button = action2;
+                            }
+                            var td = "<td colspan=7 style='padding: 0'>" +
+                                "<div class='row'>" +
+                                "<div class='col-sm-2'><span class='glyphicon glyphicon-user'></span>Name:"+monitor[j].name+"</div>" +
+                                "<div class='col-sm-2'><span class='glyphicon glyphicon-home'></span>Host:"+text[i].host+"</div>" +
+                                "<div class='col-sm-2'><span class='glyphicon glyphicon-record'></span>Port:"+monitor[j].port+"</div>" +
+                                "<div class='col-sm-2'><span class='glyphicon glyphicon-circle-arrow-right'></span>Pid:"+monitor[j]._pid+"</div>" +
+                                "<div class='col-sm-2'>"+running+"</div>" +
+                                "<div class='col-sm-2'>"+button+"</div>" +
+                                "</div>" +//
+                                "</td>";
+                            var tr = "<tr class='"+i+"_daemon' style='display:none' id='"+i+"_"+monitor[j].name+"'>" + td + "</tr>";
+                            if ((monitor[j].name != undefined) && ($("#"+i+"_"+monitor[j].name).length == 0))
+                            {
+                                $("#"+i).after(tr);
+                            }
+                            else
+                            {
+                                $("#"+i+"_"+monitor[j].name).html(td);
+                            }
+                        }
+                    }
                 }
         }
     }
+
+    function showService(daemon)
+    {
+
+    }
+
     function fileHandler(res)
     {
         switch(res.cmd)
@@ -395,7 +438,7 @@
         console.log(res);
         switch(res.cmd)
         {
-            case 'pre_install':
+            case '_file_install':
                 var status = content.s;
                 if (status == 0)
                 {
@@ -407,6 +450,14 @@
                 {
                     $("#install").button('reset');
                 }
+                term.echo(content.o+"</br>");
+                break;
+            case '_start_monitor':
+                var status = content.s;
+                term.echo(content.o+"</br>");
+                break;
+            case '_stop_monitor':
+                var status = content.s;
                 term.echo(content.o+"</br>");
                 break;
         }
@@ -450,9 +501,37 @@
         var service = $(o).attr("service");
         msg = {};
         msg.service = 'cmd';
-        msg.cmd = 'start_service';
+        msg.cmd = 'stop_service';
         msg.sn = node;
         msg.s = service;
+        ws.send($.toJSON(msg));
+        return true;
+    }
+
+    function startMonitor(o)
+    {
+        $(o).remove();
+        var node = $(o).attr("node");
+        var name = $(o).attr("service");
+        msg = {};
+        msg.service = 'cmd';
+        msg.cmd = 'start_monitor';
+        msg.sn = node;
+        msg.m = name;
+        ws.send($.toJSON(msg));
+        return true;
+    }
+
+    function stopMonitor(o)
+    {
+        $(o).remove();
+        var node = $(o).attr("node");
+        var name = $(o).attr("service");
+        msg = {};
+        msg.service = 'cmd';
+        msg.cmd = 'stop_monitor';
+        msg.sn = node;
+        msg.m = name;
         ws.send($.toJSON(msg));
         return true;
     }

@@ -3,7 +3,7 @@ namespace Sky;
 require __DIR__."/utils/libs.php";
 require __DIR__."/ClientHandler.php";
 require __DIR__."/Daemon.php";
-require __DIR__."/Monitor.php";
+//require __DIR__."/Monitor.php";
 require __DIR__."/Cmd.php";
 class Node
 {
@@ -60,7 +60,6 @@ class Node
 
     function onReceive($server, $fd, $from_id, $data)
     {
-        var_dump($data);
         return;
     }
 
@@ -83,8 +82,8 @@ class Node
 
         $this->node_name = $config['node']['name'];
         $this->daemon = new \Sky\Daemon($config['daemon'],$this);
-        $this->monitor = new \Sky\Monitor($config['monitor'],$this);
-        $this->cmd = new \Sky\Cmd($this);
+        //$this->monitor = new \Sky\Monitor($config['monitor'],$this);
+        $this->cmd = new \Sky\Cmd($config['monitor'],$this);
     }
 
     function onMasterStart($server)

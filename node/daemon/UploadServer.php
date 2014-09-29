@@ -100,7 +100,7 @@ class UploadServer
     {
         global $argv;
         setProcessName("{$argv[0]} [upload_server] : master -host= {$this->config['host']} -port={$this->config['port']}");
-        $this->log("upload server starting");
+        $this->log("upload server start");
         $this->pid = $server->master_pid;
         file_put_contents($this->pid_file,$this->pid);
     }
@@ -117,10 +117,11 @@ class UploadServer
         setProcessName("{$argv[0]} [upload_server] : worker");
     }
 
-    function onShutdown($server)
+    function onManagerStop($server)
     {
         $this->log("upload server stop");
-        unlink($this->pid_file);
+        if (file_exists($this->pid_file))
+            unlink($this->pid_file);
     }
 
     function onclose($server, $fd, $from_id)
@@ -139,7 +140,7 @@ class UploadServer
         $server->on('Start', array($this,'onMasterStart'));
         $server->on('ManagerStart', array($this, 'onManagerStart'));
         $server->on('workerStart', array($this, 'onWorkerStart'));
-        $server->on('Shutdown', array($this,'onShutdown'));
+        $server->on('managerStop', array($this,'onManagerStop'));
         $server->on('connect', array($this, 'onConnect'));
         $server->on('receive', array($this, 'onreceive'));
         $server->on('close', array($this, 'onclose'));

@@ -1013,3 +1013,56 @@
 [2014-09-24 19:46:11]	INFO	upload server stop
 [2014-09-25 12:17:16]	INFO	upload server starting
 [2014-09-25 20:18:15]	INFO	upload server stop
+[2014-09-28 12:00:33]	INFO	upload server starting
+[2014-09-28 15:22:25]	INFO	upload server stop
+[2014-09-28 15:22:26]	INFO	upload server stop
+[2014-09-28 15:22:46]	INFO	upload server stop
+[2014-09-28 15:22:47]	INFO	upload server stop
+[2014-09-28 15:23:24]	INFO	upload server stop
+[2014-09-28 15:23:24]	INFO	upload server stop
+[2014-09-28 15:25:23]	INFO	upload server stop
+[2014-09-28 15:27:07]	INFO	upload server stop
+[2014-09-28 15:27:20]	INFO	upload server start
+[2014-09-28 15:27:59]	INFO	upload server start
+[2014-09-28 15:57:11]	INFO	upload server start
+[2014-09-28 15:57:18]	INFO	upload server start
+[2014-09-28 19:16:55]	INFO	upload server stop
+[2014-09-29 10:58:12]	INFO	upload server start
+[2014-09-29 13:40:19]	INFO	new upload client[12] connected.
+
+[2014-09-29 13:40:19]	INFO	[-->12]	0	transmission start
+[2014-09-29 13:40:19]	INFO	[-->12]	0	Success, transmission finish. Close connection.
+[2014-09-29 13:40:19]	INFO	upload client[12] closed.
+[2014-09-29 13:42:02]	INFO	new upload client[12] connected.
+
+[2014-09-29 13:42:02]	INFO	[-->12]	0	transmission start
+[2014-09-29 13:42:02]	INFO	[-->12]	0	Success, transmission finish. Close connection.
+[2014-09-29 13:42:02]	INFO	upload client[12] closed.
+[2014-09-29 13:42:05]	INFO	new upload client[12] connected.
+
+[2014-09-29 13:42:05]	INFO	[-->12]	0	transmission start
+[2014-09-29 13:42:05]	INFO	[-->12]	0	Success, transmission finish. Close connection.
+[2014-09-29 13:42:05]	INFO	upload client[12] closed.
+[2014-09-29 13:43:58]	INFO	new upload client[12] connected.
+
+[2014-09-29 13:43:58]	INFO	[-->12]	0	transmission start
+[2014-09-29 13:43:58]	INFO	[-->12]	0	Success, transmission finish. Close connection.
+[2014-09-29 13:43:58]	INFO	upload client[12] closed.
+[2014-09-29 14:36:54]	INFO	upload server start
+[2014-09-29 14:39:21]	INFO	upload server stop
+[2014-09-29 14:39:45]	INFO	upload server start
+[2014-09-29 14:43:33]	INFO	upload server stop
+[2014-09-29 14:46:40]	INFO	upload server start
+[2014-09-29 14:47:00]	INFO	upload server stop
+[2014-09-29 14:47:30]	INFO	upload server start
+[2014-09-29 14:51:36]	INFO	upload server start
+[2014-09-29 14:52:03]	INFO	upload server stop
+[2014-09-29 14:52:18]	INFO	upload server start
+[2014-09-29 15:03:39]	INFO	upload server start
+[2014-09-29 15:17:53]	INFO	upload server start
+[2014-09-29 15:18:19]	INFO	upload server stop
+[2014-09-29 15:18:37]	INFO	upload server start
+[2014-09-29 15:21:18]	INFO	upload server start
+[2014-09-29 15:22:06]	INFO	upload server start
+[2014-09-29 15:23:12]	INFO	upload server start
+[2014-09-29 15:30:57]	INFO	upload server start

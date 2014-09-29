@@ -94,6 +94,7 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
 
     function pack($msg)
     {
+        var_dump($msg);
         $line = '';
         $line .= $msg['service'].' '.$msg['cmd'];
         if (!empty($msg['n']))
@@ -119,6 +120,10 @@ class WebsocketSvr extends \Swoole\Protocol\WebSocket
         if (!empty($msg['s']))
         {
             $line .= ' -s '.$msg['s'];
+        }
+        if (!empty($msg['m']))
+        {
+            $line .= ' -m '.$msg['m'];
         }
         $line .= ' -c '.$msg['c'];//client_id
         $line .= $this->eol;

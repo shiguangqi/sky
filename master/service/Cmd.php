@@ -18,6 +18,7 @@ class Cmd extends \Sky\Service implements \Sky\IService
 
     public function handler($server, $fd, $from_id,$data)
     {
+        var_dump($data);
         $this->service = strtolower($data['service']);
         $this->cmd = strtolower($data['cmd']);
         $this->setRes($this->service,$this->cmd);
@@ -29,8 +30,20 @@ class Cmd extends \Sky\Service implements \Sky\IService
             case 'stop_service':
                 $this->stop_service($server, $fd, $from_id,$data['params']);
                 break;
-            case 'install':
-                $this->install($server, $fd, $from_id,$data['params']);
+            case 'start_monitor':
+                $this->start_monitor($server, $fd, $from_id,$data['params']);
+                break;
+            case 'stop_monitor':
+                $this->stop_monitor($server, $fd, $from_id,$data['params']);
+                break;
+            case '_start_monitor':
+                $this->_start_monitor($server, $fd, $from_id,$data['params']);
+                break;
+            case '_stop_monitor':
+                $this->_stop_monitor($server, $fd, $from_id,$data['params']);
+                break;
+            case '_file_install':
+                $this->_file_install($server, $fd, $from_id,$data['params']);
                 break;
             default:
                 $return['msg'] = "命令不存在\n";
@@ -73,6 +86,8 @@ class Cmd extends \Sky\Service implements \Sky\IService
             if (array_key_exists($node,$this->sky->nodes))
             {
                 $return['s'] = $params['s'];
+                $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+                $return['c'] =  $params['c']; //client id
                 $this->send($node,$return);
             }
             else
@@ -90,6 +105,86 @@ class Cmd extends \Sky\Service implements \Sky\IService
         }
     }
 
+    public function start_monitor($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['sn']) and !empty($params['m']))
+        {
+            $node = $params['sn'];
+            if (array_key_exists($node,$this->sky->nodes))
+            {
+                $return['m'] = $params['m'];
+                $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+                $return['c'] =  $params['c']; //client id
+                $this->send($node,$return);
+            }
+            else
+            {
+                $return['msg'] = "节点不存在\n";
+                $return['params']['c'] = $params['c'];
+                $this->send($fd,$return);
+            }
+        }
+        else
+        {
+            $return['msg'] = "参数错误\n";
+            $return['params']['c'] = $params['c'];
+            $this->send($fd,$return);
+        }
+    }
+
+    public function stop_monitor($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['sn']) and !empty($params['m']))
+        {
+            $node = $params['sn'];
+            if (array_key_exists($node,$this->sky->nodes))
+            {
+                $return['m'] = $params['m'];
+                $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+                $return['c'] =  $params['c']; //client id
+                $this->send($node,$return);
+            }
+            else
+            {
+                $return['msg'] = "节点不存在\n";
+                $return['params']['c'] = $params['c'];
+                $this->send($fd,$return);
+            }
+        }
+        else
+        {
+            $return['msg'] = "参数错误\n";
+            $return['params']['c'] = $params['c'];
+            $this->send($fd,$return);
+        }
+    }
+
+    public function _start_monitor($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
+        {
+            $ctl_fd = $params['fd'];
+            $return['c'] = $params['c'];
+            $return['s'] = $params['s'];
+            $return['o'] = $params['o'];
+            $return['m'] = $params['m'];
+            $return['fd'] = $params['fd'];
+            $this->send($ctl_fd, array('params'=>$return));
+        }
+    }
+    public function _stop_monitor($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
+        {
+            $ctl_fd = $params['fd'];
+            $return['c'] = $params['c'];
+            $return['s'] = $params['s'];
+            $return['o'] = $params['o'];
+            $return['m'] = $params['m'];
+            $return['fd'] = $params['fd'];
+            $this->send($ctl_fd, array('params'=>$return));
+        }
+    }
     //master upload完成触发  模拟pre_install 前置脚本执行
     public function file_install($server, $fd, $from_id,$params)
     {
@@ -103,7 +198,7 @@ class Cmd extends \Sky\Service implements \Sky\IService
     }
 
     //node 节点返回安装
-    public function install($server, $fd, $from_id,$params)
+    public function _file_install($server, $fd, $from_id,$params)
     {
         if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
         {

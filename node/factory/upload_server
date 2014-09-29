@@ -1,3 +1,4 @@
+#! /usr/bin/php
 <?php
 
 if (get_cfg_var('env.name') == 'dev')
@@ -10,7 +11,7 @@ else
 }
 
 require __DIR__."/../daemon/UploadServer.php";
-$config['daemon']['upload_server']['pid'] = __DIR__."/..".$config['daemon']['upload_server']['pid'];
+
 $up = new \Sky\UploadServer($config['daemon']['upload_server']);
 require __DIR__.'/../Loger.php';
 $fconfig = array(
