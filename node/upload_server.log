@@ -1066,3 +1066,44 @@
 [2014-09-29 15:22:06]	INFO	upload server start
 [2014-09-29 15:23:12]	INFO	upload server start
 [2014-09-29 15:30:57]	INFO	upload server start
+[2014-09-29 17:25:04]	INFO	upload server start
+[2014-09-29 19:40:10]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:40:10]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:40:10]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:40:10]	INFO	upload client[16] closed.
+[2014-09-29 19:50:37]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:50:37]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:50:37]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:50:37]	INFO	upload client[16] closed.
+[2014-09-29 19:53:38]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:53:38]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:53:38]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:53:38]	INFO	upload client[16] closed.
+[2014-09-29 19:56:31]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:56:31]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:56:31]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:56:31]	INFO	upload client[16] closed.
+[2014-09-29 19:57:39]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:57:39]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:57:39]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:57:39]	INFO	upload client[16] closed.
+[2014-09-29 19:57:44]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:57:44]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:57:44]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:57:44]	INFO	upload client[16] closed.
+[2014-09-29 19:57:45]	INFO	new upload client[16] connected.
+
+[2014-09-29 19:57:45]	INFO	[-->16]	0	transmission start
+[2014-09-29 19:57:45]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 19:57:45]	INFO	upload client[16] closed.
+[2014-09-29 20:28:46]	INFO	new upload client[16] connected.
+
+[2014-09-29 20:28:46]	INFO	[-->16]	0	transmission start
+[2014-09-29 20:28:46]	INFO	[-->16]	0	Success, transmission finish. Close connection.
+[2014-09-29 20:28:46]	INFO	upload client[16] closed.

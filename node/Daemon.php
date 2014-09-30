@@ -92,7 +92,11 @@ class Daemon
             {
                 unlink($this->config[$name]['pid']);
             }
-            exec("ps -eaf |grep " . $name . " |grep -v grep |awk '{print $2}'|xargs kill -9");
+            exec("ps -eaf |grep " . $name . " |grep -v grep |awk '{print $2}'|xargs kill -9",$output,$return);
+            if ($return == 0 )
+            {
+
+            }
             echo "stop service upload server ok\n";
         }
 //        $init = $this->config[$name]['init'];

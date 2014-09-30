@@ -442,14 +442,16 @@
                 var status = content.s;
                 if (status == 0)
                 {
-                    //取消安装按钮禁用状态并隐藏
-                    $("#install").button('reset').hide();
-                    $("#start").show();
-                }
-                else
-                {
+
                     $("#install").button('reset');
+//                    //取消安装按钮禁用状态并隐藏
+//                    $("#install").button('reset').hide();
+//                    $("#start").show();
                 }
+//                else
+//                {
+//                    $("#install").button('reset');
+//                }
                 term.echo(content.o+"</br>");
                 break;
             case '_start_monitor':

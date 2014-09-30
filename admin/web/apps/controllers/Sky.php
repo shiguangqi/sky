@@ -17,7 +17,6 @@ class Sky extends \App\LoginController
 
     public function getProjectFiles()
     {
-        $this->path =  WEBPATH.'/static/upload';
         $return = array();
         if (empty($_POST))
         {
@@ -27,16 +26,17 @@ class Sky extends \App\LoginController
         {
             $project = $_POST['name'];
             $info = table('project')->get($project,'project_name')->get();
-            $dirs = scandir($this->path.'/'.$project);
+            $params['project_name'] =  $project;
+            $release = table('version')->gets($params);
             $content = array();
-            foreach ($dirs as $k => $filename)
+            foreach ($release as $k => $filename)
             {
-                if ($filename == '.' || $filename == '..')
+                if (!file_exists(WEBPATH.$filename['path']))
                 {
                     continue;
                 }
-                $content[$k]['filename'] = $filename;
-                $content[$k]['release'] = $this->getRelease($filename);
+                $content[$k]['filename'] = basename($filename['path']);
+                $content[$k]['release'] = $filename['version'];
             }
             $return['status'] = 200;
             $return['content'] = $content;

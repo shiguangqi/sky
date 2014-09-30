@@ -77,9 +77,6 @@ class Cmd
         $name = $params['content']['data']['m'];
         $init = $this->config[$name]['init'];
         exec($init." _start",$output,$return);
-        var_dump($init." _start");
-        var_dump($output);
-        var_dump($return);
         if ($return === 0)
         {
             $output[] = "start {$name} success";
@@ -98,9 +95,6 @@ class Cmd
         $name = $params['content']['data']['m'];
         $init = $this->config[$name]['init'];
         exec($init." _stop",$output,$return);
-        var_dump($init." _stop");
-        var_dump($output);
-        var_dump($return);
         if ($return === 0)
         {
             $output[] = "stop {$name} success";
@@ -129,5 +123,13 @@ class Cmd
             }
         }
         return $this->config;
+    }
+
+    /*
+     * 如果是新安装的服务　要注册在node节点的monitor 上
+     */
+    public function reloadInitFile()
+    {
+
     }
 }
