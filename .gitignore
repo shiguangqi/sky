@@ -1,7 +1,8 @@
 /.project
+/.idea
 *.o
 *.lo
-/admin/composer.lock
-/admin/vendor
-/admin/web/static/upload
-/.idea
+/vendor
+/admin/static/upload
+
+

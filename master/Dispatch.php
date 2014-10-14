@@ -1,14 +1,7 @@
 <?php
 namespace Sky;
 
-require __DIR__.'/service/Service.php';
-require __DIR__.'/service/IService.php';
-require __DIR__.'/service/Node.php';
-require __DIR__.'/service/File.php';
-require __DIR__.'/service/Str.php';
-require __DIR__.'/service/Sub.php';
-require __DIR__.'/service/Heart.php';
-require __DIR__.'/service/Cmd.php';
+
 
 class Dispatch
 {
@@ -31,7 +24,7 @@ class Dispatch
     public function onStart(\swoole_server $server, $worker_id)
     {
         global $argv;
-        setProcessName("$argv[0] [master server] : worker");
+        \Swoole\Console::setProcessName("$argv[0] [master server] : worker");
         $this->worker_id = $worker_id;
         if ($this->worker_id == 0)
         {
@@ -110,19 +103,22 @@ class Dispatch
         }
         if ($res)
         {
-            $service = strtolower($res['service']);
-            if (in_array($service,$this->_service))
+            foreach ($res as $re)
             {
-                if (!isset($this->service[$service]) || empty($this->service[$service]))
+                $service = strtolower($re['service']);
+                if (in_array($service,$this->_service))
                 {
-                    $_name = "\\Sky\\Service\\".ucfirst(strtolower($service));
-                    $this->service[$service] = new $_name($this->sky);
+                    if (!isset($this->service[$service]) || empty($this->service[$service]))
+                    {
+                        $_name = "\\Sky\\Service\\".ucfirst(strtolower($service));
+                        $this->service[$service] = new $_name($this->sky);
+                    }
+                    $this->service[$service]->onReceive($server, $fd, $from_id,$re);
                 }
-                $this->service[$service]->onReceive($server, $fd, $from_id,$res);
-            }
-            else
-            {
-                $this->sky->res->error($fd,9001);
+                else
+                {
+                    $this->sky->res->error($fd,9001);
+                }
             }
         }
         else
@@ -138,35 +134,31 @@ class Dispatch
             return 1;
         }
         $tmp = explode("\r\n", $params);
-        $cmd_line = explode(' ', $tmp[0], 3);
-        $return['service'] = $cmd_line[0];
-        $return['cmd'] = $cmd_line[1];
-        $return['params'] = array();
-        if (isset($cmd_line[2]) and !empty($cmd_line[2]))
+        $return = array();
+        foreach ($tmp as $key => $value)
         {
-            $tmp = explode('-',trim($cmd_line[2]));
-            $_data = array();
-            foreach ($tmp as $v)
+            if (empty($value))
+                continue;
+            $cmd_line = explode(' ', $value, 3);
+            $return[$key]['service'] = $cmd_line[0];
+            $return[$key]['cmd'] = $cmd_line[1];
+            $return[$key]['params'] = array();
+            if (isset($cmd_line[2]) and !empty($cmd_line[2]))
             {
-                if (!empty($v))
+                $tmp = explode('-',trim($cmd_line[2]));
+                $_data = array();
+                foreach ($tmp as $v)
                 {
-                    $tmp = explode(' ',$v,2);
-                    if (!empty($tmp[0]) and !empty($tmp[1]))
-                    $_data[trim($tmp[0])] = trim($tmp[1]);
+                    if (!empty($v))
+                    {
+                        $tmp = explode(' ',$v,2);
+                        if (!empty($tmp[0]) and !empty($tmp[1]))
+                            $_data[trim($tmp[0])] = trim($tmp[1]);
+                    }
                 }
-//                if (!empty($v) && $v{0} == '-')
-//                {
-//                    $name = substr($v,1);
-//                    $val = trim($tmp[$k+1]);
-//                    if ($val{0} != '-')
-//                    {
-//                        $_data[$name] = $tmp[$k+1];
-//                    }
-//                }
+                $return[$key]['params'] = $_data;
             }
-            $return['params'] = $_data;
         }
-
         return $return;
     }
 }

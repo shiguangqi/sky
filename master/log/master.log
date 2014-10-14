@@ -1,0 +1,43 @@
+[2014-10-10 18:12:43]		set timer 5000ms on worker 0 
+[2014-10-11 11:02:09]	INFO	set timer 5000ms on worker 0 
+[2014-10-11 11:02:12]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1412996531
+    [last_time] => 1412996532
+    [from_port] => 9999
+    [remote_port] => 37236
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-11 11:02:12]	INFO	add node nodes:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 37236
+            [connect_time] => 1412996531
+            [last_time] => 1412996532
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-11 11:02:12]	INFO	add node ctls:
+[2014-10-11 11:02:12]	INFO	add name Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 37236
+            [connect_time] => 1412996531
+            [last_time] => 1412996532
+            [group] => 0
+            [fd] => 11
+            [name] => sky测试节点
+        )
+
+)
+

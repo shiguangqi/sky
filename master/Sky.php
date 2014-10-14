@@ -1,7 +1,6 @@
 <?php
-require __DIR__."/utils/libs.php";
-require __DIR__.'/Dispatch.php';
-require __DIR__.'/Response.php';
+
+
 class Sky
 {
     public $nodes;
@@ -53,7 +52,7 @@ class Sky
 
     public function log($msg)
     {
-        $this->log->log($msg);
+        $this->log->put($msg);
     }
 
     public function setWhiteList($ip_list)
@@ -79,13 +78,13 @@ class Sky
     public function onMasterStart($server)
     {
         global $argv;
-        setProcessName("{$argv[0]} [master server] : master -host= {$this->config['server']['host']} -port={$this->config['server']['port']}");
+        \Swoole\Console::setProcessName("{$argv[0]} [master server] : master -host= {$this->config['server']['host']} -port={$this->config['server']['port']}");
     }
 
     function onManagerStart($server)
     {
         global $argv;
-        setProcessName("$argv[0] [master server] : manager");
+        \Swoole\Console::setProcessName("$argv[0] [master server] : manager");
     }
 
     public function run($setting=array())
