@@ -1,10 +1,6 @@
 <?php
 namespace Sky;
-require __DIR__."/utils/libs.php";
-require __DIR__."/ClientHandler.php";
-require __DIR__."/Daemon.php";
-//require __DIR__."/Monitor.php";
-require __DIR__."/Cmd.php";
+
 class Node
 {
     public $client;
@@ -20,7 +16,8 @@ class Node
 
     public $loger;
     public $daemon;
-    public $monitor;
+    public $cmd;
+    public $container;
 
     public $pid_file;
     static function getInstance()
@@ -41,7 +38,7 @@ class Node
     function onStart(\swoole_server $server, $worker_id)
     {
         global $argv;
-        setProcessName("{$argv[0]} [node server] : worker");
+        \Swoole\Console::setProcessName("{$argv[0]} [node server] : worker");
 
         $this->worker_id = $worker_id;
         $this->client = new \swoole_client(SWOOLE_TCP, SWOOLE_SOCK_ASYNC);
@@ -70,13 +67,13 @@ class Node
 
     public function log($msg)
     {
-        $this->loger->log($msg);
+        $this->loger->put($msg);
     }
 
     function init($config)
     {
         $this->config = $config;
-        $this->pid_file = __DIR__.$config['node']['pid'];
+        $this->pid_file = $config['node']['pid'];
         $this->setting = $this->config['swoole'];
         $this->server = new \swoole_server($config['node']['host'], $config['node']['port'], SWOOLE_PROCESS, SWOOLE_TCP);
 
@@ -85,24 +82,27 @@ class Node
         //$this->monitor = new \Sky\Monitor($config['monitor'],$this);
         if (isset($config['monitor']) and !empty($config['monitor']))
             $this->cmd = new \Sky\Cmd($config['monitor'],$this);
+        if (isset($config['protocol']) and !empty($config['protocol']))
+            $this->container = new \Sky\Cmd($config['protocol'],$this);
     }
 
     function onMasterStart($server)
     {
+        $this->log("node server start");
         global $argv;
-        setProcessName("{$argv[0]} [node server] : master -host= {$this->config['node']['host']} -port={$this->config['node']['port']}");
+        \Swoole\Console::setProcessName("{$argv[0]} [node server] : master -host= {$this->config['node']['host']} -port={$this->config['node']['port']}");
         file_put_contents($this->pid_file,$server->master_pid);
     }
 
     function onManagerStart($server)
     {
         global $argv;
-        setProcessName("{$argv[0]} [node server] : manager");
+        \Swoole\Console::setProcessName("{$argv[0]} [node server] : manager");
     }
 
     function onShutdown($server)
     {
-        $this->log("server shutdown");
+        $this->log("node server shutdown");
         unlink($this->pid_file);
     }
 

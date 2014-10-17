@@ -1,0 +1,911 @@
+[2014-10-15 10:42:38]	INFO	SwooleFramework shutdown
+[2014-10-15 10:44:18]	INFO	connected client_id = 11
+[2014-10-15 10:44:18]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: t1XASZqe7ae8p2WzWB776w==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 10:44:18]	INFO	new http request. fd=11
+[2014-10-15 10:44:18]	INFO	WebSocket connection #11 is connected
+[2014-10-15 10:44:19]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 10:44:19]	INFO	[11] opcode=1
+[2014-10-15 10:48:52]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 10:48:52]	INFO	[11] opcode=8
+[2014-10-15 10:48:52]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 10:48:52]	INFO	close client_id = 11
+[2014-10-15 10:48:52]	INFO	client[#11@0] close
+[2014-10-15 10:48:52]	INFO	connected client_id = 11
+[2014-10-15 10:48:52]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: GlqirKdCjFekAaIt+ARdOg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 10:48:52]	INFO	new http request. fd=11
+[2014-10-15 10:48:52]	INFO	WebSocket connection #11 is connected
+[2014-10-15 10:48:52]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 10:48:52]	INFO	[11] opcode=1
+[2014-10-15 10:48:58]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-15 10:48:58]	INFO	[11] opcode=1
+[2014-10-15 10:55:02]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 10:55:02]	INFO	[11] opcode=8
+[2014-10-15 10:55:02]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 10:55:02]	INFO	close client_id = 11
+[2014-10-15 10:55:02]	INFO	client[#11@0] close
+[2014-10-15 10:55:02]	INFO	close client_id = 11
+[2014-10-15 10:55:02]	INFO	client[#11@0] close
+[2014-10-15 10:55:03]	INFO	connected client_id = 11
+[2014-10-15 10:55:03]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: mTLFC7RYB2RcM1ejxG5JbQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 10:55:03]	INFO	new http request. fd=11
+[2014-10-15 10:55:03]	INFO	WebSocket connection #11 is connected
+[2014-10-15 10:55:03]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 10:55:03]	INFO	[11] opcode=1
+[2014-10-15 10:55:09]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-15 10:55:09]	INFO	[11] opcode=1
+[2014-10-15 11:01:21]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:01:21]	INFO	[11] opcode=8
+[2014-10-15 11:01:21]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:01:21]	INFO	close client_id = 11
+[2014-10-15 11:01:21]	INFO	client[#11@0] close
+[2014-10-15 11:01:21]	INFO	connected client_id = 11
+[2014-10-15 11:01:21]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: YVvuKhG482ZmjB62XmdoZw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:01:21]	INFO	new http request. fd=11
+[2014-10-15 11:01:21]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:01:21]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:01:21]	INFO	[11] opcode=1
+[2014-10-15 11:01:27]	INFO	NewFrame finish. Opcode=1|Length=62
+[2014-10-15 11:01:27]	INFO	[11] opcode=1
+[2014-10-15 11:02:55]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:02:55]	INFO	[11] opcode=8
+[2014-10-15 11:02:55]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:02:55]	INFO	close client_id = 11
+[2014-10-15 11:02:55]	INFO	client[#11@0] close
+[2014-10-15 11:02:55]	INFO	connected client_id = 11
+[2014-10-15 11:02:55]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: STEvLwDLb99tNdqLZ6SzTQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:02:55]	INFO	new http request. fd=11
+[2014-10-15 11:02:55]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:02:55]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:02:55]	INFO	[11] opcode=1
+[2014-10-15 11:06:26]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:06:26]	INFO	[11] opcode=8
+[2014-10-15 11:06:26]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:06:26]	INFO	close client_id = 11
+[2014-10-15 11:06:26]	INFO	client[#11@0] close
+[2014-10-15 11:06:26]	INFO	close client_id = 11
+[2014-10-15 11:06:26]	INFO	client[#11@0] close
+[2014-10-15 11:09:35]	INFO	connected client_id = 11
+[2014-10-15 11:09:35]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: R+X+wjj00+wyaxLTz+GAyQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:09:35]	INFO	new http request. fd=11
+[2014-10-15 11:09:35]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:09:35]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:09:35]	INFO	[11] opcode=1
+[2014-10-15 11:09:49]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:09:49]	INFO	[11] opcode=1
+[2014-10-15 11:11:26]	INFO	SwooleFramework shutdown
+[2014-10-15 11:13:07]	INFO	connected client_id = 11
+[2014-10-15 11:13:07]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: 5wjJHbKkqTxMKyiZh/KwNA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:13:07]	INFO	new http request. fd=11
+[2014-10-15 11:13:07]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:13:07]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:13:07]	INFO	[11] opcode=1
+[2014-10-15 11:13:15]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:13:15]	INFO	[11] opcode=1
+[2014-10-15 11:16:47]	INFO	SwooleFramework shutdown
+[2014-10-15 11:17:39]	INFO	connected client_id = 11
+[2014-10-15 11:17:39]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: YB/lumMzZGzdUo3FYvBwcQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:17:39]	INFO	new http request. fd=11
+[2014-10-15 11:17:39]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:17:39]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:17:39]	INFO	[11] opcode=1
+[2014-10-15 11:17:45]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:17:45]	INFO	[11] opcode=1
+[2014-10-15 11:22:14]	INFO	SwooleFramework shutdown
+[2014-10-15 11:22:25]	INFO	clientConnect
+[2014-10-15 11:22:33]	INFO	connected client_id = 11
+[2014-10-15 11:22:33]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: acLbAGD+HOuQmTB+D6Kr1w==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:22:33]	INFO	new http request. fd=11
+[2014-10-15 11:22:33]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:22:33]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:22:33]	INFO	[11] opcode=1
+[2014-10-15 11:22:33]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 11:22:33]	INFO	node webinit -c 11
+
+[2014-10-15 11:22:40]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:22:40]	INFO	[11] opcode=1
+[2014-10-15 11:22:40]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => web.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:22:40]	INFO	file sendnodes -n 13 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+
+[2014-10-15 11:22:40]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => install failed
+                    [f] => web.tar.gz__1.0.2
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:26:08]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:26:08]	INFO	[11] opcode=8
+[2014-10-15 11:26:08]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:26:08]	INFO	close client_id = 11
+[2014-10-15 11:26:08]	INFO	client[#11@0] close
+[2014-10-15 11:26:08]	INFO	connected client_id = 11
+[2014-10-15 11:26:08]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: RNUFnYYvD8VEFUJMsuS6cg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:26:08]	INFO	new http request. fd=11
+[2014-10-15 11:26:08]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:26:08]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:26:08]	INFO	[11] opcode=1
+[2014-10-15 11:26:08]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 11:26:08]	INFO	node webinit -c 11
+
+[2014-10-15 11:26:18]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:26:18]	INFO	[11] opcode=1
+[2014-10-15 11:26:18]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => web.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:26:18]	INFO	file sendnodes -n 13 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+
+[2014-10-15 11:26:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => install failed
+                    [f] => web.tar.gz__1.0.2
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:26:50]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:26:50]	INFO	[11] opcode=1
+[2014-10-15 11:26:50]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => web.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:26:50]	INFO	file sendnodes -n 13 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+
+[2014-10-15 11:26:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => web
+install failed
+                    [f] => web.tar.gz__1.0.2
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:30:35]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:30:35]	INFO	[11] opcode=8
+[2014-10-15 11:30:35]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:30:35]	INFO	close client_id = 11
+[2014-10-15 11:30:35]	INFO	client[#11@0] close
+[2014-10-15 11:37:50]	INFO	connected client_id = 11
+[2014-10-15 11:37:50]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: sHQLI5yJ2CV/kdV3kidajw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:37:50]	INFO	new http request. fd=11
+[2014-10-15 11:37:50]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:37:50]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:37:50]	INFO	[11] opcode=1
+[2014-10-15 11:37:50]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 11:37:50]	INFO	node webinit -c 11
+
+[2014-10-15 11:37:53]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:37:53]	INFO	[11] opcode=8
+[2014-10-15 11:37:53]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:37:53]	INFO	close client_id = 11
+[2014-10-15 11:37:53]	INFO	client[#11@0] close
+[2014-10-15 11:37:53]	INFO	connected client_id = 11
+[2014-10-15 11:37:53]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: R3T6Q0y6eoPBBlEyfCth+Q==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:37:53]	INFO	new http request. fd=11
+[2014-10-15 11:37:53]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:37:53]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:37:53]	INFO	[11] opcode=1
+[2014-10-15 11:37:53]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 11:37:53]	INFO	node webinit -c 11
+
+[2014-10-15 11:38:02]	INFO	NewFrame finish. Opcode=1|Length=100
+[2014-10-15 11:38:02]	INFO	[11] opcode=1
+[2014-10-15 11:38:02]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => apps.tar.gz__1.0.1
+    [v] => 1.0.1
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:38:02]	INFO	file sendnodes -n 13 -f apps.tar.gz__1.0.1 -p sky_admin -c 11
+
+[2014-10-15 11:38:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => install failed
+                    [f] => apps.tar.gz__1.0.1
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:40:06]	INFO	NewFrame finish. Opcode=1|Length=100
+[2014-10-15 11:40:06]	INFO	[11] opcode=1
+[2014-10-15 11:40:06]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => apps.tar.gz__1.0.1
+    [v] => 1.0.1
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:40:06]	INFO	file sendnodes -n 13 -f apps.tar.gz__1.0.1 -p sky_admin -c 11
+
+[2014-10-15 11:40:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => install failed
+                    [f] => apps.tar.gz__1.0.1
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:40:29]	INFO	NewFrame finish. Opcode=1|Length=100
+[2014-10-15 11:40:29]	INFO	[11] opcode=1
+[2014-10-15 11:40:29]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => apps.tar.gz__1.0.1
+    [v] => 1.0.1
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:40:29]	INFO	file sendnodes -n 13 -f apps.tar.gz__1.0.1 -p sky_admin -c 11
+
+[2014-10-15 11:40:29]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => web/install.sh
+install failed
+                    [f] => apps.tar.gz__1.0.1
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:42:01]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-15 11:42:01]	INFO	[11] opcode=1
+[2014-10-15 11:42:01]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => web.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:42:01]	INFO	file sendnodes -n 13 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+
+[2014-10-15 11:42:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => web/install.sh
+install failed
+                    [f] => web.tar.gz__1.0.2
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:42:05]	INFO	NewFrame finish. Opcode=1|Length=100
+[2014-10-15 11:42:05]	INFO	[11] opcode=1
+[2014-10-15 11:42:05]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => apps.tar.gz__1.0.1
+    [v] => 1.0.1
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:42:05]	INFO	file sendnodes -n 13 -f apps.tar.gz__1.0.1 -p sky_admin -c 11
+
+[2014-10-15 11:42:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => web/install.sh
+install failed
+                    [f] => apps.tar.gz__1.0.1
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:48:47]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 11:48:47]	INFO	[11] opcode=8
+[2014-10-15 11:48:47]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 11:48:47]	INFO	close client_id = 11
+[2014-10-15 11:48:47]	INFO	client[#11@0] close
+[2014-10-15 11:49:01]	INFO	connected client_id = 11
+[2014-10-15 11:49:01]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: MPPr1DSbLxLoqqYV3mDxuA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 11:49:01]	INFO	new http request. fd=11
+[2014-10-15 11:49:01]	INFO	WebSocket connection #11 is connected
+[2014-10-15 11:49:01]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 11:49:01]	INFO	[11] opcode=1
+[2014-10-15 11:49:01]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 11:49:01]	INFO	node webinit -c 11
+
+[2014-10-15 11:49:08]	INFO	NewFrame finish. Opcode=1|Length=100
+[2014-10-15 11:49:08]	INFO	[11] opcode=1
+[2014-10-15 11:49:08]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => apps.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:49:08]	INFO	file sendnodes -n 13 -f apps.tar.gz__1.0.2 -p sky_admin -c 11
+
+[2014-10-15 11:49:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => apps/install.sh
+install success
+                    [f] => apps.tar.gz__1.0.2
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 11:50:05]	INFO	NewFrame finish. Opcode=1|Length=100
+[2014-10-15 11:50:05]	INFO	[11] opcode=1
+[2014-10-15 11:50:05]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => apps.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_admin
+    [c] => 11
+)
+
+[2014-10-15 11:50:05]	INFO	file sendnodes -n 13 -f apps.tar.gz__1.0.2 -p sky_admin -c 11
+
+[2014-10-15 11:50:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => apps/install.sh
+install success
+                    [f] => apps.tar.gz__1.0.2
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-15 12:20:38]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 12:20:38]	INFO	[11] opcode=8
+[2014-10-15 12:20:38]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 12:20:38]	INFO	close client_id = 11
+[2014-10-15 12:20:38]	INFO	client[#11@0] close
+[2014-10-15 12:20:38]	INFO	connected client_id = 11
+[2014-10-15 12:20:38]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: yHPe16Rf6tXjI7YM5fHGgg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 12:20:38]	INFO	new http request. fd=11
+[2014-10-15 12:20:38]	INFO	WebSocket connection #11 is connected
+[2014-10-15 12:20:38]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 12:20:38]	INFO	[11] opcode=1
+[2014-10-15 12:20:38]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 12:20:38]	INFO	node webinit -c 11
+
+[2014-10-15 12:22:39]	INFO	NewFrame finish. Opcode=1|Length=70
+[2014-10-15 12:22:39]	INFO	[11] opcode=1
+[2014-10-15 12:22:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 13
+    [m] => auto_interface
+    [c] => 11
+)
+
+[2014-10-15 12:22:39]	INFO	cmd start_monitor -sn 13 -m auto_interface -c 11
+
+[2014-10-15 12:22:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => start auto_interface success
+                    [m] => auto_interface
+                    [fd] => 12
+                )
+
+        )
+
+)
+
+[2014-10-15 12:23:11]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-15 12:23:11]	INFO	[11] opcode=8
+[2014-10-15 12:23:11]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-15 12:23:11]	INFO	close client_id = 11
+[2014-10-15 12:23:11]	INFO	client[#11@0] close
+[2014-10-15 12:25:59]	INFO	connected client_id = 11
+[2014-10-15 12:25:59]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: 4pIeCr+gwMgNlO6NtLxMaA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-15 12:25:59]	INFO	new http request. fd=11
+[2014-10-15 12:25:59]	INFO	WebSocket connection #11 is connected
+[2014-10-15 12:25:59]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-15 12:25:59]	INFO	[11] opcode=1
+[2014-10-15 12:25:59]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-15 12:25:59]	INFO	node webinit -c 11
+
+[2014-10-15 12:26:15]	INFO	NewFrame finish. Opcode=1|Length=107
+[2014-10-15 12:26:15]	INFO	[11] opcode=1
+[2014-10-15 12:26:15]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 13
+        )
+
+    [f] => server.tar.gz__1.0.5
+    [v] => 1.0.5
+    [p] => auto_interface
+    [c] => 11
+)
+
+[2014-10-15 12:26:15]	INFO	file sendnodes -n 13 -f server.tar.gz__1.0.5 -p auto_interface -c 11
+
+[2014-10-15 12:26:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => server/install.sh
+install success
+                    [f] => server.tar.gz__1.0.5
+                    [fd] => 12
+                    [n] => 13
+                )
+
+        )
+
+)
+
+[2014-10-16 09:51:44]	INFO	close client_id = 11
+[2014-10-16 09:51:44]	INFO	client[#11@0] close
+[2014-10-16 09:59:25]	INFO	connected client_id = 11
+[2014-10-16 09:59:25]	INFO	[11] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: iLfHu55iMGG6m1vHGbgTKw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-16 09:59:25]	INFO	new http request. fd=11
+[2014-10-16 09:59:25]	INFO	WebSocket connection #11 is connected
+[2014-10-16 09:59:25]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-16 09:59:25]	INFO	[11] opcode=1
+[2014-10-16 09:59:25]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 11
+)
+
+[2014-10-16 09:59:25]	INFO	node webinit -c 11
+
+[2014-10-16 15:02:21]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-16 15:02:22]	INFO	[11] opcode=8
+[2014-10-16 15:02:22]	INFO	server close connection[11]. reason: , OPCODE = 1000
+[2014-10-16 15:02:22]	INFO	close client_id = 11
+[2014-10-16 15:02:22]	INFO	client[#11@0] close

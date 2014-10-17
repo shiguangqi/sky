@@ -50,10 +50,22 @@ class page extends Swoole\Controller
             }
             else
             {
+                $this->collect_user();
                 $_SESSION['userinfo'] = $result;
                 $_SESSION['isLogin'] = true;
                 goto home;
             }
+        }
+    }
+
+    function collect_user()
+    {
+        $uid = $_COOKIE['yyuid'];
+        if (!table('user')->exists(array('uid' => $uid)))
+        {
+            $puts['uid'] = $uid;
+            $puts['username'] = $_COOKIE['username'];
+            table('user')->put($puts);
         }
     }
 }

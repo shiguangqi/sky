@@ -1,0 +1,34 @@
+#! /usr/bin/php
+<?php
+
+define('DEBUG', 'on');
+define('WEBPATH', __DIR__);
+
+require __DIR__ . '/../../vendor/autoload.php';
+Swoole\Loader::vendor_init();
+Swoole\Loader::setRootNS('Sky', __DIR__);
+
+if (get_cfg_var('env.name') == 'dev')
+{
+    $config = parse_ini_file(__DIR__.'/../configs/dev/ws.ini',true);
+}
+else
+{
+    $config = parse_ini_file(__DIR__.'/../configs/master.ini',true);
+}
+
+$web = new Sky\WebsocketSvr();
+
+if ($config['log']['type'] == 'echo')
+{
+    $display = !empty($config['log']['display'])?$config['log']['display']:1;//默认输出
+    $web->setLogger(new Swoole\Log\EchoLog(array('display' => $display)));
+}
+else
+{
+    $web->setLogger(new Swoole\Log\FileLog($config['log']['log_file']));
+}
+
+$server = new Swoole\Network\Server($config['server']['host'], $config['server']['port']);
+$server->setProtocol($web);
+$server->run($config['swoole']);

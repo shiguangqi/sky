@@ -3,6 +3,6 @@
 *.o
 *.lo
 /vendor
-/admin/static/upload
+/admin/web/static/upload
 
 

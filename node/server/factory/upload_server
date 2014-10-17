@@ -9,14 +9,9 @@ else
 {
     $config = parse_ini_file(__DIR__.'/../configs/node.ini',true);
 }
-
 require __DIR__."/../daemon/UploadServer.php";
-
+require __DIR__ . '/../../vendor/autoload.php';
+Swoole\Loader::vendor_init();
 $up = new \Sky\UploadServer($config['daemon']['upload_server']);
-require __DIR__.'/../Loger.php';
-$fconfig = array(
-    'type' => 'file',
-    'file' => 'upload_server.log',
-);
-$up->setLoger(\Sky\Loger::getLoger($fconfig));
+$up->setLoger(new Swoole\Log\FileLog($config['daemon']['upload_server']['log_file']));
 $up->start();

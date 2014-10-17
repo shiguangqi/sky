@@ -108,19 +108,19 @@ body {
 .btn-release {
     width: 200px;
 }
-.file-list {
-    margin-top: 20px;
-    width: 500px;
-}
-.file-list > a {
-    padding: 5px 15px;
-}
+/*.file-list {*/
+    /*margin-top: 20px;*/
+    /*width: 500px;*/
+/*}*/
+/*.file-list > a {*/
+    /*padding: 5px 15px;*/
+/*}*/
 
-.file-list >a:hover, .file-list>a:focus {
-    text-decoration: none;
-    background-color: #eee;
-    color: #2a6496;
-}
+/*.file-list >a:hover, .file-list>a:focus {*/
+    /*text-decoration: none;*/
+    /*background-color: #eee;*/
+    /*color: #2a6496;*/
+/*}*/
 
 .upload {
     margin-top: 20px;
@@ -158,3 +158,17 @@ body {
     line-height: 15px;
 }
 
+.daemon-row {
+    height: 30px;
+}
+.daemon-row [class^=col-] {
+    border-right: 1px solid #ddd;
+}
+.daemon-row > div {
+    height: 30px;
+}
+.daemon-row  span {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+}

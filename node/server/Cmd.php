@@ -46,6 +46,8 @@ class Cmd
                         $output[] = 'install failed';
                         $params['status'] = 1;
                     }
+                    $this->node->log(var_export($return,1));
+                    $this->node->log(var_export($output,1));
                     $client->send($this->response($params,$output,'file_install'));
                     break;
                 case 'start_monitor':
@@ -95,6 +97,7 @@ class Cmd
         {
             $output[] = "start {$name} failed";
         }
+        $this->node->log(print_r($output,1));
         $params['status'] = $return['code'];
         $client->send($this->response($params,$output,'start_monitor'));
         return  $return['code'];
@@ -121,6 +124,7 @@ class Cmd
             $output[] = "stop {$name} failed";
             $params['status'] = 1;
         }
+        $this->node->log(print_r($output,1));
         $client->send($this->response($params,$output,'stop_monitor'));
         return  $return;
     }

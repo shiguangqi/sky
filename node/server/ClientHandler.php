@@ -18,7 +18,6 @@ class ClientHandler
 
     function clientConnect($client)
     {
-        echo "clientConnect \n";
         //发送节点名称给master供后台展示
         $client->send($this->name_header."-n {$this->node->node_name}".$this->protocol_end);
     }
@@ -55,7 +54,7 @@ class ClientHandler
 
     function clientError($client)
     {
-        echo "clientError\n";
+
     }
 
     function clientTimer(\swoole_client $client)

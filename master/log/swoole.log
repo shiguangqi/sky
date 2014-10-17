@@ -1,0 +1,188 @@
+[2014-10-14 16:42:19]	INFO	set timer 5000ms on worker 0 
+[2014-10-14 16:42:56]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1413276175
+    [last_time] => 1413276176
+    [from_port] => 9999
+    [remote_port] => 37344
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 16:42:56]	INFO	add node nodes:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 37344
+            [connect_time] => 1413276175
+            [last_time] => 1413276176
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-14 16:42:56]	INFO	add node ctls:
+[2014-10-14 16:42:56]	INFO	add name Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 37344
+            [connect_time] => 1413276175
+            [last_time] => 1413276176
+            [group] => 0
+            [fd] => 11
+            [name] => sky测试节点
+        )
+
+)
+
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-14 16:43:27' where ip='127.0.0.1' <br />
+<hr />[2014-10-14 16:43:27]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-14 16:43:27]	INFO	del node ctls:
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-15 10:36:25' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-15 10:47:16' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(12) "stop_monitor"
+  ["params"]=>
+  array(3) {
+    ["sn"]=>
+    string(2) "13"
+    ["m"]=>
+    string(9) "stats_web"
+    ["c"]=>
+    string(2) "11"
+  }
+}
+array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(13) "_stop_monitor"
+  ["params"]=>
+  array(5) {
+    ["s"]=>
+    string(1) "0"
+    ["m"]=>
+    string(9) "stats_web"
+    ["fd"]=>
+    string(2) "12"
+    ["c"]=>
+    string(2) "11"
+    ["o"]=>
+    string(22) "stop stats_web success"
+  }
+}
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-15 10:52:19' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-15 10:54:31' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(12) "stop_monitor"
+  ["params"]=>
+  array(3) {
+    ["sn"]=>
+    string(2) "13"
+    ["m"]=>
+    string(14) "auto_interface"
+    ["c"]=>
+    string(2) "11"
+  }
+}
+array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(13) "_stop_monitor"
+  ["params"]=>
+  array(5) {
+    ["s"]=>
+    string(1) "0"
+    ["m"]=>
+    string(14) "auto_interface"
+    ["fd"]=>
+    string(2) "12"
+    ["c"]=>
+    string(2) "11"
+    ["o"]=>
+    string(27) "stop auto_interface success"
+  }
+}
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-15 11:01:02' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(12) "stop_monitor"
+  ["params"]=>
+  array(3) {
+    ["sn"]=>
+    string(2) "13"
+    ["m"]=>
+    string(7) "log_svr"
+    ["c"]=>
+    string(2) "11"
+  }
+}
+array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(13) "_stop_monitor"
+  ["params"]=>
+  array(5) {
+    ["s"]=>
+    string(1) "0"
+    ["m"]=>
+    string(7) "log_svr"
+    ["fd"]=>
+    string(2) "12"
+    ["c"]=>
+    string(2) "11"
+    ["o"]=>
+    string(20) "stop log_svr success"
+  }
+}
+array(3) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(13) "_file_install"
+  ["params"]=>
+  array(5) {
+    ["s"]=>
+    string(1) "1"
+    ["f"]=>
+    string(17) "web.tar.gz__1.0.2"
+    ["fd"]=>
+    string(2) "13"
+    ["c"]=>
+    string(2) "11"
+    ["o"]=>
+    string(14) "install failed"
+  }
+}
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-15 11:25:55' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />

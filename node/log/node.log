@@ -1,0 +1,88 @@
+[2014-10-15 10:52:19]		server shutdown
+[2014-10-15 10:54:31]	INFO	server shutdown
+[2014-10-15 10:54:49]	INFO	node server start
+[2014-10-15 11:01:02]	INFO	node server shutdown
+[2014-10-15 11:01:14]	INFO	upload server 已经在执行 pid=4515
+[2014-10-15 11:01:15]	INFO	node server start
+[2014-10-15 11:01:28]	INFO	Array
+(
+    [0] => stop log_svr success
+)
+
+[2014-10-15 11:11:26]	INFO	clientClose passive
+[2014-10-15 11:11:26]	INFO	node server shutdown
+[2014-10-15 11:12:32]	INFO	upload server 已经在执行 pid=4515
+[2014-10-15 11:12:32]	INFO	node server start
+[2014-10-15 11:16:47]	INFO	clientClose passive
+[2014-10-15 11:16:47]	INFO	node server shutdown
+[2014-10-15 11:17:30]	INFO	upload server 已经在执行 pid=4515
+[2014-10-15 11:17:31]	INFO	node server start
+[2014-10-15 11:17:45]	INFO	Array
+(
+    [0] => install failed
+)
+
+[2014-10-15 11:22:14]	INFO	clientClose passive
+[2014-10-15 11:22:14]	INFO	node server shutdown
+[2014-10-15 11:22:30]	INFO	upload server 已经在执行 pid=4515
+[2014-10-15 11:22:30]	INFO	node server start
+[2014-10-15 11:22:40]	INFO	Array
+(
+    [0] => install failed
+)
+
+[2014-10-15 11:25:55]	INFO	node server shutdown
+[2014-10-15 11:25:59]	INFO	upload server 已经在执行 pid=4515
+[2014-10-15 11:26:00]	INFO	node server start
+[2014-10-15 11:26:18]	INFO	1
+[2014-10-15 11:26:18]	INFO	array (
+  0 => 'install failed',
+)
+[2014-10-15 11:26:50]	INFO	1
+[2014-10-15 11:26:50]	INFO	array (
+  0 => 'web',
+  1 => 'install failed',
+)
+[2014-10-15 11:38:02]	INFO	1
+[2014-10-15 11:38:02]	INFO	array (
+  0 => 'install failed',
+)
+[2014-10-15 11:40:06]	INFO	1
+[2014-10-15 11:40:06]	INFO	array (
+  0 => 'install failed',
+)
+[2014-10-15 11:40:29]	INFO	1
+[2014-10-15 11:40:29]	INFO	array (
+  0 => 'web/install.sh',
+  1 => 'install failed',
+)
+[2014-10-15 11:42:01]	INFO	1
+[2014-10-15 11:42:01]	INFO	array (
+  0 => 'web/install.sh',
+  1 => 'install failed',
+)
+[2014-10-15 11:42:05]	INFO	1
+[2014-10-15 11:42:05]	INFO	array (
+  0 => 'web/install.sh',
+  1 => 'install failed',
+)
+[2014-10-15 11:49:08]	INFO	0
+[2014-10-15 11:49:08]	INFO	array (
+  0 => 'apps/install.sh',
+  1 => 'install success',
+)
+[2014-10-15 11:50:05]	INFO	0
+[2014-10-15 11:50:05]	INFO	array (
+  0 => 'apps/install.sh',
+  1 => 'install success',
+)
+[2014-10-15 12:22:39]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-15 12:26:15]	INFO	0
+[2014-10-15 12:26:15]	INFO	array (
+  0 => 'server/install.sh',
+  1 => 'install success',
+)

@@ -1,0 +1,34 @@
+#! /usr/bin/php
+<?php
+
+define('DEBUG', 'on');
+define('WEBPATH', __DIR__);
+defined("ROOT") || define("ROOT",__DIR__);
+require __DIR__.'/Node.php';
+require __DIR__ . '/../../vendor/autoload.php';
+Swoole\Loader::vendor_init();
+Swoole\Loader::setRootNS('Sky', __DIR__);
+if (get_cfg_var('env.name') == 'dev')
+{
+    $config = parse_ini_file(__DIR__.'/../configs/dev/node.ini',true);
+}
+else
+{
+    $config = parse_ini_file(__DIR__.'/../configs/node.ini',true);
+}
+/**
+ * 产生类库的全局变量
+ */
+global $node;
+$node = \Sky\Node::getInstance();
+if ($config['log']['type'] == 'echo')
+{
+    $display = !empty($config['log']['display'])?$config['log']['display']:1;//默认输出
+    $node->setLoger(new Swoole\Log\EchoLog(array('display' => $display)));
+}
+else
+{
+    $node->setLoger(new Swoole\Log\FileLog($config['log']['log_file']));
+}
+$node->init($config);
+$node->run();

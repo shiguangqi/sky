@@ -1,39 +1,10 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>SKY</title>
-    <link href="/static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/apps/static/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">SKY监控系统</a>
-        </div>
-    </div>
-</div>
-
+<?php require __DIR__.'/../include/header.php';?>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
+        <div class="col-sm-2 col-md-1 sidebar">
             <?php require __DIR__.'/../include/leftmenu.php';?>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-10 col-sm-offset-3 col-md-11 col-md-offset-1 main">
             <div class="page-header">
                 <h3><small>上传文件</small></h3>
             </div>
@@ -148,19 +119,10 @@
                     if (data.status == 200)
                     {
                         var content = data.content;
-                        var current_release = data.current_release;
                         var line = '';
                         for (var i in content)
                         {
-                            if (current_release == content[i].release)
-                            {
-                                line += '<a class="list-group-item files list-group-item-success">';
-                            }
-                            else
-                            {
-                                line += '<a class="list-group-item files">';
-                            }
-
+                            line += '<a class="list-group-item files">';
                             line += content[i].filename;
                             line += '</a>';
                         }

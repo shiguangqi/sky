@@ -1,0 +1,1204 @@
+[2014-10-17 16:07:58]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:10:05]	INFO	SwooleFramework shutdown
+[2014-10-17 16:12:34]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:18:26]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:19:44]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:23:20]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:34:48]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:37:00]	INFO	Swoole\Protocol\HttpServer Object
+(
+    [async] => 
+    [swoole_server:protected] => 
+    [buffer_header:protected] => Array
+        (
+        )
+
+    [buffer_maxlen:protected] => 65535
+    [config] => Array
+        (
+            [name] => project1
+            [host] => 0.0.0.0
+            [port] => 7000
+            [enable_ssl] => 
+            [protocol] => http
+            [auto_start] => 1
+            [swoole] => Array
+                (
+                    [worker_num] => 1
+                    [max_request] => 5000
+                )
+
+            [pid_path] => /home/shiguangqi/workspace/sky/container/Container/../../run
+            [init_path] => /home/shiguangqi/workspace/sky/container/Container/../../init.d
+            [log_path] => /home/shiguangqi/workspace/sky/container/Container/../../log
+            [request] => Array
+                (
+                    [default_page] => index.php
+                )
+
+            [server] => Array
+                (
+                    [max_request] => 2000
+                    [webroot] => http://127.0.0.1:7777
+                    [document_root] => /home/shiguangqi/workspace/sky/container/Container/../../root/project1
+                    [process_rename] => 1
+                    [keepalive] => 1
+                    [user] => www-data
+                    [expire_open] => 1
+                    [expire_time] => 1800
+                )
+
+            [session] => Array
+                (
+                    [cookie_life] => 1800
+                    [session_life] => 1800
+                    [cache_url] => file://localhost#sess
+                )
+
+            [access] => Array
+                (
+                    [deny_dir] => libs,class,templates
+                    [static_dir] => static/,
+                    [static_ext] => js,jpg,gif,png,css,html
+                    [dynamic_ext] => dynamic_ext
+                    [post_maxsize] => post_maxsize
+                )
+
+            [apps] => Array
+                (
+                    [charset] => utf-8
+                    [do_static] => on
+                    [apps_path] => 
+                    [auto_reload] => 1
+                    [url_route] => url_route_default
+                )
+
+        )
+
+    [parser:protected] => Swoole\Http\Parser Object
+        (
+            [buffer:protected] => 
+        )
+
+    [mime_types:protected] => Array
+        (
+            [jpg] => image/jpeg
+            [bmp] => image/bmp
+            [ico] => image/x-icon
+            [gif] => image/gif
+            [png] => image/png
+            [bin] => application/octet-stream
+            [js] => application/javascript
+            [css] => text/css
+            [html] => text/html
+            [xml] => text/xml
+            [tar] => application/x-tar
+            [ppt] => application/vnd.ms-powerpoint
+            [pdf] => application/pdf
+            [swf] => application/x-shockwave-flash
+            [zip] => application/x-zip-compressed
+            [gzip] => application/gzip
+        )
+
+    [static_dir:protected] => Array
+        (
+            [static/] => 0
+            [] => 1
+        )
+
+    [static_ext:protected] => Array
+        (
+            [js] => 0
+            [jpg] => 1
+            [gif] => 2
+            [png] => 3
+            [css] => 4
+            [html] => 5
+        )
+
+    [dynamic_ext:protected] => Array
+        (
+            [dynamic_ext] => 0
+        )
+
+    [document_root:protected] => /home/shiguangqi/workspace/sky/container/Container/../../root/project1
+    [deny_dir:protected] => Array
+        (
+            [libs] => 0
+            [class] => 1
+            [templates] => 2
+        )
+
+    [keepalive:protected] => 1
+    [gzip:protected] => 
+    [expire:protected] => 1
+    [currentRequest] => 
+    [currentResponse] => 
+    [requests] => Array
+        (
+        )
+
+    [default_port] => 
+    [default_host] => 
+    [log] => Swoole\Log\FileLog Object
+        (
+            [log_file:protected] => /home/shiguangqi/workspace/sky/container/Container/../log/project1.log
+            [fp:protected] => Resource id #20
+            [level_line:protected] => 
+        )
+
+    [server] => Swoole\Network\Server Object
+        (
+            [sw:protected] => swoole_server Object
+                (
+                    [_server] => Resource id #32
+                    [setting] => Array
+                        (
+                            [backlog] => 128
+                            [worker_num] => 1
+                            [max_request] => 5000
+                            [pid_file] => /home/shiguangqi/workspace/sky/container/Container/../run/project1.pid
+                        )
+
+                    [master_pid] => 32463
+                    [manager_pid] => 32464
+                    [worker_id] => 0
+                    [worker_pid] => 32466
+                )
+
+            [swooleSetting] => Array
+                (
+                    [backlog] => 128
+                    [worker_num] => 1
+                    [max_request] => 5000
+                    [pid_file] => /home/shiguangqi/workspace/sky/container/Container/../run/project1.pid
+                )
+
+            [pid_file:protected] => /home/shiguangqi/workspace/sky/container/Container/../run/project1.pid
+            [setting] => Array
+                (
+                )
+
+            [protocol] => Swoole\Protocol\HttpServer Object
+ *RECURSION*
+            [host] => 0.0.0.0
+            [port] => 7000
+            [timeout] => 
+            [buffer_size] => 8192
+            [write_buffer_size] => 2097152
+            [server_block] => 0
+            [client_block] => 0
+            [max_connect] => 1000
+            [client_num] => 0
+            [client_sock] => 
+            [server_sock] => 
+            [fds] => Array
+                (
+                )
+
+        )
+
+    [clients:protected] => 
+)
+
+[2014-10-17 16:37:00]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:38:24]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:39:43]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:39:50]	INFO	client[#9@0] connect
+[2014-10-17 16:39:50]	INFO	client[#10@0] connect
+[2014-10-17 16:39:50]	INFO	new http request. fd=9
+[2014-10-17 16:39:50]	INFO	new http request. fd=9
+[2014-10-17 16:40:00]	INFO	client[#10@0] close
+[2014-10-17 16:41:15]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:41:23]	INFO	client[#9@0] connect
+[2014-10-17 16:41:23]	INFO	new http request. fd=9
+[2014-10-17 16:41:23]	INFO	/home/shiguangqi/workspace/sky/container/Container/../../root/project1//app1/index.php
+[2014-10-17 16:45:31]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:45:39]	INFO	client[#9@0] connect
+[2014-10-17 16:45:39]	INFO	new http request. fd=9
+[2014-10-17 16:45:39]	INFO	/home/shiguangqi/workspace/sky/container/Container/../root/project1//app1/index.php
+[2014-10-17 16:46:54]	INFO	client[#10@0] connect
+[2014-10-17 16:47:10]	INFO	client[#10@0] close
+[2014-10-17 16:47:25]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:47:29]	INFO	client[#9@0] connect
+[2014-10-17 16:47:29]	INFO	new http request. fd=9
+[2014-10-17 16:47:29]	INFO	Array
+[2014-10-17 16:47:53]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:47:56]	INFO	client[#9@0] connect
+[2014-10-17 16:47:56]	INFO	new http request. fd=9
+[2014-10-17 16:47:56]	INFO	Array
+(
+    [protocol] => HTTP/1.1
+    [uri] => /app1/index.php
+    [method] => GET
+    [path] => /app1/index.php
+)
+
+[2014-10-17 16:48:26]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:48:28]	INFO	client[#9@0] connect
+[2014-10-17 16:48:28]	INFO	new http request. fd=9
+[2014-10-17 16:52:09]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:52:14]	INFO	client[#9@0] connect
+[2014-10-17 16:52:14]	INFO	new http request. fd=9
+[2014-10-17 16:52:34]	INFO	client[#10@0] connect
+[2014-10-17 16:52:34]	INFO	new http request. fd=9
+[2014-10-17 16:52:47]	INFO	new http request. fd=9
+[2014-10-17 16:52:50]	INFO	client[#10@0] close
+[2014-10-17 16:55:07]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:55:12]	INFO	client[#9@0] connect
+[2014-10-17 16:55:12]	INFO	client[#10@0] connect
+[2014-10-17 16:55:12]	INFO	new http request. fd=9
+[2014-10-17 16:55:22]	INFO	client[#10@0] close
+[2014-10-17 16:58:24]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:58:25]	INFO	client[#9@0] connect
+[2014-10-17 16:58:25]	INFO	new http request. fd=9
+[2014-10-17 16:58:31]	INFO	new http request. fd=9
+[2014-10-17 16:58:31]	INFO	new http request. fd=9
+[2014-10-17 16:58:32]	INFO	new http request. fd=9
+[2014-10-17 16:58:33]	INFO	new http request. fd=9
+[2014-10-17 16:59:52]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 16:59:56]	INFO	client[#9@0] connect
+[2014-10-17 16:59:56]	INFO	new http request. fd=9
+[2014-10-17 17:04:56]	INFO	client[#9@0] close
+[2014-10-17 17:12:19]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:13:12]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:13:16]	INFO	client[#9@0] connect
+[2014-10-17 17:13:16]	INFO	client[#10@0] connect
+[2014-10-17 17:13:16]	INFO	new http request. fd=9
+[2014-10-17 17:13:16]	INFO	'/home/shiguangqi/workspace/sky/container/Container/../root/project1/app1/index.php'
+[2014-10-17 17:13:28]	INFO	client[#10@0] close
+[2014-10-17 17:18:18]	INFO	client[#9@0] close
+[2014-10-17 17:26:43]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:26:45]	INFO	client[#9@0] connect
+[2014-10-17 17:26:45]	INFO	client[#10@0] connect
+[2014-10-17 17:26:45]	INFO	new http request. fd=9
+[2014-10-17 17:26:58]	INFO	client[#10@0] close
+[2014-10-17 17:28:03]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:28:06]	INFO	client[#9@0] connect
+[2014-10-17 17:28:06]	INFO	new http request. fd=9
+[2014-10-17 17:28:06]	INFO	client[#10@0] connect
+[2014-10-17 17:28:18]	INFO	client[#10@0] close
+[2014-10-17 17:28:29]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:28:31]	INFO	client[#9@0] connect
+[2014-10-17 17:28:31]	INFO	new http request. fd=9
+[2014-10-17 17:28:31]	INFO	client[#10@0] connect
+[2014-10-17 17:28:48]	INFO	client[#10@0] close
+[2014-10-17 17:29:00]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:29:02]	INFO	client[#9@0] connect
+[2014-10-17 17:29:02]	INFO	new http request. fd=9
+[2014-10-17 17:29:36]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:29:38]	INFO	client[#9@0] connect
+[2014-10-17 17:29:38]	INFO	new http request. fd=9
+[2014-10-17 17:29:58]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:30:00]	INFO	client[#9@0] connect
+[2014-10-17 17:30:00]	INFO	client[#10@0] connect
+[2014-10-17 17:30:00]	INFO	new http request. fd=9
+[2014-10-17 17:30:10]	INFO	client[#10@0] close
+[2014-10-17 17:30:52]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:30:55]	INFO	client[#9@0] connect
+[2014-10-17 17:30:55]	INFO	new http request. fd=9
+[2014-10-17 17:32:01]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:32:13]	INFO	client[#9@0] connect
+[2014-10-17 17:32:13]	INFO	client[#10@0] connect
+[2014-10-17 17:32:13]	INFO	new http request. fd=9
+[2014-10-17 17:32:13]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:32:25]	INFO	client[#10@0] close
+[2014-10-17 17:33:40]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:33:42]	INFO	client[#9@0] connect
+[2014-10-17 17:33:42]	INFO	new http request. fd=9
+[2014-10-17 17:33:42]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:33:42]	INFO	client[#10@0] connect
+[2014-10-17 17:33:55]	INFO	client[#10@0] close
+[2014-10-17 17:35:30]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:35:31]	INFO	client[#9@0] connect
+[2014-10-17 17:35:31]	INFO	new http request. fd=9
+[2014-10-17 17:35:31]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:36:01]	INFO	client[#10@0] connect
+[2014-10-17 17:36:01]	INFO	new http request. fd=9
+[2014-10-17 17:36:01]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:36:15]	INFO	client[#10@0] close
+[2014-10-17 17:41:05]	INFO	client[#9@0] close
+[2014-10-17 17:47:53]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:47:54]	INFO	client[#9@0] connect
+[2014-10-17 17:47:54]	INFO	client[#10@0] connect
+[2014-10-17 17:47:54]	INFO	new http request. fd=9
+[2014-10-17 17:48:04]	INFO	client[#10@0] close
+[2014-10-17 17:48:05]	INFO	client[#10@0] connect
+[2014-10-17 17:48:05]	INFO	new http request. fd=9
+[2014-10-17 17:48:24]	INFO	client[#10@0] close
+[2014-10-17 17:48:32]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:48:39]	INFO	client[#9@0] connect
+[2014-10-17 17:48:39]	INFO	client[#10@0] connect
+[2014-10-17 17:48:39]	INFO	new http request. fd=9
+[2014-10-17 17:48:54]	INFO	client[#10@0] close
+[2014-10-17 17:53:44]	INFO	client[#9@0] close
+[2014-10-17 17:57:25]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:57:27]	INFO	client[#9@0] connect
+[2014-10-17 17:57:27]	INFO	client[#10@0] connect
+[2014-10-17 17:57:27]	INFO	new http request. fd=9
+[2014-10-17 17:57:27]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:57:38]	INFO	client[#10@0] close
+[2014-10-17 17:58:14]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:58:16]	INFO	client[#9@0] connect
+[2014-10-17 17:58:16]	INFO	new http request. fd=9
+[2014-10-17 17:58:16]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:59:11]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:59:14]	INFO	client[#9@0] connect
+[2014-10-17 17:59:14]	INFO	new http request. fd=9
+[2014-10-17 17:59:14]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:59:15]	INFO	client[#10@0] connect
+[2014-10-17 17:59:15]	INFO	new http request. fd=9
+[2014-10-17 17:59:15]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 17:59:28]	INFO	client[#10@0] close
+[2014-10-17 18:01:23]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:01:25]	INFO	client[#9@0] connect
+[2014-10-17 18:01:25]	INFO	new http request. fd=9
+[2014-10-17 18:01:25]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:05:05]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:05:07]	INFO	client[#9@0] connect
+[2014-10-17 18:05:07]	INFO	new http request. fd=9
+[2014-10-17 18:05:07]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:05:07]	INFO	client[#10@0] connect
+[2014-10-17 18:05:18]	INFO	client[#10@0] close
+[2014-10-17 18:10:00]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:10:03]	INFO	client[#9@0] connect
+[2014-10-17 18:10:03]	INFO	new http request. fd=9
+[2014-10-17 18:10:03]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:10:49]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:10:51]	INFO	client[#9@0] connect
+[2014-10-17 18:10:51]	INFO	new http request. fd=9
+[2014-10-17 18:10:51]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:11:52]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:11:54]	INFO	client[#9@0] connect
+[2014-10-17 18:11:54]	INFO	new http request. fd=9
+[2014-10-17 18:11:54]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:12:50]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:12:52]	INFO	client[#9@0] connect
+[2014-10-17 18:12:52]	INFO	client[#10@0] connect
+[2014-10-17 18:12:52]	INFO	new http request. fd=9
+[2014-10-17 18:12:52]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:13:11]	INFO	client[#10@0] close
+[2014-10-17 18:14:19]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:14:21]	INFO	client[#9@0] connect
+[2014-10-17 18:14:21]	INFO	client[#10@0] connect
+[2014-10-17 18:14:21]	INFO	new http request. fd=9
+[2014-10-17 18:14:21]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:14:41]	INFO	client[#10@0] close
+[2014-10-17 18:15:19]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:15:21]	INFO	client[#9@0] connect
+[2014-10-17 18:15:21]	INFO	client[#10@0] connect
+[2014-10-17 18:15:21]	INFO	new http request. fd=9
+[2014-10-17 18:15:21]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:15:31]	INFO	client[#10@0] close
+[2014-10-17 18:16:53]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:16:54]	INFO	client[#9@0] connect
+[2014-10-17 18:16:54]	INFO	client[#10@0] connect
+[2014-10-17 18:16:54]	INFO	new http request. fd=9
+[2014-10-17 18:17:04]	INFO	client[#10@0] close
+[2014-10-17 18:17:56]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:17:58]	INFO	client[#9@0] connect
+[2014-10-17 18:17:58]	INFO	client[#10@0] connect
+[2014-10-17 18:17:58]	INFO	new http request. fd=9
+[2014-10-17 18:18:14]	INFO	client[#10@0] close
+[2014-10-17 18:18:55]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:18:56]	INFO	client[#9@0] connect
+[2014-10-17 18:18:56]	INFO	new http request. fd=9
+[2014-10-17 18:18:56]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:18:56]	INFO	client[#10@0] connect
+[2014-10-17 18:19:14]	INFO	client[#10@0] close
+[2014-10-17 18:21:57]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:21:59]	INFO	client[#9@0] connect
+[2014-10-17 18:21:59]	INFO	client[#10@0] connect
+[2014-10-17 18:21:59]	INFO	new http request. fd=9
+[2014-10-17 18:21:59]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:22:10]	INFO	client[#10@0] close
+[2014-10-17 18:22:30]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:22:32]	INFO	client[#9@0] connect
+[2014-10-17 18:22:32]	INFO	client[#10@0] connect
+[2014-10-17 18:22:32]	INFO	new http request. fd=9
+[2014-10-17 18:22:32]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:22:50]	INFO	client[#10@0] close
+[2014-10-17 18:26:10]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:26:11]	INFO	client[#9@0] connect
+[2014-10-17 18:26:11]	INFO	client[#10@0] connect
+[2014-10-17 18:26:11]	INFO	new http request. fd=9
+[2014-10-17 18:26:11]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:26:29]	INFO	client[#10@0] close
+[2014-10-17 18:27:29]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:27:31]	INFO	client[#9@0] connect
+[2014-10-17 18:27:31]	INFO	client[#10@0] connect
+[2014-10-17 18:27:31]	INFO	new http request. fd=9
+[2014-10-17 18:27:44]	INFO	client[#10@0] close
+[2014-10-17 18:28:00]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:28:01]	INFO	client[#9@0] connect
+[2014-10-17 18:28:01]	INFO	new http request. fd=9
+[2014-10-17 18:28:31]	INFO	client[#10@0] connect
+[2014-10-17 18:28:31]	INFO	new http request. fd=9
+[2014-10-17 18:28:31]	INFO	new http request. fd=9
+[2014-10-17 18:28:31]	INFO	new http request. fd=9
+[2014-10-17 18:28:32]	INFO	new http request. fd=9
+[2014-10-17 18:28:32]	INFO	new http request. fd=9
+[2014-10-17 18:28:32]	INFO	new http request. fd=9
+[2014-10-17 18:28:32]	INFO	new http request. fd=9
+[2014-10-17 18:28:44]	INFO	new http request. fd=9
+[2014-10-17 18:28:44]	INFO	client[#10@0] close
+[2014-10-17 18:28:45]	INFO	client[#10@0] connect
+[2014-10-17 18:28:45]	INFO	new http request. fd=9
+[2014-10-17 18:28:45]	INFO	new http request. fd=9
+[2014-10-17 18:28:45]	INFO	new http request. fd=9
+[2014-10-17 18:29:04]	INFO	client[#10@0] close
+[2014-10-17 18:29:53]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:29:53]	INFO	client[#9@0] connect
+[2014-10-17 18:29:53]	INFO	new http request. fd=9
+[2014-10-17 18:32:11]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:32:14]	INFO	client[#9@0] connect
+[2014-10-17 18:32:14]	INFO	client[#10@0] connect
+[2014-10-17 18:32:14]	INFO	new http request. fd=9
+[2014-10-17 18:32:34]	INFO	client[#10@0] close
+[2014-10-17 18:34:40]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:34:42]	INFO	client[#9@0] connect
+[2014-10-17 18:34:43]	INFO	new http request. fd=9
+[2014-10-17 18:35:21]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:35:23]	INFO	client[#9@0] connect
+[2014-10-17 18:35:23]	INFO	new http request. fd=9
+[2014-10-17 18:40:25]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:40:26]	INFO	client[#9@0] connect
+[2014-10-17 18:40:26]	INFO	client[#10@0] connect
+[2014-10-17 18:40:26]	INFO	new http request. fd=9
+[2014-10-17 18:40:36]	INFO	client[#10@0] close
+[2014-10-17 18:43:49]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:43:51]	INFO	client[#9@0] connect
+[2014-10-17 18:43:51]	INFO	new http request. fd=9
+[2014-10-17 18:43:51]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:48:56]	INFO	client[#9@0] close
+[2014-10-17 18:49:25]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:49:27]	INFO	client[#9@0] connect
+[2014-10-17 18:49:27]	INFO	client[#10@0] connect
+[2014-10-17 18:49:27]	INFO	new http request. fd=9
+[2014-10-17 18:49:27]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:49:46]	INFO	client[#10@0] close
+[2014-10-17 18:49:52]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:49:54]	INFO	client[#9@0] connect
+[2014-10-17 18:49:54]	INFO	new http request. fd=9
+[2014-10-17 18:49:54]	INFO	client[#10@0] connect
+[2014-10-17 18:50:06]	INFO	client[#10@0] close
+[2014-10-17 18:50:09]	INFO	client[#10@0] connect
+[2014-10-17 18:50:09]	INFO	new http request. fd=9
+[2014-10-17 18:50:10]	INFO	new http request. fd=9
+[2014-10-17 18:50:10]	INFO	new http request. fd=9
+[2014-10-17 18:50:10]	INFO	new http request. fd=9
+[2014-10-17 18:50:10]	INFO	new http request. fd=9
+[2014-10-17 18:50:10]	INFO	new http request. fd=9
+[2014-10-17 18:50:10]	INFO	new http request. fd=9
+[2014-10-17 18:50:11]	INFO	new http request. fd=9
+[2014-10-17 18:50:12]	INFO	new http request. fd=9
+[2014-10-17 18:50:12]	INFO	new http request. fd=9
+[2014-10-17 18:50:15]	INFO	new http request. fd=9
+[2014-10-17 18:50:20]	INFO	new http request. fd=9
+[2014-10-17 18:50:21]	INFO	new http request. fd=9
+[2014-10-17 18:50:22]	INFO	new http request. fd=9
+[2014-10-17 18:50:26]	INFO	client[#10@0] close
+[2014-10-17 18:50:27]	INFO	client[#10@0] connect
+[2014-10-17 18:50:27]	INFO	new http request. fd=9
+[2014-10-17 18:50:28]	INFO	new http request. fd=9
+[2014-10-17 18:50:31]	INFO	new http request. fd=9
+[2014-10-17 18:50:32]	INFO	new http request. fd=9
+[2014-10-17 18:50:46]	INFO	client[#10@0] close
+[2014-10-17 18:51:09]	INFO	client[#10@0] connect
+[2014-10-17 18:51:09]	INFO	new http request. fd=9
+[2014-10-17 18:51:09]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:51:26]	INFO	client[#10@0] close
+[2014-10-17 18:51:59]	INFO	new http request. fd=9
+[2014-10-17 18:51:59]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:52:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:52:40]	INFO	client[#9@0] connect
+[2014-10-17 18:52:40]	INFO	new http request. fd=9
+[2014-10-17 18:52:41]	INFO	new http request. fd=9
+[2014-10-17 18:53:03]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:53:04]	INFO	client[#9@0] connect
+[2014-10-17 18:53:04]	INFO	new http request. fd=9
+[2014-10-17 18:53:05]	INFO	new http request. fd=9
+[2014-10-17 18:53:05]	INFO	new http request. fd=9
+[2014-10-17 18:53:05]	INFO	new http request. fd=9
+[2014-10-17 18:53:17]	INFO	client[#10@0] connect
+[2014-10-17 18:53:17]	INFO	new http request. fd=9
+[2014-10-17 18:53:22]	INFO	new http request. fd=9
+[2014-10-17 18:53:24]	INFO	new http request. fd=9
+[2014-10-17 18:53:24]	INFO	new http request. fd=9
+[2014-10-17 18:53:24]	INFO	new http request. fd=9
+[2014-10-17 18:53:24]	INFO	new http request. fd=9
+[2014-10-17 18:53:37]	INFO	client[#10@0] close
+[2014-10-17 18:54:08]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:54:11]	INFO	client[#9@0] connect
+[2014-10-17 18:54:11]	INFO	new http request. fd=9
+[2014-10-17 18:54:21]	INFO	client[#10@0] connect
+[2014-10-17 18:54:21]	INFO	new http request. fd=9
+[2014-10-17 18:54:22]	INFO	new http request. fd=9
+[2014-10-17 18:54:22]	INFO	new http request. fd=9
+[2014-10-17 18:54:22]	INFO	new http request. fd=9
+[2014-10-17 18:54:23]	INFO	new http request. fd=9
+[2014-10-17 18:54:23]	INFO	new http request. fd=9
+[2014-10-17 18:54:23]	INFO	new http request. fd=9
+[2014-10-17 18:54:23]	INFO	new http request. fd=9
+[2014-10-17 18:54:24]	INFO	new http request. fd=9
+[2014-10-17 18:54:24]	INFO	new http request. fd=9
+[2014-10-17 18:54:24]	INFO	new http request. fd=9
+[2014-10-17 18:54:24]	INFO	new http request. fd=9
+[2014-10-17 18:54:25]	INFO	new http request. fd=9
+[2014-10-17 18:54:25]	INFO	new http request. fd=9
+[2014-10-17 18:54:25]	INFO	new http request. fd=9
+[2014-10-17 18:54:26]	INFO	new http request. fd=9
+[2014-10-17 18:54:26]	INFO	new http request. fd=9
+[2014-10-17 18:54:27]	INFO	new http request. fd=9
+[2014-10-17 18:54:27]	INFO	new http request. fd=9
+[2014-10-17 18:54:27]	INFO	new http request. fd=9
+[2014-10-17 18:54:27]	INFO	new http request. fd=9
+[2014-10-17 18:54:27]	INFO	new http request. fd=9
+[2014-10-17 18:54:28]	INFO	new http request. fd=9
+[2014-10-17 18:54:37]	INFO	client[#10@0] close
+[2014-10-17 18:56:01]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:56:03]	INFO	client[#9@0] connect
+[2014-10-17 18:56:03]	INFO	new http request. fd=9
+[2014-10-17 18:56:04]	INFO	client[#10@0] connect
+[2014-10-17 18:56:04]	INFO	new http request. fd=9
+[2014-10-17 18:56:05]	INFO	new http request. fd=9
+[2014-10-17 18:56:06]	INFO	new http request. fd=9
+[2014-10-17 18:56:06]	INFO	new http request. fd=9
+[2014-10-17 18:56:06]	INFO	new http request. fd=9
+[2014-10-17 18:56:17]	INFO	client[#10@0] close
+[2014-10-17 18:56:36]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:56:37]	INFO	client[#9@0] connect
+[2014-10-17 18:56:37]	INFO	client[#10@0] connect
+[2014-10-17 18:56:37]	INFO	new http request. fd=9
+[2014-10-17 18:56:39]	INFO	new http request. fd=9
+[2014-10-17 18:56:40]	INFO	new http request. fd=9
+[2014-10-17 18:56:57]	INFO	client[#10@0] close
+[2014-10-17 18:57:15]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:57:17]	INFO	client[#9@0] connect
+[2014-10-17 18:57:17]	INFO	client[#10@0] connect
+[2014-10-17 18:57:17]	INFO	new http request. fd=9
+[2014-10-17 18:57:37]	INFO	client[#10@0] close
+[2014-10-17 18:59:56]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 18:59:57]	INFO	client[#9@0] connect
+[2014-10-17 18:59:57]	INFO	client[#10@0] connect
+[2014-10-17 18:59:57]	INFO	new http request. fd=9
+[2014-10-17 19:00:00]	INFO	new http request. fd=9
+[2014-10-17 19:00:00]	INFO	new http request. fd=9
+[2014-10-17 19:00:01]	INFO	new http request. fd=9
+[2014-10-17 19:00:01]	INFO	new http request. fd=9
+[2014-10-17 19:00:01]	INFO	new http request. fd=9
+[2014-10-17 19:00:02]	INFO	new http request. fd=9
+[2014-10-17 19:00:02]	INFO	new http request. fd=9
+[2014-10-17 19:00:03]	INFO	new http request. fd=9
+[2014-10-17 19:00:03]	INFO	new http request. fd=9
+[2014-10-17 19:00:03]	INFO	new http request. fd=9
+[2014-10-17 19:00:03]	INFO	new http request. fd=9
+[2014-10-17 19:00:04]	INFO	new http request. fd=9
+[2014-10-17 19:00:04]	INFO	new http request. fd=9
+[2014-10-17 19:00:04]	INFO	new http request. fd=9
+[2014-10-17 19:00:04]	INFO	new http request. fd=9
+[2014-10-17 19:00:05]	INFO	new http request. fd=9
+[2014-10-17 19:00:05]	INFO	new http request. fd=9
+[2014-10-17 19:00:05]	INFO	new http request. fd=9
+[2014-10-17 19:00:05]	INFO	new http request. fd=9
+[2014-10-17 19:00:06]	INFO	new http request. fd=9
+[2014-10-17 19:00:06]	INFO	new http request. fd=9
+[2014-10-17 19:00:06]	INFO	new http request. fd=9
+[2014-10-17 19:00:07]	INFO	client[#10@0] close
+[2014-10-17 19:00:24]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:00:27]	INFO	client[#9@0] connect
+[2014-10-17 19:00:27]	INFO	new http request. fd=9
+[2014-10-17 19:00:30]	INFO	client[#10@0] connect
+[2014-10-17 19:00:30]	INFO	new http request. fd=9
+[2014-10-17 19:00:30]	INFO	new http request. fd=9
+[2014-10-17 19:00:31]	INFO	new http request. fd=9
+[2014-10-17 19:00:31]	INFO	new http request. fd=9
+[2014-10-17 19:00:31]	INFO	new http request. fd=9
+[2014-10-17 19:00:32]	INFO	new http request. fd=9
+[2014-10-17 19:00:32]	INFO	new http request. fd=9
+[2014-10-17 19:00:32]	INFO	new http request. fd=9
+[2014-10-17 19:00:32]	INFO	new http request. fd=9
+[2014-10-17 19:00:33]	INFO	new http request. fd=9
+[2014-10-17 19:00:33]	INFO	new http request. fd=9
+[2014-10-17 19:00:33]	INFO	new http request. fd=9
+[2014-10-17 19:00:33]	INFO	new http request. fd=9
+[2014-10-17 19:00:34]	INFO	new http request. fd=9
+[2014-10-17 19:00:34]	INFO	new http request. fd=9
+[2014-10-17 19:00:35]	INFO	new http request. fd=9
+[2014-10-17 19:00:35]	INFO	new http request. fd=9
+[2014-10-17 19:00:47]	INFO	client[#10@0] close
+[2014-10-17 19:01:26]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:01:27]	INFO	client[#9@0] connect
+[2014-10-17 19:01:27]	INFO	client[#10@0] connect
+[2014-10-17 19:01:27]	INFO	new http request. fd=9
+[2014-10-17 19:01:37]	INFO	client[#10@0] close
+[2014-10-17 19:01:43]	INFO	client[#10@0] connect
+[2014-10-17 19:01:43]	INFO	new http request. fd=9
+[2014-10-17 19:01:46]	INFO	new http request. fd=9
+[2014-10-17 19:01:46]	INFO	new http request. fd=9
+[2014-10-17 19:01:46]	INFO	new http request. fd=9
+[2014-10-17 19:01:57]	INFO	client[#10@0] close
+[2014-10-17 19:02:18]	INFO	client[#10@0] connect
+[2014-10-17 19:02:18]	INFO	new http request. fd=9
+[2014-10-17 19:02:18]	INFO	new http request. fd=9
+[2014-10-17 19:02:18]	INFO	new http request. fd=9
+[2014-10-17 19:02:18]	INFO	new http request. fd=9
+[2014-10-17 19:02:19]	INFO	new http request. fd=9
+[2014-10-17 19:02:19]	INFO	new http request. fd=9
+[2014-10-17 19:02:20]	INFO	new http request. fd=9
+[2014-10-17 19:02:20]	INFO	new http request. fd=9
+[2014-10-17 19:02:20]	INFO	new http request. fd=9
+[2014-10-17 19:02:23]	INFO	new http request. fd=9
+[2014-10-17 19:02:23]	INFO	new http request. fd=9
+[2014-10-17 19:02:23]	INFO	new http request. fd=9
+[2014-10-17 19:02:23]	INFO	new http request. fd=9
+[2014-10-17 19:02:37]	INFO	client[#10@0] close
+[2014-10-17 19:03:40]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:03:42]	INFO	client[#9@0] connect
+[2014-10-17 19:03:42]	INFO	new http request. fd=9
+[2014-10-17 19:03:42]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:03:48]	INFO	client[#10@0] connect
+[2014-10-17 19:03:48]	INFO	new http request. fd=9
+[2014-10-17 19:03:48]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:03:52]	INFO	new http request. fd=9
+[2014-10-17 19:03:52]	INFO	new http request. fd=9
+[2014-10-17 19:03:52]	INFO	new http request. fd=9
+[2014-10-17 19:03:52]	INFO	new http request. fd=9
+[2014-10-17 19:03:53]	INFO	new http request. fd=9
+[2014-10-17 19:03:53]	INFO	new http request. fd=9
+[2014-10-17 19:04:07]	INFO	client[#10@0] close
+[2014-10-17 19:04:17]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:19]	INFO	client[#9@0] connect
+[2014-10-17 19:04:19]	INFO	client[#10@0] connect
+[2014-10-17 19:04:19]	INFO	new http request. fd=9
+[2014-10-17 19:04:19]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:20]	INFO	new http request. fd=9
+[2014-10-17 19:04:20]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:20]	INFO	new http request. fd=9
+[2014-10-17 19:04:20]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:21]	INFO	new http request. fd=9
+[2014-10-17 19:04:21]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:21]	INFO	new http request. fd=9
+[2014-10-17 19:04:21]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:21]	INFO	new http request. fd=9
+[2014-10-17 19:04:21]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:04:37]	INFO	client[#10@0] close
+[2014-10-17 19:04:57]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:00]	INFO	client[#9@0] connect
+[2014-10-17 19:05:00]	INFO	client[#10@0] connect
+[2014-10-17 19:05:00]	INFO	new http request. fd=9
+[2014-10-17 19:05:01]	INFO	new http request. fd=9
+[2014-10-17 19:05:01]	INFO	new http request. fd=9
+[2014-10-17 19:05:01]	INFO	new http request. fd=9
+[2014-10-17 19:05:17]	INFO	client[#10@0] close
+[2014-10-17 19:05:22]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:30]	INFO	client[#9@0] connect
+[2014-10-17 19:05:30]	INFO	client[#10@0] connect
+[2014-10-17 19:05:30]	INFO	new http request. fd=9
+[2014-10-17 19:05:30]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:37]	INFO	new http request. fd=9
+[2014-10-17 19:05:37]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:37]	INFO	new http request. fd=9
+[2014-10-17 19:05:37]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:38]	INFO	new http request. fd=9
+[2014-10-17 19:05:38]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:39]	INFO	new http request. fd=9
+[2014-10-17 19:05:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:39]	INFO	new http request. fd=9
+[2014-10-17 19:05:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:39]	INFO	new http request. fd=9
+[2014-10-17 19:05:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:39]	INFO	new http request. fd=9
+[2014-10-17 19:05:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:39]	INFO	new http request. fd=9
+[2014-10-17 19:05:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:40]	INFO	new http request. fd=9
+[2014-10-17 19:05:40]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:40]	INFO	new http request. fd=9
+[2014-10-17 19:05:40]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:41]	INFO	new http request. fd=9
+[2014-10-17 19:05:41]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:05:47]	INFO	client[#10@0] close
+[2014-10-17 19:06:07]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:06:09]	INFO	client[#9@0] connect
+[2014-10-17 19:06:09]	INFO	client[#10@0] connect
+[2014-10-17 19:06:09]	INFO	new http request. fd=9
+[2014-10-17 19:06:10]	INFO	new http request. fd=9
+[2014-10-17 19:06:11]	INFO	new http request. fd=9
+[2014-10-17 19:06:11]	INFO	new http request. fd=9
+[2014-10-17 19:06:11]	INFO	new http request. fd=9
+[2014-10-17 19:06:11]	INFO	new http request. fd=9
+[2014-10-17 19:06:11]	INFO	new http request. fd=9
+[2014-10-17 19:06:12]	INFO	new http request. fd=9
+[2014-10-17 19:06:12]	INFO	new http request. fd=9
+[2014-10-17 19:06:12]	INFO	new http request. fd=9
+[2014-10-17 19:06:12]	INFO	new http request. fd=9
+[2014-10-17 19:06:12]	INFO	new http request. fd=9
+[2014-10-17 19:06:12]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:13]	INFO	new http request. fd=9
+[2014-10-17 19:06:14]	INFO	new http request. fd=9
+[2014-10-17 19:06:14]	INFO	new http request. fd=9
+[2014-10-17 19:06:14]	INFO	new http request. fd=9
+[2014-10-17 19:06:15]	INFO	new http request. fd=9
+[2014-10-17 19:06:15]	INFO	new http request. fd=9
+[2014-10-17 19:06:29]	INFO	client[#10@0] close
+[2014-10-17 19:07:37]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:07:39]	INFO	client[#9@0] connect
+[2014-10-17 19:07:39]	INFO	new http request. fd=9
+[2014-10-17 19:07:39]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:08:31]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:08:42]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:10:47]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:11:33]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:12:01]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:12:09]	INFO	client[#9@0] connect
+[2014-10-17 19:12:09]	INFO	client[#10@0] connect
+[2014-10-17 19:12:09]	INFO	new http request. fd=9
+[2014-10-17 19:12:10]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:12:21]	INFO	client[#10@0] close
+[2014-10-17 19:14:01]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:14:04]	INFO	client[#9@0] connect
+[2014-10-17 19:14:04]	INFO	client[#10@0] connect
+[2014-10-17 19:14:04]	INFO	new http request. fd=9
+[2014-10-17 19:14:08]	INFO	new http request. fd=9
+[2014-10-17 19:14:09]	INFO	new http request. fd=9
+[2014-10-17 19:14:09]	INFO	new http request. fd=9
+[2014-10-17 19:14:09]	INFO	new http request. fd=9
+[2014-10-17 19:14:10]	INFO	new http request. fd=9
+[2014-10-17 19:14:10]	INFO	new http request. fd=9
+[2014-10-17 19:14:10]	INFO	new http request. fd=9
+[2014-10-17 19:14:10]	INFO	new http request. fd=9
+[2014-10-17 19:14:10]	INFO	new http request. fd=9
+[2014-10-17 19:14:10]	INFO	new http request. fd=9
+[2014-10-17 19:14:13]	INFO	new http request. fd=9
+[2014-10-17 19:14:14]	INFO	new http request. fd=9
+[2014-10-17 19:14:14]	INFO	new http request. fd=9
+[2014-10-17 19:14:14]	INFO	new http request. fd=9
+[2014-10-17 19:14:14]	INFO	new http request. fd=9
+[2014-10-17 19:14:15]	INFO	new http request. fd=9
+[2014-10-17 19:14:15]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:16]	INFO	new http request. fd=9
+[2014-10-17 19:14:17]	INFO	new http request. fd=9
+[2014-10-17 19:14:17]	INFO	new http request. fd=9
+[2014-10-17 19:14:17]	INFO	new http request. fd=9
+[2014-10-17 19:14:17]	INFO	new http request. fd=9
+[2014-10-17 19:14:17]	INFO	new http request. fd=9
+[2014-10-17 19:14:17]	INFO	new http request. fd=9
+[2014-10-17 19:14:21]	INFO	client[#10@0] close
+[2014-10-17 19:14:36]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:14:40]	INFO	client[#9@0] connect
+[2014-10-17 19:14:40]	INFO	new http request. fd=9
+[2014-10-17 19:14:40]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:14:48]	INFO	client[#10@0] connect
+[2014-10-17 19:14:48]	INFO	new http request. fd=9
+[2014-10-17 19:14:48]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:15:01]	INFO	client[#10@0] close
+[2014-10-17 19:15:38]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:15:48]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:15:50]	INFO	client[#9@0] connect
+[2014-10-17 19:15:50]	INFO	client[#10@0] connect
+[2014-10-17 19:15:50]	INFO	new http request. fd=9
+[2014-10-17 19:16:01]	INFO	client[#10@0] close
+[2014-10-17 19:16:08]	INFO	new http request. fd=9
+[2014-10-17 19:16:08]	INFO	client[#10@0] connect
+[2014-10-17 19:16:08]	INFO	new http request. fd=9
+[2014-10-17 19:16:08]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:09]	INFO	new http request. fd=9
+[2014-10-17 19:16:10]	INFO	new http request. fd=9
+[2014-10-17 19:16:10]	INFO	new http request. fd=9
+[2014-10-17 19:16:10]	INFO	new http request. fd=9
+[2014-10-17 19:16:11]	INFO	new http request. fd=9
+[2014-10-17 19:16:11]	INFO	new http request. fd=9
+[2014-10-17 19:16:11]	INFO	new http request. fd=9
+[2014-10-17 19:16:11]	INFO	new http request. fd=9
+[2014-10-17 19:16:12]	INFO	new http request. fd=9
+[2014-10-17 19:16:12]	INFO	new http request. fd=9
+[2014-10-17 19:16:12]	INFO	new http request. fd=9
+[2014-10-17 19:16:13]	INFO	new http request. fd=9
+[2014-10-17 19:16:18]	INFO	client[#10@0] close
+[2014-10-17 19:16:29]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:16:31]	INFO	client[#9@0] connect
+[2014-10-17 19:16:31]	INFO	client[#10@0] connect
+[2014-10-17 19:16:31]	INFO	new http request. fd=9
+[2014-10-17 19:16:32]	INFO	new http request. fd=9
+[2014-10-17 19:16:32]	INFO	new http request. fd=9
+[2014-10-17 19:16:33]	INFO	new http request. fd=9
+[2014-10-17 19:16:33]	INFO	new http request. fd=9
+[2014-10-17 19:16:34]	INFO	new http request. fd=9
+[2014-10-17 19:16:34]	INFO	new http request. fd=9
+[2014-10-17 19:16:34]	INFO	new http request. fd=9
+[2014-10-17 19:16:35]	INFO	new http request. fd=9
+[2014-10-17 19:16:35]	INFO	new http request. fd=9
+[2014-10-17 19:16:35]	INFO	new http request. fd=9
+[2014-10-17 19:16:35]	INFO	new http request. fd=9
+[2014-10-17 19:16:35]	INFO	new http request. fd=9
+[2014-10-17 19:16:35]	INFO	new http request. fd=9
+[2014-10-17 19:16:36]	INFO	new http request. fd=9
+[2014-10-17 19:16:36]	INFO	new http request. fd=9
+[2014-10-17 19:16:36]	INFO	new http request. fd=9
+[2014-10-17 19:16:37]	INFO	new http request. fd=9
+[2014-10-17 19:16:37]	INFO	new http request. fd=9
+[2014-10-17 19:16:37]	INFO	new http request. fd=9
+[2014-10-17 19:16:37]	INFO	new http request. fd=9
+[2014-10-17 19:16:37]	INFO	new http request. fd=9
+[2014-10-17 19:16:38]	INFO	new http request. fd=9
+[2014-10-17 19:16:40]	INFO	new http request. fd=9
+[2014-10-17 19:16:40]	INFO	new http request. fd=9
+[2014-10-17 19:16:40]	INFO	new http request. fd=9
+[2014-10-17 19:16:41]	INFO	client[#10@0] close
+[2014-10-17 19:19:37]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:19:41]	INFO	client[#9@0] connect
+[2014-10-17 19:19:41]	INFO	client[#10@0] connect
+[2014-10-17 19:19:41]	INFO	new http request. fd=9
+[2014-10-17 19:19:43]	INFO	new http request. fd=9
+[2014-10-17 19:19:44]	INFO	new http request. fd=9
+[2014-10-17 19:19:45]	INFO	new http request. fd=9
+[2014-10-17 19:19:46]	INFO	new http request. fd=9
+[2014-10-17 19:19:48]	INFO	new http request. fd=9
+[2014-10-17 19:19:48]	INFO	new http request. fd=9
+[2014-10-17 19:20:01]	INFO	client[#10@0] close
+[2014-10-17 19:20:04]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:20:06]	INFO	client[#9@0] connect
+[2014-10-17 19:20:06]	INFO	new http request. fd=9
+[2014-10-17 19:20:06]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:20:08]	INFO	client[#10@0] connect
+[2014-10-17 19:20:08]	INFO	new http request. fd=9
+[2014-10-17 19:20:09]	INFO	new http request. fd=9
+[2014-10-17 19:20:09]	INFO	new http request. fd=9
+[2014-10-17 19:20:09]	INFO	new http request. fd=9
+[2014-10-17 19:20:09]	INFO	new http request. fd=9
+[2014-10-17 19:20:09]	INFO	new http request. fd=9
+[2014-10-17 19:20:10]	INFO	new http request. fd=9
+[2014-10-17 19:20:10]	INFO	new http request. fd=9
+[2014-10-17 19:20:10]	INFO	new http request. fd=9
+[2014-10-17 19:20:11]	INFO	new http request. fd=9
+[2014-10-17 19:20:11]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:20:14]	INFO	new http request. fd=9
+[2014-10-17 19:20:14]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:20:15]	INFO	new http request. fd=9
+[2014-10-17 19:20:15]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:20:16]	INFO	new http request. fd=9
+[2014-10-17 19:20:17]	INFO	new http request. fd=9
+[2014-10-17 19:20:17]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:18]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:19]	INFO	new http request. fd=9
+[2014-10-17 19:20:20]	INFO	new http request. fd=9
+[2014-10-17 19:20:20]	INFO	new http request. fd=9
+[2014-10-17 19:20:26]	INFO	client[#10@0] close
+[2014-10-17 19:21:42]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:21:45]	INFO	client[#9@0] connect
+[2014-10-17 19:21:45]	INFO	new http request. fd=9
+[2014-10-17 19:21:47]	INFO	client[#10@0] connect
+[2014-10-17 19:21:47]	INFO	new http request. fd=9
+[2014-10-17 19:22:03]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:22:05]	INFO	client[#9@0] connect
+[2014-10-17 19:22:05]	INFO	new http request. fd=9
+[2014-10-17 19:22:06]	INFO	client[#10@0] connect
+[2014-10-17 19:22:06]	INFO	new http request. fd=9
+[2014-10-17 19:22:26]	INFO	client[#10@0] close
+[2014-10-17 19:24:59]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:25:01]	INFO	client[#9@0] connect
+[2014-10-17 19:25:01]	INFO	new http request. fd=9
+[2014-10-17 19:25:18]	INFO	client[#10@0] connect
+[2014-10-17 19:25:18]	INFO	new http request. fd=9
+[2014-10-17 19:25:20]	INFO	new http request. fd=9
+[2014-10-17 19:25:31]	INFO	client[#10@0] close
+[2014-10-17 19:26:02]	INFO	client[#10@0] connect
+[2014-10-17 19:26:02]	INFO	new http request. fd=9
+[2014-10-17 19:26:03]	INFO	new http request. fd=9
+[2014-10-17 19:26:03]	INFO	new http request. fd=9
+[2014-10-17 19:26:03]	INFO	new http request. fd=9
+[2014-10-17 19:26:04]	INFO	new http request. fd=9
+[2014-10-17 19:26:21]	INFO	client[#10@0] close
+[2014-10-17 19:26:43]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:26:45]	INFO	client[#9@0] connect
+[2014-10-17 19:26:45]	INFO	new http request. fd=9
+[2014-10-17 19:26:45]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:26:58]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:27:00]	INFO	client[#9@0] connect
+[2014-10-17 19:27:00]	INFO	new http request. fd=9
+[2014-10-17 19:27:54]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:27:56]	INFO	client[#9@0] connect
+[2014-10-17 19:27:56]	INFO	new http request. fd=9
+[2014-10-17 19:27:57]	INFO	client[#10@0] connect
+[2014-10-17 19:27:57]	INFO	new http request. fd=9
+[2014-10-17 19:27:57]	INFO	new http request. fd=9
+[2014-10-17 19:27:58]	INFO	new http request. fd=9
+[2014-10-17 19:27:58]	INFO	new http request. fd=9
+[2014-10-17 19:27:58]	INFO	new http request. fd=9
+[2014-10-17 19:27:58]	INFO	new http request. fd=9
+[2014-10-17 19:27:59]	INFO	new http request. fd=9
+[2014-10-17 19:27:59]	INFO	new http request. fd=9
+[2014-10-17 19:27:59]	INFO	new http request. fd=9
+[2014-10-17 19:27:59]	INFO	new http request. fd=9
+[2014-10-17 19:27:59]	INFO	new http request. fd=9
+[2014-10-17 19:27:59]	INFO	new http request. fd=9
+[2014-10-17 19:28:00]	INFO	new http request. fd=9
+[2014-10-17 19:28:00]	INFO	new http request. fd=9
+[2014-10-17 19:28:01]	INFO	new http request. fd=9
+[2014-10-17 19:28:02]	INFO	new http request. fd=9
+[2014-10-17 19:28:03]	INFO	new http request. fd=9
+[2014-10-17 19:28:03]	INFO	new http request. fd=9
+[2014-10-17 19:28:03]	INFO	new http request. fd=9
+[2014-10-17 19:28:04]	INFO	new http request. fd=9
+[2014-10-17 19:28:04]	INFO	new http request. fd=9
+[2014-10-17 19:28:04]	INFO	new http request. fd=9
+[2014-10-17 19:28:04]	INFO	new http request. fd=9
+[2014-10-17 19:28:05]	INFO	new http request. fd=9
+[2014-10-17 19:28:05]	INFO	new http request. fd=9
+[2014-10-17 19:28:05]	INFO	new http request. fd=9
+[2014-10-17 19:28:06]	INFO	new http request. fd=9
+[2014-10-17 19:28:06]	INFO	new http request. fd=9
+[2014-10-17 19:28:06]	INFO	new http request. fd=9
+[2014-10-17 19:28:06]	INFO	new http request. fd=9
+[2014-10-17 19:28:16]	INFO	client[#10@0] close
+[2014-10-17 19:29:11]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:29:13]	INFO	client[#9@0] connect
+[2014-10-17 19:29:13]	INFO	new http request. fd=9
+[2014-10-17 19:29:14]	INFO	client[#10@0] connect
+[2014-10-17 19:29:14]	INFO	new http request. fd=9
+[2014-10-17 19:29:14]	INFO	new http request. fd=9
+[2014-10-17 19:29:14]	INFO	new http request. fd=9
+[2014-10-17 19:29:14]	INFO	new http request. fd=9
+[2014-10-17 19:29:15]	INFO	new http request. fd=9
+[2014-10-17 19:29:15]	INFO	new http request. fd=9
+[2014-10-17 19:29:15]	INFO	new http request. fd=9
+[2014-10-17 19:29:15]	INFO	new http request. fd=9
+[2014-10-17 19:29:19]	INFO	new http request. fd=9
+[2014-10-17 19:29:19]	INFO	new http request. fd=9
+[2014-10-17 19:29:19]	INFO	new http request. fd=9
+[2014-10-17 19:29:19]	INFO	new http request. fd=9
+[2014-10-17 19:29:20]	INFO	new http request. fd=9
+[2014-10-17 19:29:20]	INFO	new http request. fd=9
+[2014-10-17 19:30:45]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:30:48]	INFO	client[#9@0] connect
+[2014-10-17 19:30:48]	INFO	client[#10@0] connect
+[2014-10-17 19:30:48]	INFO	new http request. fd=9
+[2014-10-17 19:30:51]	INFO	new http request. fd=9
+[2014-10-17 19:30:52]	INFO	new http request. fd=9
+[2014-10-17 19:30:52]	INFO	new http request. fd=9
+[2014-10-17 19:30:52]	INFO	new http request. fd=9
+[2014-10-17 19:30:52]	INFO	new http request. fd=9
+[2014-10-17 19:30:52]	INFO	new http request. fd=9
+[2014-10-17 19:31:00]	INFO	client[#10@0] close
+[2014-10-17 19:32:05]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:32:07]	INFO	client[#9@0] connect
+[2014-10-17 19:32:07]	INFO	new http request. fd=9
+[2014-10-17 19:32:08]	INFO	client[#10@0] connect
+[2014-10-17 19:32:08]	INFO	new http request. fd=9
+[2014-10-17 19:32:08]	INFO	new http request. fd=9
+[2014-10-17 19:32:08]	INFO	new http request. fd=9
+[2014-10-17 19:32:09]	INFO	new http request. fd=9
+[2014-10-17 19:32:09]	INFO	new http request. fd=9
+[2014-10-17 19:32:09]	INFO	new http request. fd=9
+[2014-10-17 19:32:09]	INFO	new http request. fd=9
+[2014-10-17 19:32:10]	INFO	new http request. fd=9
+[2014-10-17 19:32:10]	INFO	new http request. fd=9
+[2014-10-17 19:32:11]	INFO	new http request. fd=9
+[2014-10-17 19:32:11]	INFO	new http request. fd=9
+[2014-10-17 19:32:11]	INFO	new http request. fd=9
+[2014-10-17 19:32:12]	INFO	new http request. fd=9
+[2014-10-17 19:32:12]	INFO	new http request. fd=9
+[2014-10-17 19:32:12]	INFO	new http request. fd=9
+[2014-10-17 19:32:12]	INFO	new http request. fd=9
+[2014-10-17 19:32:12]	INFO	new http request. fd=9
+[2014-10-17 19:32:12]	INFO	new http request. fd=9
+[2014-10-17 19:32:13]	INFO	new http request. fd=9
+[2014-10-17 19:32:13]	INFO	new http request. fd=9
+[2014-10-17 19:32:13]	INFO	new http request. fd=9
+[2014-10-17 19:32:13]	INFO	new http request. fd=9
+[2014-10-17 19:32:14]	INFO	new http request. fd=9
+[2014-10-17 19:32:14]	INFO	new http request. fd=9
+[2014-10-17 19:32:14]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:15]	INFO	new http request. fd=9
+[2014-10-17 19:32:16]	INFO	new http request. fd=9
+[2014-10-17 19:32:17]	INFO	new http request. fd=9
+[2014-10-17 19:32:18]	INFO	new http request. fd=9
+[2014-10-17 19:32:18]	INFO	new http request. fd=9
+[2014-10-17 19:32:18]	INFO	new http request. fd=9
+[2014-10-17 19:32:18]	INFO	new http request. fd=9
+[2014-10-17 19:32:18]	INFO	new http request. fd=9
+[2014-10-17 19:32:18]	INFO	new http request. fd=9
+[2014-10-17 19:32:20]	INFO	client[#10@0] close
+[2014-10-17 19:33:06]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:33:08]	INFO	client[#9@0] connect
+[2014-10-17 19:33:08]	INFO	new http request. fd=9
+[2014-10-17 19:33:14]	INFO	client[#10@0] connect
+[2014-10-17 19:33:15]	INFO	new http request. fd=9
+[2014-10-17 19:33:15]	INFO	new http request. fd=9
+[2014-10-17 19:33:17]	INFO	new http request. fd=9
+[2014-10-17 19:33:18]	INFO	new http request. fd=9
+[2014-10-17 19:33:18]	INFO	new http request. fd=9
+[2014-10-17 19:33:18]	INFO	new http request. fd=9
+[2014-10-17 19:33:18]	INFO	new http request. fd=9
+[2014-10-17 19:33:18]	INFO	new http request. fd=9
+[2014-10-17 19:33:19]	INFO	new http request. fd=9
+[2014-10-17 19:33:19]	INFO	new http request. fd=9
+[2014-10-17 19:33:19]	INFO	new http request. fd=9
+[2014-10-17 19:33:19]	INFO	new http request. fd=9
+[2014-10-17 19:33:23]	INFO	new http request. fd=9
+[2014-10-17 19:33:23]	INFO	new http request. fd=9
+[2014-10-17 19:33:24]	INFO	new http request. fd=9
+[2014-10-17 19:33:24]	INFO	new http request. fd=9
+[2014-10-17 19:33:24]	INFO	new http request. fd=9
+[2014-10-17 19:33:24]	INFO	new http request. fd=9
+[2014-10-17 19:33:25]	INFO	new http request. fd=9
+[2014-10-17 19:33:25]	INFO	new http request. fd=9
+[2014-10-17 19:33:26]	INFO	new http request. fd=9
+[2014-10-17 19:33:26]	INFO	new http request. fd=9
+[2014-10-17 19:33:26]	INFO	new http request. fd=9
+[2014-10-17 19:33:26]	INFO	new http request. fd=9
+[2014-10-17 19:33:27]	INFO	new http request. fd=9
+[2014-10-17 19:33:27]	INFO	new http request. fd=9
+[2014-10-17 19:33:27]	INFO	new http request. fd=9
+[2014-10-17 19:33:28]	INFO	new http request. fd=9
+[2014-10-17 19:33:28]	INFO	new http request. fd=9
+[2014-10-17 19:33:28]	INFO	new http request. fd=9
+[2014-10-17 19:33:29]	INFO	new http request. fd=9
+[2014-10-17 19:33:29]	INFO	new http request. fd=9
+[2014-10-17 19:33:29]	INFO	new http request. fd=9
+[2014-10-17 19:33:29]	INFO	new http request. fd=9
+[2014-10-17 19:33:30]	INFO	new http request. fd=9
+[2014-10-17 19:33:30]	INFO	new http request. fd=9
+[2014-10-17 19:33:30]	INFO	client[#10@0] close
+[2014-10-17 19:33:30]	INFO	client[#10@0] connect
+[2014-10-17 19:33:30]	INFO	new http request. fd=9
+[2014-10-17 19:33:30]	INFO	new http request. fd=9
+[2014-10-17 19:33:31]	INFO	new http request. fd=9
+[2014-10-17 19:33:31]	INFO	new http request. fd=9
+[2014-10-17 19:33:31]	INFO	new http request. fd=9
+[2014-10-17 19:33:31]	INFO	new http request. fd=9
+[2014-10-17 19:33:32]	INFO	new http request. fd=9
+[2014-10-17 19:33:32]	INFO	new http request. fd=9
+[2014-10-17 19:33:33]	INFO	new http request. fd=9
+[2014-10-17 19:33:33]	INFO	new http request. fd=9
+[2014-10-17 19:33:33]	INFO	new http request. fd=9
+[2014-10-17 19:33:34]	INFO	new http request. fd=9
+[2014-10-17 19:33:34]	INFO	new http request. fd=9
+[2014-10-17 19:33:34]	INFO	new http request. fd=9
+[2014-10-17 19:33:34]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:35]	INFO	new http request. fd=9
+[2014-10-17 19:33:36]	INFO	new http request. fd=9
+[2014-10-17 19:33:36]	INFO	new http request. fd=9
+[2014-10-17 19:33:36]	INFO	new http request. fd=9
+[2014-10-17 19:33:38]	INFO	new http request. fd=9
+[2014-10-17 19:33:38]	INFO	new http request. fd=9
+[2014-10-17 19:33:39]	INFO	new http request. fd=9
+[2014-10-17 19:33:39]	INFO	new http request. fd=9
+[2014-10-17 19:33:40]	INFO	new http request. fd=9
+[2014-10-17 19:33:40]	INFO	new http request. fd=9
+[2014-10-17 19:33:41]	INFO	new http request. fd=9
+[2014-10-17 19:33:41]	INFO	new http request. fd=9
+[2014-10-17 19:33:41]	INFO	new http request. fd=9
+[2014-10-17 19:33:41]	INFO	new http request. fd=9
+[2014-10-17 19:33:42]	INFO	new http request. fd=9
+[2014-10-17 19:33:42]	INFO	new http request. fd=9
+[2014-10-17 19:33:42]	INFO	new http request. fd=9
+[2014-10-17 19:33:42]	INFO	new http request. fd=9
+[2014-10-17 19:33:46]	INFO	new http request. fd=9
+[2014-10-17 19:33:47]	INFO	new http request. fd=9
+[2014-10-17 19:33:47]	INFO	new http request. fd=9
+[2014-10-17 19:33:47]	INFO	new http request. fd=9
+[2014-10-17 19:33:47]	INFO	new http request. fd=9
+[2014-10-17 19:33:47]	INFO	new http request. fd=9
+[2014-10-17 19:33:47]	INFO	new http request. fd=9
+[2014-10-17 19:33:50]	INFO	client[#10@0] close
+[2014-10-17 19:37:05]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:7000
+[2014-10-17 19:37:07]	INFO	client[#9@0] connect
+[2014-10-17 19:37:07]	INFO	new http request. fd=9
+[2014-10-17 19:37:09]	INFO	client[#10@0] connect
+[2014-10-17 19:37:09]	INFO	new http request. fd=9
+[2014-10-17 19:37:09]	INFO	new http request. fd=9
+[2014-10-17 19:37:09]	INFO	new http request. fd=9
+[2014-10-17 19:37:10]	INFO	new http request. fd=9
+[2014-10-17 19:37:10]	INFO	new http request. fd=9
+[2014-10-17 19:37:10]	INFO	new http request. fd=9
+[2014-10-17 19:37:10]	INFO	new http request. fd=9
+[2014-10-17 19:37:10]	INFO	new http request. fd=9
+[2014-10-17 19:37:16]	INFO	new http request. fd=9
+[2014-10-17 19:37:16]	INFO	new http request. fd=9
+[2014-10-17 19:37:16]	INFO	new http request. fd=9
+[2014-10-17 19:37:20]	INFO	client[#10@0] close
+[2014-10-17 19:37:46]	INFO	client[#10@0] connect
+[2014-10-17 19:37:46]	INFO	new http request. fd=9
+[2014-10-17 19:37:46]	INFO	new http request. fd=9
+[2014-10-17 19:37:46]	INFO	new http request. fd=9
+[2014-10-17 19:37:48]	INFO	new http request. fd=9
+[2014-10-17 19:37:48]	INFO	new http request. fd=9
+[2014-10-17 19:37:49]	INFO	new http request. fd=9
+[2014-10-17 19:37:49]	INFO	new http request. fd=9
+[2014-10-17 19:38:00]	INFO	client[#10@0] close
+[2014-10-17 19:42:50]	INFO	client[#9@0] close

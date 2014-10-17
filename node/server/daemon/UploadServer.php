@@ -34,7 +34,7 @@ class UploadServer
 
     public function log($msg)
     {
-        $this->loger->log($msg);
+        $this->loger->put($msg);
     }
 
     function onConnect($server, $fd, $from_id)

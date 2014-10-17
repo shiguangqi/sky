@@ -41,3 +41,1262 @@
 
 )
 
+[2014-10-14 17:50:03]	INFO	master server start
+[2014-10-14 17:50:03]	INFO	set timer 5000ms on worker 0 
+[2014-10-14 17:50:46]	INFO	master server start
+[2014-10-14 17:50:46]	INFO	set timer 5000ms on worker 0 
+[2014-10-14 17:52:39]	INFO	master server stop
+[2014-10-14 17:52:49]	INFO	set timer 5000ms on worker 0 
+[2014-10-14 17:52:49]	INFO	master server start
+[2014-10-14 17:53:28]	INFO	master server stop
+[2014-10-14 17:54:47]	INFO	master server start
+[2014-10-14 17:54:47]	INFO	set timer 5000ms on worker 0 
+[2014-10-14 17:55:05]	INFO	master server stop
+[2014-10-14 18:58:47]	INFO	master server start
+[2014-10-14 18:58:47]	INFO	set timer 5000ms on worker 0 
+[2014-10-14 19:08:20]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413284899
+    [last_time] => 1413284899
+    [from_port] => 9998
+    [remote_port] => 60819
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:08:20]	INFO	add node nodes:
+[2014-10-14 19:08:20]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60819
+            [connect_time] => 1413284899
+            [last_time] => 1413284899
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:09:04]	INFO	del node nodes:
+[2014-10-14 19:09:04]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-14 19:09:11]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413284951
+    [last_time] => 1413284951
+    [from_port] => 9998
+    [remote_port] => 60836
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:09:11]	INFO	add node nodes:
+[2014-10-14 19:09:11]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60836
+            [connect_time] => 1413284951
+            [last_time] => 1413284951
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:09:14]	INFO	del node nodes:
+[2014-10-14 19:09:14]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-14 19:11:41]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413285101
+    [last_time] => 1413285101
+    [from_port] => 9998
+    [remote_port] => 60873
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:11:41]	INFO	add node nodes:
+[2014-10-14 19:11:41]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60873
+            [connect_time] => 1413285101
+            [last_time] => 1413285101
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:12:15]	INFO	del node nodes:
+[2014-10-14 19:12:15]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-14 19:24:36]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413285875
+    [last_time] => 1413285875
+    [from_port] => 9998
+    [remote_port] => 32907
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:24:36]	INFO	add node nodes:
+[2014-10-14 19:24:36]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 32907
+            [connect_time] => 1413285875
+            [last_time] => 1413285875
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:24:40]	INFO	del node nodes:
+[2014-10-14 19:24:40]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-14 19:29:11]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413286150
+    [last_time] => 1413286150
+    [from_port] => 9998
+    [remote_port] => 32978
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:29:11]	INFO	add node nodes:
+[2014-10-14 19:29:11]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 32978
+            [connect_time] => 1413286150
+            [last_time] => 1413286150
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:29:36]	INFO	del node nodes:
+[2014-10-14 19:29:36]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-14 19:30:11]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413286211
+    [last_time] => 1413286211
+    [from_port] => 9998
+    [remote_port] => 33000
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:30:11]	INFO	add node nodes:
+[2014-10-14 19:30:11]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 33000
+            [connect_time] => 1413286211
+            [last_time] => 1413286211
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:30:20]	INFO	del node nodes:
+[2014-10-14 19:30:20]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-14 19:31:30]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413286289
+    [last_time] => 1413286289
+    [from_port] => 9998
+    [remote_port] => 33016
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-14 19:31:30]	INFO	add node nodes:
+[2014-10-14 19:31:30]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 33016
+            [connect_time] => 1413286289
+            [last_time] => 1413286289
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-14 19:33:02]	INFO	del node nodes:
+[2014-10-14 19:33:02]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-15 10:26:46]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413340006
+    [last_time] => 1413340006
+    [from_port] => 9998
+    [remote_port] => 41826
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:26:47]	INFO	add node nodes:
+[2014-10-15 10:26:47]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 41826
+            [connect_time] => 1413340006
+            [last_time] => 1413340006
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:33:34]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413340414
+    [last_time] => 1413340414
+    [from_port] => 9999
+    [remote_port] => 51018
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:33:34]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51018
+            [connect_time] => 1413340414
+            [last_time] => 1413340414
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 10:33:34]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 41826
+            [connect_time] => 1413340006
+            [last_time] => 1413340006
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:33:35]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51018
+            [connect_time] => 1413340414
+            [last_time] => 1413340414
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 10:36:25]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 10:36:25]	INFO	del node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 41826
+            [connect_time] => 1413340006
+            [last_time] => 1413340006
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:41:29]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 10:41:29]	INFO	del node ctls:Array
+(
+)
+
+[2014-10-15 10:41:48]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413340908
+    [last_time] => 1413340908
+    [from_port] => 9998
+    [remote_port] => 41988
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:41:48]	INFO	add node nodes:Array
+(
+)
+
+[2014-10-15 10:41:48]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 41988
+            [connect_time] => 1413340908
+            [last_time] => 1413340908
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:42:36]	INFO	master server stop
+[2014-10-15 10:42:58]	INFO	master server start
+[2014-10-15 10:42:58]	INFO	set timer 5000ms on worker 0 
+[2014-10-15 10:44:04]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413341043
+    [last_time] => 1413341043
+    [from_port] => 9998
+    [remote_port] => 42001
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:44:04]	INFO	add node nodes:
+[2014-10-15 10:44:04]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:46:18]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413341178
+    [last_time] => 1413341178
+    [from_port] => 9999
+    [remote_port] => 51192
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:46:18]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51192
+            [connect_time] => 1413341178
+            [last_time] => 1413341178
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 10:46:18]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:46:18]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51192
+            [connect_time] => 1413341178
+            [last_time] => 1413341178
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 10:47:16]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 10:47:16]	INFO	del node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:48:35]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413341314
+    [last_time] => 1413341314
+    [from_port] => 9999
+    [remote_port] => 51216
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:48:35]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51216
+            [connect_time] => 1413341314
+            [last_time] => 1413341314
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 10:48:35]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:48:35]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51216
+            [connect_time] => 1413341314
+            [last_time] => 1413341314
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 10:52:19]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 10:52:19]	INFO	del node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:52:29]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413341549
+    [last_time] => 1413341549
+    [from_port] => 9999
+    [remote_port] => 51294
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:52:29]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51294
+            [connect_time] => 1413341549
+            [last_time] => 1413341549
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 10:52:29]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:52:29]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51294
+            [connect_time] => 1413341549
+            [last_time] => 1413341549
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 10:54:31]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 10:54:31]	INFO	del node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:54:49]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413341688
+    [last_time] => 1413341688
+    [from_port] => 9999
+    [remote_port] => 51315
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 10:54:49]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51315
+            [connect_time] => 1413341688
+            [last_time] => 1413341688
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 10:54:49]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 10:54:49]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51315
+            [connect_time] => 1413341688
+            [last_time] => 1413341688
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:01:02]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 11:01:02]	INFO	del node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:01:15]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413342074
+    [last_time] => 1413342075
+    [from_port] => 9999
+    [remote_port] => 51384
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:01:15]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51384
+            [connect_time] => 1413342074
+            [last_time] => 1413342075
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 11:01:15]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42001
+            [connect_time] => 1413341043
+            [last_time] => 1413341043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:01:15]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51384
+            [connect_time] => 1413342074
+            [last_time] => 1413342075
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:11:25]	INFO	master server stop
+[2014-10-15 11:11:57]	INFO	master server start
+[2014-10-15 11:11:57]	INFO	set timer 5000ms on worker 0 
+[2014-10-15 11:12:32]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413342751
+    [last_time] => 1413342752
+    [from_port] => 9999
+    [remote_port] => 51577
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:12:32]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51577
+            [connect_time] => 1413342751
+            [last_time] => 1413342752
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:12:32]	INFO	add node ctls:
+[2014-10-15 11:12:32]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51577
+            [connect_time] => 1413342751
+            [last_time] => 1413342752
+            [group] => 0
+            [fd] => 12
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:12:54]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413342773
+    [last_time] => 1413342773
+    [from_port] => 9998
+    [remote_port] => 42432
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:12:54]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51577
+            [connect_time] => 1413342751
+            [last_time] => 1413342752
+            [group] => 0
+            [fd] => 12
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:12:54]	INFO	add node ctls:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42432
+            [connect_time] => 1413342773
+            [last_time] => 1413342773
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 11:16:45]	INFO	master server stop
+[2014-10-15 11:17:06]	INFO	master server start
+[2014-10-15 11:17:06]	INFO	set timer 5000ms on worker 0 
+[2014-10-15 11:17:15]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413343034
+    [last_time] => 1413343034
+    [from_port] => 9998
+    [remote_port] => 42477
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:17:15]	INFO	add node nodes:
+[2014-10-15 11:17:15]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42477
+            [connect_time] => 1413343034
+            [last_time] => 1413343034
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:17:31]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413343050
+    [last_time] => 1413343051
+    [from_port] => 9999
+    [remote_port] => 51627
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:17:31]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51627
+            [connect_time] => 1413343050
+            [last_time] => 1413343051
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 11:17:31]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42477
+            [connect_time] => 1413343034
+            [last_time] => 1413343034
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:17:31]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51627
+            [connect_time] => 1413343050
+            [last_time] => 1413343051
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:17:46]	INFO	set timer 5000ms on worker 0 
+[2014-10-15 11:22:11]	INFO	master server stop
+[2014-10-15 11:22:18]	INFO	master server start
+[2014-10-15 11:22:18]	INFO	set timer 5000ms on worker 0 
+[2014-10-15 11:22:25]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 9
+    [connect_time] => 1413343344
+    [last_time] => 1413343344
+    [from_port] => 9998
+    [remote_port] => 42533
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:22:25]	INFO	add node nodes:
+[2014-10-15 11:22:25]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42533
+            [connect_time] => 1413343344
+            [last_time] => 1413343344
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:22:30]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413343349
+    [last_time] => 1413343349
+    [from_port] => 9999
+    [remote_port] => 51683
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:22:30]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51683
+            [connect_time] => 1413343349
+            [last_time] => 1413343349
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 11:22:30]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42533
+            [connect_time] => 1413343344
+            [last_time] => 1413343344
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:22:30]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51683
+            [connect_time] => 1413343349
+            [last_time] => 1413343349
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:22:40]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => web.tar.gz__1.0.2
+            [fd] => 12
+            [c] => 11
+            [o] => install failed
+        )
+
+)
+
+[2014-10-15 11:25:55]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-15 11:25:55]	INFO	del node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42533
+            [connect_time] => 1413343344
+            [last_time] => 1413343344
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:26:00]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1413343559
+    [last_time] => 1413343560
+    [from_port] => 9999
+    [remote_port] => 51717
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-15 11:26:00]	INFO	add node nodes:Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51717
+            [connect_time] => 1413343559
+            [last_time] => 1413343560
+            [group] => 0
+            [fd] => 13
+        )
+
+)
+
+[2014-10-15 11:26:00]	INFO	add node ctls:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 42533
+            [connect_time] => 1413343344
+            [last_time] => 1413343344
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-15 11:26:00]	INFO	add name Array
+(
+    [13] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 51717
+            [connect_time] => 1413343559
+            [last_time] => 1413343560
+            [group] => 0
+            [fd] => 13
+            [name] => sky测试节点
+        )
+
+)
+
+[2014-10-15 11:26:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => web.tar.gz__1.0.2
+            [fd] => 12
+            [c] => 11
+            [o] => install failed
+        )
+
+)
+
+[2014-10-15 11:26:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => web.tar.gz__1.0.2
+            [fd] => 12
+            [c] => 11
+            [o] => web
+install failed
+        )
+
+)
+
+[2014-10-15 11:38:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => apps.tar.gz__1.0.1
+            [fd] => 12
+            [c] => 11
+            [o] => install failed
+        )
+
+)
+
+[2014-10-15 11:40:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => apps.tar.gz__1.0.1
+            [fd] => 12
+            [c] => 11
+            [o] => install failed
+        )
+
+)
+
+[2014-10-15 11:40:29]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => apps.tar.gz__1.0.1
+            [fd] => 12
+            [c] => 11
+            [o] => web/install.sh
+install failed
+        )
+
+)
+
+[2014-10-15 11:42:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => web.tar.gz__1.0.2
+            [fd] => 12
+            [c] => 11
+            [o] => web/install.sh
+install failed
+        )
+
+)
+
+[2014-10-15 11:42:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 1
+            [f] => apps.tar.gz__1.0.1
+            [fd] => 12
+            [c] => 11
+            [o] => web/install.sh
+install failed
+        )
+
+)
+
+[2014-10-15 11:49:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 0
+            [f] => apps.tar.gz__1.0.2
+            [fd] => 12
+            [c] => 11
+            [o] => apps/install.sh
+install success
+        )
+
+)
+
+[2014-10-15 11:50:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 0
+            [f] => apps.tar.gz__1.0.2
+            [fd] => 12
+            [c] => 11
+            [o] => apps/install.sh
+install success
+        )
+
+)
+
+[2014-10-15 12:22:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 13
+            [m] => auto_interface
+            [c] => 11
+        )
+
+)
+
+[2014-10-15 12:22:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 12
+            [c] => 11
+            [o] => start auto_interface success
+        )
+
+)
+
+[2014-10-15 12:26:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 0
+            [f] => server.tar.gz__1.0.5
+            [fd] => 12
+            [c] => 11
+            [o] => server/install.sh
+install success
+        )
+
+)
+

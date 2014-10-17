@@ -1,0 +1,283 @@
+clientConnect 
+clientConnect 
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+clientConnect 
+clientClose
+clientConnect 
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+[2014-10-15 10:48:52]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 10:48:52]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+array(5) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(12) "stop_monitor"
+  ["sn"]=>
+  string(2) "13"
+  ["m"]=>
+  string(9) "stats_web"
+  ["c"]=>
+  int(11)
+}
+cmd stop_monitor -sn 13 -m stats_web -c 11
+Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 12
+                )
+
+        )
+
+)
+[2014-10-15 10:55:02]	WARN	swReactorThread_send: Connection[fd=11] is not exists.
+[2014-10-15 10:55:02]	WARN	swReactorThread_send: Connection[fd=11] is not exists.
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+array(5) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(12) "stop_monitor"
+  ["sn"]=>
+  string(2) "13"
+  ["m"]=>
+  string(14) "auto_interface"
+  ["c"]=>
+  int(11)
+}
+cmd stop_monitor -sn 13 -m auto_interface -c 11
+Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => stop auto_interface success
+                    [m] => auto_interface
+                    [fd] => 12
+                )
+
+        )
+
+)
+[2014-10-15 11:01:21]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 11:01:21]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+array(5) {
+  ["service"]=>
+  string(3) "cmd"
+  ["cmd"]=>
+  string(12) "stop_monitor"
+  ["sn"]=>
+  string(2) "13"
+  ["m"]=>
+  string(7) "log_svr"
+  ["c"]=>
+  int(11)
+}
+cmd stop_monitor -sn 13 -m log_svr -c 11
+Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 0
+                    [o] => stop log_svr success
+                    [m] => log_svr
+                    [fd] => 12
+                )
+
+        )
+
+)
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+[2014-10-15 11:06:26]	WARN	swReactorThread_send: Connection[fd=11] is not exists.
+[2014-10-15 11:06:26]	WARN	swReactorThread_send: Connection[fd=11] is not exists.
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+array(7) {
+  ["service"]=>
+  string(4) "file"
+  ["cmd"]=>
+  string(9) "sendnodes"
+  ["n"]=>
+  array(1) {
+    [0]=>
+    string(2) "13"
+  }
+  ["f"]=>
+  string(17) "web.tar.gz__1.0.2"
+  ["v"]=>
+  string(5) "1.0.2"
+  ["p"]=>
+  string(9) "sky_admin"
+  ["c"]=>
+  int(11)
+}
+file sendnodes -n 13 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+clientClose
+clientConnect 
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+array(7) {
+  ["service"]=>
+  string(4) "file"
+  ["cmd"]=>
+  string(9) "sendnodes"
+  ["n"]=>
+  array(1) {
+    [0]=>
+    string(2) "12"
+  }
+  ["f"]=>
+  string(17) "web.tar.gz__1.0.2"
+  ["v"]=>
+  string(5) "1.0.2"
+  ["p"]=>
+  string(9) "sky_admin"
+  ["c"]=>
+  int(11)
+}
+file sendnodes -n 12 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 11
+                    [s] => 1
+                    [o] => install failed
+                    [f] => web.tar.gz__1.0.2
+                    [fd] => 13
+                    [n] => 12
+                )
+
+        )
+
+)
+clientClose
+clientConnect 
+array(3) {
+  ["service"]=>
+  string(4) "node"
+  ["cmd"]=>
+  string(7) "webinit"
+  ["c"]=>
+  int(11)
+}
+node webinit -c 11
+array(7) {
+  ["service"]=>
+  string(4) "file"
+  ["cmd"]=>
+  string(9) "sendnodes"
+  ["n"]=>
+  array(1) {
+    [0]=>
+    string(2) "13"
+  }
+  ["f"]=>
+  string(17) "web.tar.gz__1.0.2"
+  ["v"]=>
+  string(5) "1.0.2"
+  ["p"]=>
+  string(9) "sky_admin"
+  ["c"]=>
+  int(11)
+}
+file sendnodes -n 13 -f web.tar.gz__1.0.2 -p sky_admin -c 11
+clientClose
+[2014-10-15 11:26:08]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 11:26:08]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+[2014-10-15 11:30:35]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 11:30:35]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+[2014-10-15 11:37:53]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 11:37:53]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+[2014-10-15 12:20:38]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 12:20:38]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+[2014-10-15 12:23:11]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-15 12:23:11]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+[2014-10-16 15:02:22]	WARN	swFactoryProcess_finish: connection[11] not found.
+[2014-10-16 15:02:22]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.

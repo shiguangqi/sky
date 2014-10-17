@@ -42,14 +42,14 @@ class Daemon
                         if (is_file($cc['pid']))
                         {
                             $pid = file_get_contents($cc['pid']);
-                            echo "upload server 已经在执行 pid=".$pid."\n";
+                            $this->node->log("upload server 已经在执行 pid=".$pid);
                         }
                         else
                         {
                             $worker = new \swoole_process(array($this, 'startUploadServer'), false, true);
                             $pid = $worker->start();
                             $workers[$pid] = $worker;
-                            echo "start service upload server ok\n";
+                            $this->node->log("start service upload server ok");
                         }
                         break;
                 }
@@ -86,7 +86,6 @@ class Daemon
     {
         $init = $this->config[$name]['init'];
         exec($init." _stop",$output,$return);
-        var_dump($output);var_dump($return);
     }
 
     public function restart($name)

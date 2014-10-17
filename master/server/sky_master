@@ -1,0 +1,38 @@
+#! /usr/bin/php
+<?php
+
+define('DEBUG', 'on');
+define('WEBPATH', __DIR__);
+defined("ROOT") || define("ROOT",__DIR__);
+require __DIR__ . '/Sky.php';
+require __DIR__ . '/../../vendor/autoload.php';
+Swoole\Loader::vendor_init();
+Swoole\Loader::setRootNS('Sky', __DIR__);
+
+if (get_cfg_var('env.name') == 'dev')
+{
+    $config = parse_ini_file(__DIR__.'/../configs/dev/master.ini',true);
+    Swoole::$php->config->setPath(__DIR__.'/../configs/dev/');
+}
+else
+{
+    $config = parse_ini_file(__DIR__.'/../configs/master.ini',true);
+    Swoole::$php->config->setPath(__DIR__.'/../configs/');
+}
+
+global $sky;
+$sky = Sky::getInstance();
+$sky->init($config);
+$sky->setWhiteList($config['white_list']);
+
+if ($config['log']['type'] == 'echo')
+{
+    $display = !empty($config['log']['display'])?$config['log']['display']:1;//默认输出
+    $sky->setLoger(new Swoole\Log\EchoLog(array('display' => $display)));
+}
+else
+{
+    $sky->setLoger(new Swoole\Log\FileLog($config['log']['log_file']));
+}
+
+$sky->run();
