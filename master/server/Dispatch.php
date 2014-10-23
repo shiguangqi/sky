@@ -2,7 +2,6 @@
 namespace Sky;
 
 
-
 class Dispatch
 {
     protected $_service = array(

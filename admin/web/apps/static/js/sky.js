@@ -159,8 +159,23 @@ function nodeHandler(res)
             $("#"+text.fd).children().children().empty();
             $("#"+text.fd+"_toggle").remove();
             $("."+text.fd+"_daemon").remove();
+            $("."+text.fd+"_daemon_head").remove();
             break;
         case 'addname':
+            var text = res.data;
+            if ($("#"+text['fd']).html() != '')
+            {
+                $("#"+text['fd']).remove();
+            }
+            if ($(document.getElementById(text['host'])).html() == text['host'])
+            {
+                $(document.getElementById(text['host'])).parent().remove();
+            }
+            var string = '<div>Master新增节点</div>';
+            string = string + "<div>host:"+text['host']+" -- port:"+text['port']+"</div>";
+            term.echo(string);
+            $("#node-list").append(addTr(text));
+            break;
         case 'addnode':
             var text = res.data;
             if ($("#"+text['fd']).html() != '')
@@ -187,10 +202,10 @@ function addTr(o)
     {
         name = o.name;
     }
-    tr = "<tr id='"+ o.fd+"' class='success'>" +
+    tr = "<tr id='"+ o.fd +"' class='success'>" +
             "<td><span id='"+ o.fd+"_toggle' class='glyphicon glyphicon-play' onclick=toggleDaemon(this) ></span></td>" +
             "<td><span><input type='checkbox' value='"+ o.fd+"'></span></td>" +
-            "<td>"+ name +"</td><td>"+o.host+"</td>" +
+            "<td>"+ name +"</td><td id='"+o.fd+"_host'>"+o.host+"</td>" +
             "<td class='last_time'>"+date('Y-m-d H:i:s', o.last_time)+"</td>" +
         "</tr>";
     return tr;
@@ -234,7 +249,7 @@ function getNodeInfo(o)
                             "<div class='col-sm-1'><span id='"+fd+"_"+content[j].name+"_name' style='padding: 6px 0'>"+content[j].name+"</span></div>" +
                             "<div class='col-sm-1'><span id='"+fd+"_"+content[j].name+"_version' style='padding: 6px 0'>"+content[j].version+"</span></div>" +
                             "<div class='col-sm-1'><span id='"+fd+"_"+content[j].name+"_type_name' style='padding: 6px 0'>"+content[j].type_name+"</span></div>" +
-                            "<div class='col-sm-2'><span id='"+fd+"_"+content[j].name+"_last_start_time' style='padding: 6px 0'>"+content[j].last_install_time+"</span></div>" +
+                            "<div class='col-sm-2'><span id='"+fd+"_"+content[j].name+"_last_install_time' style='padding: 6px 0'>"+content[j].last_install_time+"</span></div>" +
                             "<div class='col-sm-1'><span id='"+fd+"_"+content[j].name+"_last_install_name' style='padding: 6px 0'>"+content[j].last_install_name+"</span></div>" +
                             "<div class='col-sm-2'><span id='"+fd+"_"+content[j].name+"_last_start_time' style='padding: 6px 0'>"+content[j].last_start_time+"</span></div>" +
                             "<div class='col-sm-1'><span id='"+fd+"_"+content[j].name+"_last_start_name' style='padding: 6px 0'>"+content[j].last_start_name+"</span></div>" +
@@ -323,7 +338,7 @@ function showService(run,i,service)
             "<div class='col-sm-1'><span id='"+i+"_"+run[j].name+"_name' style='padding: 6px 0'>"+run[j].name+"</span></div>" +
             "<div class='col-sm-1'><span id='"+i+"_"+run[j].name+"_version' style='padding: 6px 0'>"+run[j].version+"</span></div>" +
             "<div class='col-sm-1'><span id='"+i+"_"+run[j].name+"_type_name' style='padding: 6px 0'>"+run[j].type_name+"</span></div>" +
-            "<div class='col-sm-2'><span id='"+i+"_"+run[j].name+"_last_start_time' style='padding: 6px 0'></span></div>" +
+            "<div class='col-sm-2'><span id='"+i+"_"+run[j].name+"_last_install_time' style='padding: 6px 0'></span></div>" +
             "<div class='col-sm-1'><span id='"+i+"_"+run[j].name+"_last_install_name' style='padding: 6px 0'></span></div>" +
             "<div class='col-sm-2'><span id='"+i+"_"+run[j].name+"_last_start_time' style='padding: 6px 0'></span></div>" +
             "<div class='col-sm-1'><span id='"+i+"_"+run[j].name+"_last_start_name' style='padding: 6px 0'></span></div>" +
@@ -359,6 +374,7 @@ function cmdHandler(res)
 {
     var content = res.data.params;
     var node = res.data.params.n;
+    var host = $('#'+node+'_host').html();
     switch(res.cmd)
     {
         case '_file_install':
@@ -370,12 +386,13 @@ function cmdHandler(res)
                 $.ajax({
                     url: '/sky/updateVersion',
                     dataType : 'json',
-                    data: {'name':project,'version':version},
+                    data: {'name':project,'ip':host,'version':version},
                     method: 'post',
                     success: function(data) {
                         if (data.status == 200)
                         {
                             $("#"+node+"_"+project+"_version").html("<span style='color:red;font-weight: bold'>"+version+"</span>");
+                            $("#"+node+"_"+project+"_last_install_time").html("<span style='color:red;font-weight: bold'>"+data.last_install_time+"</span>");
                         }
                     }
                 });
@@ -383,7 +400,23 @@ function cmdHandler(res)
             term.echo(content.o+"</br>");
             break;
         case '_start_monitor':
-            var status = content.s;
+            var name = content.m;
+
+            if (content.s == 0)
+            {
+                $.ajax({
+                    url: '/sky/updateStartTime',
+                    dataType : 'json',
+                    data: {'name':name,'ip':host,},
+                    method: 'post',
+                    success: function(data) {
+                        if (data.status == 200)
+                        {
+                            $("#"+node+"_"+name+"_last_start_time").html("<span style='color:red;font-weight: bold'>"+data.last_start_time+"</span>");
+                        }
+                    }
+                });
+            }
             term.echo(content.o+"</br>");
             break;
         case '_stop_monitor':

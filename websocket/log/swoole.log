@@ -281,3 +281,63 @@ clientClose
 [2014-10-15 12:23:11]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
 [2014-10-16 15:02:22]	WARN	swFactoryProcess_finish: connection[11] not found.
 [2014-10-16 15:02:22]	WARN	swFactoryProcess_end: can not close. Connection[11] not found.
+[2014-10-20 18:29:37]	NOTICE	Server is shutdown now.
+[2014-10-22 12:25:26]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 12:25:39]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:21:23]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:21:23]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:21:56]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:29:49]	WARN	swReactorEpoll_del: epoll remove fd[=10] failed. Error: No such file or directory[2]
+[2014-10-22 14:36:29]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:38:48]	WARN	swReactorEpoll_del: epoll remove fd[=10] failed. Error: No such file or directory[2]
+[2014-10-22 14:41:50]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:46:15]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:50:49]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:54:45]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:56:10]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:56:11]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:56:11]	WARN	swReactorEpoll_del: epoll remove fd[=10] failed. Error: No such file or directory[2]
+[2014-10-22 14:56:12]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:56:13]	WARN	swReactorEpoll_del: epoll remove fd[=10] failed. Error: No such file or directory[2]
+[2014-10-22 14:56:13]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:56:14]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:56:15]	WARN	swReactorEpoll_del: epoll remove fd[=10] failed. Error: No such file or directory[2]
+[2014-10-22 14:56:15]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 14:56:16]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 14:56:16]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+clientClose
+[2014-10-22 14:57:00]	NOTICE	Server is shutdown now.
+[2014-10-22 15:02:17]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 15:03:40]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 15:03:56]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 15:09:45]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+clientClose
+[2014-10-22 15:09:54]	NOTICE	Server is shutdown now.
+[2014-10-22 15:10:45]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 15:14:26]	WARN	swReactorThread_send: Connection[fd=10] is not exists.
+[2014-10-22 15:26:44]	WARN	swFactoryProcess_end: can not close. Connection[10] not found.
+[2014-10-22 15:27:32]	WARN	swReactorEpoll_del: epoll remove fd[=10] failed. Error: No such file or directory[2]
+clientClose
+[2014-10-22 15:43:15]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 15:56:53]	NOTICE	Server is shutdown now.
+[2014-10-22 16:04:31]	NOTICE	Server is shutdown now.
+[2014-10-22 16:24:02]	WARN	swFactoryProcess_finish: connection[0] not found.
+[2014-10-22 16:24:02]	WARN	swFactoryProcess_finish: connection[0] not found.
+[2014-10-22 16:24:45]	NOTICE	Server is shutdown now.
+clientClose
+clientClose
+[2014-10-22 16:34:06]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 16:37:52]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 16:39:47]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 16:42:10]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 16:43:11]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 17:31:01]	NOTICE	Server is shutdown now.
+clientClose
+[2014-10-22 17:35:18]	NOTICE	Server is shutdown now.
+[2014-10-22 19:39:09]	NOTICE	Server is shutdown now.

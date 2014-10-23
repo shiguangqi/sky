@@ -1,16 +1,16 @@
 #! /usr/bin/php
 <?php
-
+define('WEBPATH',__DIR__);
 if (get_cfg_var('env.name') == 'dev')
 {
-    $config = parse_ini_file(__DIR__.'/../configs/dev/node.ini',true);
+    $config = parse_ini_file(__DIR__.'/../../configs/dev/node.ini',true);
 }
 else
 {
-    $config = parse_ini_file(__DIR__.'/../configs/node.ini',true);
+    $config = parse_ini_file(__DIR__.'/../../configs/node.ini',true);
 }
 require __DIR__."/../daemon/UploadServer.php";
-require __DIR__ . '/../../vendor/autoload.php';
+require __DIR__ . '/../../../vendor/autoload.php';
 Swoole\Loader::vendor_init();
 $up = new \Sky\UploadServer($config['daemon']['upload_server']);
 $up->setLoger(new Swoole\Log\FileLog($config['daemon']['upload_server']['log_file']));

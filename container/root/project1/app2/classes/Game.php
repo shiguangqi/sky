@@ -1,5 +1,5 @@
 <?php
-namespace App2\Libs;
+namespace App2;
 
 class Game
 {

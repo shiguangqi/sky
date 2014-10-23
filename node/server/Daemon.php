@@ -7,6 +7,9 @@ class Daemon
     public $daemons;
     public $node;
 
+    private $cmd_header = "cmd ";
+    private $protocol_end = "\r\n";
+
     public function __construct($config,$node)
     {
         if (!empty($config))
@@ -46,7 +49,8 @@ class Daemon
                         }
                         else
                         {
-                            $worker = new \swoole_process(array($this, 'startUploadServer'), false, true);
+                            $worker = new \swoole_process(array($this, 'doStart'), false, true);
+                            $worker->init = $this->config['upload_server']['init'];
                             $pid = $worker->start();
                             $workers[$pid] = $worker;
                             $this->node->log("start service upload server ok");
@@ -62,48 +66,15 @@ class Daemon
         }
     }
 
-    function startUploadServer(\swoole_process $worker)
+    //子进程
+    function doStart(\swoole_process $worker)
     {
         //important
         if (isset($this->node->client))
         {
             $this->node->client->close();
         }
-        $worker->exec("/bin/sh",array($this->config['upload_server']['init'],"_start"));
-    }
-    public function stopall()
-    {
-        if (!empty($this->config))
-        {
-            foreach ($this->config as $name => $cc)
-            {
-                $this->stop($name);
-            }
-        }
-    }
-
-    public function stop($name)
-    {
-        $init = $this->config[$name]['init'];
-        exec($init." _stop",$output,$return);
-    }
-
-    public function restart($name)
-    {
-        $this->stop($name);
-        $this->start($name);
-    }
-
-    public function checkRunning($name)
-    {
-        if (isset($this->config[$name]))
-        {
-            return is_file($this->config[$name]['pid']);
-        }
-        else
-        {
-            return false;
-        }
+        $worker->exec("/bin/sh",array($worker->init,"_start"));
     }
 
     public function getDaemons()
@@ -124,29 +95,88 @@ class Daemon
 
     function cmd($data)
     {
-        $return = $data;
-        if (!empty($return['data']['s']) && array_key_exists($return['data']['s'],$this->config))
+        $params = $data['content'];
+        $client = $data['client'];
+        $name = $params['data']['s'];
+        $cmd = $params['cmd'];
+        if (!empty($name) && array_key_exists($name,$this->config))
         {
-            switch ($return['cmd'])
+            switch ($cmd)
             {
                 case 'start_service':
-                    $worker = new \swoole_process(array($this, 'startUploadServer'), false, true);
-                    $worker->start();
-                    $ret = \swoole_process::wait();
-                    if ($ret['code'] === 0)
-                    {
-                        $output[] = "start UploadServer success";
-                    }
-                    else
-                    {
-                        $output[] = "start UploadServer failed";
-                    }
+                    $this->startDaemon($params,$client);
                     break;
                 case 'stop_service':
-                    $this->stop($return['data']['s']);
+                    $this->startDaemon($params,$client);
+                    break;
+                case 'restart_service':
+                    $this->restartDaemon($params,$client);
                     break;
             }
         }
     }
 
+    public function startDaemon($params,$client)
+    {
+        $name = $params['data']['s'];
+        $worker = new \swoole_process(array($this, 'doStart'), false, true);
+        $worker->init = $this->config[$name]['init'];
+        $worker->start();
+        $ret = \swoole_process::wait();
+        if ($ret['code'] === 0)
+        {
+            $output[] = "start {$name} success";
+        }
+        else
+        {
+            $output[] = "start {$name} failed";
+        }
+        $client->send($this->response($params,$output,'start_service'));
+        return $ret['code'];
+    }
+
+    /*
+     * 关闭不需要使用子进程
+     */
+    public function stopDaemon($params,$client)
+    {
+        $name = $params['data']['s'];
+        $init = $this->config[$name]['init'];
+        exec($init." _stop",$output,$return);
+        if ($return === 0)
+        {
+            $output[] = "stop {$name} success";
+            $params['status'] = 0;
+        }
+        else
+        {
+            $output[] = "stop {$name} failed";
+            $params['status'] = 1;
+        }
+        $client->send($this->response($params,$output,'start_service'));
+        return $return;
+    }
+
+    public function restartDaemon($params,$client)
+    {
+        if (!$this->stopDaemon($params,$client))
+        {
+            $this->startDaemon($params,$client);
+        }
+    }
+
+    public function response($params,$output,$type)
+    {
+        $o = implode("\n",$output);
+        $data = $params['content'];
+        $line = '';
+        switch ($type)
+        {
+            case 'stop_monitor' :
+            case 'start_monitor' :
+                $line = $this->cmd_header."_{$type} -s {$params['status']} -m {$data['data']['m']} -fd {$data['data']['fd']} -c {$data['data']['c']} -n {$data['data']['sn']} -o $o ".$this->protocol_end;
+                break;
+        }
+        return $line;
+    }
 }

@@ -10,8 +10,8 @@
 # Description:       starts mostats using daemon
 ### END INIT INFO
 
-PATH=`dirname $0`:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-DAEMON=/home/shiguangqi/workspace/sky/node/factory/upload_server
+PATH=`dirname $0`/lib:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+DAEMON=/home/shiguangqi/workspace/sky/node/server/factory/upload_server
 NAME=upload_server
 DESC=upload_server
 INIT_VERBOSE=true

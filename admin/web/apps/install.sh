@@ -3,7 +3,7 @@
 # master安装脚本
 # @ shiguangqi
 #
-ROOT=/var/www/
+ROOT=/data/webroot/sky.duowan.com
 # 安装admin/web项目下的apps核心部分
 NAME=apps
 DATE=$(date +%Y%m%d%H:%M:%S)

@@ -13,13 +13,13 @@ class Node
     public $config;
     protected $setting;//swoole setting
 
-
     public $loger;
     public $daemon;
     public $cmd;
     public $container;
 
     public $pid_file;
+
     static function getInstance()
     {
         if (!self::$node)
@@ -31,12 +31,12 @@ class Node
 
     function onTimer(\swoole_server $server, $interval)
     {
-        //$this->client->send($this->protocol_header.$this->protocol_end);
         call_user_func(array($this->client_handler,"clientTimer"),$this->client);
     }
 
     function onStart(\swoole_server $server, $worker_id)
     {
+        $this->log("node worker start");
         global $argv;
         \Swoole\Console::setProcessName("{$argv[0]} [node server] : worker");
 
@@ -53,6 +53,7 @@ class Node
 
     function onWorkerStop(\swoole_server $server, $worker_id)
     {
+
     }
 
     function onReceive($server, $fd, $from_id, $data)

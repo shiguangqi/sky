@@ -2,7 +2,27 @@
 /.idea
 *.o
 *.lo
+*.gz
+
 /vendor
-/admin/web/static/upload
 
+/admin/backup
+/admin/web/static
+/container/Container/cache
+/container/Container/log
+/container/Container/run
+/container/log
+/container/run
+/container/root
 
+/master/backup
+/master/log
+/master/run
+
+/node/backup
+/node/run
+/node/log
+
+/websocket/backup
+/websocket/log
+/websocket/run

@@ -1,6 +1,4 @@
 <?php
-
-
 class Sky
 {
     public $nodes;
@@ -27,12 +25,7 @@ class Sky
     public $pid_file;
     public $pid;
 
-    public function __construct()
-    {
-
-    }
-
-    public function init($config)
+    public function __construct($config)
     {
         $this->config = $config;
         $this->port = $config['server']['port'];
@@ -49,16 +42,6 @@ class Sky
         $this->res = new \Sky\Response($this);
     }
 
-    public function setLoger($log)
-    {
-        $this->log = $log;
-    }
-
-    public function log($msg)
-    {
-        $this->log->put($msg);
-    }
-
     public function setWhiteList($ip_list)
     {
         if (is_array($ip_list) and !empty($ip_list))
@@ -70,11 +53,21 @@ class Sky
         }
     }
 
-    static function getInstance()
+    public function setLoger($log)
+    {
+        $this->log = $log;
+    }
+
+    public function log($msg)
+    {
+        $this->log->put($msg);
+    }
+
+    static function getInstance($config)
     {
         if (!self::$sky)
         {
-            self::$sky = new Sky();
+            self::$sky = new self($config);
         }
         return self::$sky;
     }

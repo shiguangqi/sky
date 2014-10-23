@@ -21,8 +21,7 @@ else
 }
 
 global $sky;
-$sky = Sky::getInstance();
-$sky->init($config);
+$sky = Sky::getInstance($config);
 $sky->setWhiteList($config['white_list']);
 
 if ($config['log']['type'] == 'echo')

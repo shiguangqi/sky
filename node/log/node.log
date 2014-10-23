@@ -86,3 +86,3198 @@
   0 => 'server/install.sh',
   1 => 'install success',
 )
+[2014-10-20 18:19:55]	INFO	upload server 已经在执行 pid=4515
+[2014-10-20 18:19:55]	INFO	node server start
+[2014-10-20 18:20:50]	INFO	node server shutdown
+[2014-10-20 18:28:24]	INFO	start service upload server ok
+[2014-10-20 18:28:24]	INFO	node server start
+[2014-10-20 18:29:13]	INFO	node server shutdown
+[2014-10-22 10:53:05]	INFO	start service upload server ok
+[2014-10-22 10:53:05]	INFO	node server start
+[2014-10-22 10:53:43]	INFO	node server shutdown
+[2014-10-22 11:02:03]	INFO	start service upload server ok
+[2014-10-22 11:02:03]	INFO	node server start
+[2014-10-22 11:02:45]	INFO	node server shutdown
+[2014-10-22 11:05:30]	INFO	start service upload server ok
+[2014-10-22 11:05:30]	INFO	node server start
+[2014-10-22 11:05:51]	INFO	node server shutdown
+[2014-10-22 11:06:49]	INFO	start service upload server ok
+[2014-10-22 11:06:49]	INFO	node server start
+[2014-10-22 11:06:57]	INFO	node server shutdown
+[2014-10-22 11:08:01]	INFO	start service upload server ok
+[2014-10-22 11:08:02]	INFO	node server start
+[2014-10-22 11:08:08]	INFO	node server shutdown
+[2014-10-22 11:12:10]	INFO	start service upload server ok
+[2014-10-22 11:12:11]	INFO	node server start
+[2014-10-22 11:12:21]	INFO	node server shutdown
+[2014-10-22 11:13:50]	INFO	start service upload server ok
+[2014-10-22 11:13:50]	INFO	node server start
+[2014-10-22 11:14:01]	INFO	node server shutdown
+[2014-10-22 11:26:49]	INFO	start service upload server ok
+[2014-10-22 11:26:49]	INFO	node server start
+[2014-10-22 11:26:49]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:50]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:51]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:52]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:53]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:54]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:55]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:56]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:57]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:58]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:26:59]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:00]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:01]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:02]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node worker start
+[2014-10-22 11:27:03]	INFO	node server shutdown
+[2014-10-22 11:30:48]	INFO	start service upload server ok
+[2014-10-22 11:30:48]	INFO	node server start
+[2014-10-22 11:30:48]	INFO	node worker start
+[2014-10-22 11:30:48]	INFO	node worker start
+[2014-10-22 11:30:48]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:49]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:50]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:51]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:52]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:53]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:54]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:55]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:56]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:57]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:58]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:30:59]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:00]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:01]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:02]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:03]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:04]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:05]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:06]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:07]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:08]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:09]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:10]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:11]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:12]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:13]	INFO	node worker start
+[2014-10-22 11:31:14]	INFO	node worker start
+[2014-10-22 11:31:14]	INFO	node worker start
+[2014-10-22 11:31:14]	INFO	node worker start
+[2014-10-22 11:31:14]	INFO	node server shutdown
+[2014-10-22 11:36:49]	INFO	start service upload server ok
+[2014-10-22 11:36:49]	INFO	node server start
+[2014-10-22 11:36:49]	INFO	node worker start
+[2014-10-22 11:36:49]	INFO	connect to master:true
+[2014-10-22 11:36:49]	INFO	node worker start
+[2014-10-22 11:36:49]	INFO	connect to master:true
+[2014-10-22 11:36:49]	INFO	node worker start
+[2014-10-22 11:36:49]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:50]	INFO	node worker start
+[2014-10-22 11:36:50]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:51]	INFO	node worker start
+[2014-10-22 11:36:51]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:52]	INFO	node worker start
+[2014-10-22 11:36:52]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:53]	INFO	node worker start
+[2014-10-22 11:36:53]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:54]	INFO	node worker start
+[2014-10-22 11:36:54]	INFO	connect to master:true
+[2014-10-22 11:36:55]	INFO	node worker start
+[2014-10-22 11:36:55]	INFO	connect to master:true
+[2014-10-22 11:36:55]	INFO	node worker start
+[2014-10-22 11:36:55]	INFO	connect to master:true
+[2014-10-22 11:36:55]	INFO	node worker start
+[2014-10-22 11:36:55]	INFO	connect to master:true
+[2014-10-22 11:36:55]	INFO	node server shutdown
+[2014-10-22 11:39:14]	INFO	start service upload server ok
+[2014-10-22 11:39:15]	INFO	node server start
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:15]	INFO	node worker start
+[2014-10-22 11:39:15]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:16]	INFO	node worker start
+[2014-10-22 11:39:16]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:17]	INFO	node worker start
+[2014-10-22 11:39:17]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:18]	INFO	node worker start
+[2014-10-22 11:39:18]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:19]	INFO	node worker start
+[2014-10-22 11:39:19]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:20]	INFO	node worker start
+[2014-10-22 11:39:20]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:21]	INFO	node worker start
+[2014-10-22 11:39:21]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:22]	INFO	node worker start
+[2014-10-22 11:39:22]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node worker start
+[2014-10-22 11:39:23]	INFO	connect to master:true
+[2014-10-22 11:39:23]	INFO	node server shutdown
+[2014-10-22 11:40:14]	INFO	start service upload server ok
+[2014-10-22 11:40:14]	INFO	node server start
+[2014-10-22 11:40:14]	INFO	node worker start
+[2014-10-22 11:40:22]	INFO	node server shutdown
+[2014-10-22 11:40:33]	INFO	start service upload server ok
+[2014-10-22 11:40:33]	INFO	node server start
+[2014-10-22 11:40:33]	INFO	node worker start
+[2014-10-22 11:41:30]	INFO	node server shutdown
+[2014-10-22 11:41:31]	INFO	start service upload server ok
+[2014-10-22 11:41:31]	INFO	node server start
+[2014-10-22 11:41:31]	INFO	node worker start
+[2014-10-22 11:41:31]	INFO	connect to master:true
+[2014-10-22 11:41:31]	INFO	node worker start
+[2014-10-22 11:41:31]	INFO	connect to master:true
+[2014-10-22 11:41:31]	INFO	node worker start
+[2014-10-22 11:41:31]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:32]	INFO	node worker start
+[2014-10-22 11:41:32]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:33]	INFO	node worker start
+[2014-10-22 11:41:33]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:34]	INFO	node worker start
+[2014-10-22 11:41:34]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:35]	INFO	node worker start
+[2014-10-22 11:41:35]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:36]	INFO	node worker start
+[2014-10-22 11:41:36]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:37]	INFO	node worker start
+[2014-10-22 11:41:37]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:38]	INFO	node worker start
+[2014-10-22 11:41:38]	INFO	connect to master:true
+[2014-10-22 11:41:39]	INFO	node worker start
+[2014-10-22 11:41:39]	INFO	connect to master:true
+[2014-10-22 11:41:39]	INFO	node worker start
+[2014-10-22 11:41:39]	INFO	connect to master:true
+[2014-10-22 11:41:39]	INFO	node server shutdown
+[2014-10-22 11:42:43]	INFO	start service upload server ok
+[2014-10-22 11:42:43]	INFO	node server start
+[2014-10-22 11:42:43]	INFO	node worker start
+[2014-10-22 11:42:43]	INFO	connect to master:true
+[2014-10-22 11:42:43]	INFO	node worker start
+[2014-10-22 11:42:43]	INFO	connect to master:true
+[2014-10-22 11:42:43]	INFO	node worker start
+[2014-10-22 11:42:43]	INFO	connect to master:true
+[2014-10-22 11:42:43]	INFO	node worker start
+[2014-10-22 11:42:43]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:44]	INFO	node worker start
+[2014-10-22 11:42:44]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:45]	INFO	node worker start
+[2014-10-22 11:42:45]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:46]	INFO	node worker start
+[2014-10-22 11:42:46]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:47]	INFO	node worker start
+[2014-10-22 11:42:47]	INFO	connect to master:true
+[2014-10-22 11:42:48]	INFO	node worker start
+[2014-10-22 11:42:48]	INFO	connect to master:true
+[2014-10-22 11:42:48]	INFO	node worker start
+[2014-10-22 11:42:48]	INFO	connect to master:true
+[2014-10-22 11:42:48]	INFO	node worker start
+[2014-10-22 11:42:48]	INFO	connect to master:true
+[2014-10-22 11:42:48]	INFO	node worker start
+[2014-10-22 11:42:48]	INFO	connect to master:true
+[2014-10-22 11:42:48]	INFO	node server shutdown
+[2014-10-22 11:43:10]	INFO	start service upload server ok
+[2014-10-22 11:43:10]	INFO	node server start
+[2014-10-22 11:43:10]	INFO	node worker start
+[2014-10-22 11:43:21]	INFO	node server shutdown
+[2014-10-22 11:43:34]	INFO	start service upload server ok
+[2014-10-22 11:43:34]	INFO	node server start
+[2014-10-22 11:43:34]	INFO	node worker start
+[2014-10-22 11:43:40]	INFO	node server shutdown
+[2014-10-22 11:43:49]	INFO	start service upload server ok
+[2014-10-22 11:43:49]	INFO	node server start
+[2014-10-22 11:43:49]	INFO	node worker start
+[2014-10-22 11:43:49]	INFO	connect to master:true
+[2014-10-22 11:43:49]	INFO	node worker start
+[2014-10-22 11:43:49]	INFO	connect to master:true
+[2014-10-22 11:43:49]	INFO	node worker start
+[2014-10-22 11:43:49]	INFO	connect to master:true
+[2014-10-22 11:43:49]	INFO	node worker start
+[2014-10-22 11:43:49]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:50]	INFO	node worker start
+[2014-10-22 11:43:50]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:51]	INFO	node worker start
+[2014-10-22 11:43:51]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node worker start
+[2014-10-22 11:43:52]	INFO	connect to master:true
+[2014-10-22 11:43:52]	INFO	node server shutdown
+[2014-10-22 11:45:12]	INFO	start service upload server ok
+[2014-10-22 11:45:12]	INFO	node server start
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:12]	INFO	node worker start
+[2014-10-22 11:45:12]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:13]	INFO	node worker start
+[2014-10-22 11:45:13]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:14]	INFO	node worker start
+[2014-10-22 11:45:14]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:15]	INFO	node worker start
+[2014-10-22 11:45:15]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node worker start
+[2014-10-22 11:45:16]	INFO	connect to master:true
+[2014-10-22 11:45:16]	INFO	node server shutdown
+[2014-10-22 11:47:11]	INFO	start service upload server ok
+[2014-10-22 11:47:11]	INFO	node server start
+[2014-10-22 11:47:11]	INFO	node worker start
+[2014-10-22 11:47:11]	INFO	connect to master:true
+[2014-10-22 11:47:11]	INFO	node worker start
+[2014-10-22 11:47:11]	INFO	connect to master:true
+[2014-10-22 11:47:11]	INFO	node worker start
+[2014-10-22 11:47:11]	INFO	connect to master:true
+[2014-10-22 11:47:11]	INFO	node worker start
+[2014-10-22 11:47:11]	INFO	connect to master:true
+[2014-10-22 11:47:11]	INFO	node worker start
+[2014-10-22 11:47:11]	INFO	connect to master:true
+[2014-10-22 11:47:11]	INFO	node worker start
+[2014-10-22 11:47:11]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:12]	INFO	node worker start
+[2014-10-22 11:47:12]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:13]	INFO	node worker start
+[2014-10-22 11:47:13]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node worker start
+[2014-10-22 11:47:14]	INFO	connect to master:true
+[2014-10-22 11:47:14]	INFO	node server shutdown
+[2014-10-22 11:48:34]	INFO	start service upload server ok
+[2014-10-22 11:48:34]	INFO	node server start
+[2014-10-22 11:48:34]	INFO	node worker start
+[2014-10-22 11:48:34]	INFO	connect to master:true
+[2014-10-22 11:48:34]	INFO	node worker start
+[2014-10-22 11:48:34]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:35]	INFO	node worker start
+[2014-10-22 11:48:35]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:36]	INFO	node worker start
+[2014-10-22 11:48:36]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:37]	INFO	node worker start
+[2014-10-22 11:48:37]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:38]	INFO	node worker start
+[2014-10-22 11:48:38]	INFO	connect to master:true
+[2014-10-22 11:48:39]	INFO	node worker start
+[2014-10-22 11:48:39]	INFO	connect to master:true
+[2014-10-22 11:48:39]	INFO	node worker start
+[2014-10-22 11:48:39]	INFO	connect to master:true
+[2014-10-22 11:48:39]	INFO	node server shutdown
+[2014-10-22 11:54:11]	INFO	start service upload server ok
+[2014-10-22 11:54:11]	INFO	node server start
+[2014-10-22 11:54:11]	INFO	node worker start
+[2014-10-22 11:54:11]	INFO	connect to master:true
+[2014-10-22 11:54:11]	INFO	node worker start
+[2014-10-22 11:54:11]	INFO	connect to master:true
+[2014-10-22 11:54:11]	INFO	node worker start
+[2014-10-22 11:54:11]	INFO	connect to master:true
+[2014-10-22 11:54:11]	INFO	node worker start
+[2014-10-22 11:54:11]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:12]	INFO	node worker start
+[2014-10-22 11:54:12]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:13]	INFO	node worker start
+[2014-10-22 11:54:13]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:14]	INFO	node worker start
+[2014-10-22 11:54:14]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:15]	INFO	node worker start
+[2014-10-22 11:54:15]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:16]	INFO	node worker start
+[2014-10-22 11:54:16]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:17]	INFO	node worker start
+[2014-10-22 11:54:17]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:18]	INFO	node worker start
+[2014-10-22 11:54:18]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:19]	INFO	node worker start
+[2014-10-22 11:54:19]	INFO	connect to master:true
+[2014-10-22 11:54:20]	INFO	node worker start
+[2014-10-22 11:54:20]	INFO	connect to master:true
+[2014-10-22 11:54:20]	INFO	node worker start
+[2014-10-22 11:54:20]	INFO	connect to master:true
+[2014-10-22 11:54:20]	INFO	node server shutdown
+[2014-10-22 11:54:25]	INFO	upload server 已经在执行 pid=20909
+[2014-10-22 11:54:25]	INFO	node server start
+[2014-10-22 11:54:25]	INFO	node worker start
+[2014-10-22 11:54:25]	INFO	connect to master:true
+[2014-10-22 11:54:25]	INFO	node worker start
+[2014-10-22 11:54:25]	INFO	connect to master:true
+[2014-10-22 11:54:25]	INFO	node worker start
+[2014-10-22 11:54:25]	INFO	connect to master:true
+[2014-10-22 11:54:25]	INFO	node worker start
+[2014-10-22 11:54:25]	INFO	connect to master:true
+[2014-10-22 11:54:25]	INFO	node worker start
+[2014-10-22 11:54:25]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:26]	INFO	node worker start
+[2014-10-22 11:54:26]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:27]	INFO	node worker start
+[2014-10-22 11:54:27]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:28]	INFO	node worker start
+[2014-10-22 11:54:28]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:29]	INFO	node worker start
+[2014-10-22 11:54:29]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:30]	INFO	node worker start
+[2014-10-22 11:54:30]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:31]	INFO	node worker start
+[2014-10-22 11:54:31]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:32]	INFO	node worker start
+[2014-10-22 11:54:32]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:33]	INFO	node worker start
+[2014-10-22 11:54:33]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:34]	INFO	node worker start
+[2014-10-22 11:54:34]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:35]	INFO	node worker start
+[2014-10-22 11:54:35]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node worker start
+[2014-10-22 11:54:36]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node worker start
+[2014-10-22 11:54:36]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node worker start
+[2014-10-22 11:54:36]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node worker start
+[2014-10-22 11:54:36]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node worker start
+[2014-10-22 11:54:36]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node worker start
+[2014-10-22 11:54:36]	INFO	connect to master:true
+[2014-10-22 11:54:36]	INFO	node server shutdown
+[2014-10-22 11:54:57]	INFO	start service upload server ok
+[2014-10-22 11:54:57]	INFO	node server start
+[2014-10-22 11:54:57]	INFO	node worker start
+[2014-10-22 11:54:57]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:58]	INFO	node worker start
+[2014-10-22 11:54:58]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:54:59]	INFO	node worker start
+[2014-10-22 11:54:59]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:00]	INFO	node worker start
+[2014-10-22 11:55:00]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:01]	INFO	node worker start
+[2014-10-22 11:55:01]	INFO	connect to master:true
+[2014-10-22 11:55:02]	INFO	node worker start
+[2014-10-22 11:55:02]	INFO	connect to master:true
+[2014-10-22 11:55:02]	INFO	node worker start
+[2014-10-22 11:55:02]	INFO	connect to master:true
+[2014-10-22 11:55:02]	INFO	node worker start
+[2014-10-22 11:55:02]	INFO	connect to master:true
+[2014-10-22 11:55:02]	INFO	node worker start
+[2014-10-22 11:55:02]	INFO	connect to master:true
+[2014-10-22 11:55:02]	INFO	node server shutdown
+[2014-10-22 11:55:58]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 11:55:58]	INFO	node server start
+[2014-10-22 11:55:58]	INFO	node worker start
+[2014-10-22 11:56:09]	INFO	node server shutdown
+[2014-10-22 11:56:19]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 11:56:19]	INFO	node server start
+[2014-10-22 11:56:19]	INFO	node worker start
+[2014-10-22 11:56:19]	INFO	connect to master:true
+[2014-10-22 11:56:19]	INFO	node worker start
+[2014-10-22 11:56:19]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:20]	INFO	node worker start
+[2014-10-22 11:56:20]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:21]	INFO	node worker start
+[2014-10-22 11:56:21]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:22]	INFO	node worker start
+[2014-10-22 11:56:22]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:23]	INFO	node worker start
+[2014-10-22 11:56:23]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:24]	INFO	node worker start
+[2014-10-22 11:56:24]	INFO	connect to master:true
+[2014-10-22 11:56:25]	INFO	node worker start
+[2014-10-22 11:56:25]	INFO	connect to master:true
+[2014-10-22 11:56:25]	INFO	node worker start
+[2014-10-22 11:56:25]	INFO	connect to master:true
+[2014-10-22 11:56:25]	INFO	node worker start
+[2014-10-22 11:56:25]	INFO	connect to master:true
+[2014-10-22 11:56:25]	INFO	node worker start
+[2014-10-22 11:56:25]	INFO	connect to master:true
+[2014-10-22 11:56:25]	INFO	node worker start
+[2014-10-22 11:56:25]	INFO	connect to master:true
+[2014-10-22 11:56:25]	INFO	node server shutdown
+[2014-10-22 11:57:23]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 11:57:23]	INFO	node server start
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:23]	INFO	node worker start
+[2014-10-22 11:57:23]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:24]	INFO	node worker start
+[2014-10-22 11:57:24]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:25]	INFO	node worker start
+[2014-10-22 11:57:25]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:26]	INFO	node worker start
+[2014-10-22 11:57:26]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:27]	INFO	node worker start
+[2014-10-22 11:57:27]	INFO	connect to master:true
+[2014-10-22 11:57:28]	INFO	node worker start
+[2014-10-22 11:57:28]	INFO	connect to master:true
+[2014-10-22 11:57:28]	INFO	node worker start
+[2014-10-22 11:57:28]	INFO	connect to master:true
+[2014-10-22 11:57:28]	INFO	node worker start
+[2014-10-22 11:57:28]	INFO	connect to master:true
+[2014-10-22 11:57:28]	INFO	node server shutdown
+[2014-10-22 11:57:39]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 11:57:39]	INFO	node server start
+[2014-10-22 11:57:39]	INFO	node worker start
+[2014-10-22 11:59:12]	INFO	node server shutdown
+[2014-10-22 11:59:49]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 11:59:49]	INFO	node server start
+[2014-10-22 11:59:49]	INFO	node worker start
+[2014-10-22 11:59:54]	INFO	connect to master:true
+[2014-10-22 11:59:55]	INFO	node worker start
+[2014-10-22 12:00:00]	INFO	connect to master:true
+[2014-10-22 12:00:00]	INFO	node worker start
+[2014-10-22 12:00:05]	INFO	connect to master:true
+[2014-10-22 12:00:05]	INFO	node worker start
+[2014-10-22 12:00:10]	INFO	connect to master:true
+[2014-10-22 12:00:10]	INFO	node worker start
+[2014-10-22 12:00:15]	INFO	connect to master:true
+[2014-10-22 12:00:15]	INFO	node worker start
+[2014-10-22 12:00:20]	INFO	connect to master:true
+[2014-10-22 12:00:20]	INFO	node worker start
+[2014-10-22 12:00:25]	INFO	connect to master:true
+[2014-10-22 12:00:25]	INFO	node worker start
+[2014-10-22 12:00:30]	INFO	connect to master:true
+[2014-10-22 12:00:30]	INFO	node worker start
+[2014-10-22 12:00:35]	INFO	node server shutdown
+[2014-10-22 12:00:35]	INFO	connect to master:true
+[2014-10-22 12:00:48]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 12:00:48]	INFO	node server start
+[2014-10-22 12:00:48]	INFO	node worker start
+[2014-10-22 12:00:58]	INFO	connect to master:true
+[2014-10-22 12:00:58]	INFO	node worker start
+[2014-10-22 12:01:08]	INFO	connect to master:true
+[2014-10-22 12:01:08]	INFO	node worker start
+[2014-10-22 12:01:18]	INFO	connect to master:true
+[2014-10-22 12:01:18]	INFO	node worker start
+[2014-10-22 12:01:28]	INFO	connect to master:true
+[2014-10-22 12:01:28]	INFO	node worker start
+[2014-10-22 12:01:38]	INFO	connect to master:true
+[2014-10-22 12:01:39]	INFO	node worker start
+[2014-10-22 12:01:46]	INFO	node server shutdown
+[2014-10-22 12:01:46]	INFO	connect to master:true
+[2014-10-22 12:01:54]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 12:01:54]	INFO	node server start
+[2014-10-22 12:01:54]	INFO	node worker start
+[2014-10-22 12:02:04]	INFO	connect to master:true
+[2014-10-22 12:02:04]	INFO	node worker start
+[2014-10-22 12:02:14]	INFO	connect to master:true
+[2014-10-22 12:02:14]	INFO	node worker start
+[2014-10-22 12:02:14]	INFO	node server shutdown
+[2014-10-22 12:02:14]	INFO	connect to master:true
+[2014-10-22 12:02:44]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 12:02:45]	INFO	node server start
+[2014-10-22 12:02:45]	INFO	node worker start
+[2014-10-22 12:03:08]	INFO	connect to master:true
+[2014-10-22 12:03:43]	INFO	node worker start
+[2014-10-22 12:04:03]	INFO	connect to master:true
+[2014-10-22 12:04:03]	INFO	node worker start
+[2014-10-22 12:04:23]	INFO	connect to master:true
+[2014-10-22 12:04:23]	INFO	node worker start
+[2014-10-22 12:04:43]	INFO	connect to master:true
+[2014-10-22 12:04:44]	INFO	node worker start
+[2014-10-22 12:04:49]	INFO	node server shutdown
+[2014-10-22 12:04:49]	INFO	connect to master:true
+[2014-10-22 12:04:52]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 12:04:52]	INFO	node server start
+[2014-10-22 12:04:52]	INFO	node worker start
+[2014-10-22 12:05:12]	INFO	connect to master:true
+[2014-10-22 12:06:26]	INFO	node server shutdown
+[2014-10-22 12:16:57]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 12:16:57]	INFO	node server start
+[2014-10-22 12:16:57]	INFO	node worker start
+[2014-10-22 12:16:57]	INFO	connect to master:true
+[2014-10-22 12:18:45]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 12:19:37]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 12:21:45]	INFO	Array
+(
+    [0] => No mostats_svr found running; none killed.
+    [1] => stop mostats_svr failed
+)
+
+[2014-10-22 12:25:22]	INFO	node server shutdown
+[2014-10-22 12:25:34]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 12:25:34]	INFO	node server start
+[2014-10-22 12:25:34]	INFO	node worker start
+[2014-10-22 12:25:34]	INFO	connect to master:true
+[2014-10-22 12:32:49]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:10:12]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:13:22]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:13:29]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:15:26]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:17:32]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:21:17]	INFO	node server shutdown
+[2014-10-22 14:21:46]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:21:46]	INFO	node server start
+[2014-10-22 14:21:46]	INFO	node worker start
+[2014-10-22 14:21:46]	INFO	connect to master:true
+[2014-10-22 14:22:11]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web
+[2014-10-22 14:22:11]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:27:42]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web
+[2014-10-22 14:27:42]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:27:45]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web
+[2014-10-22 14:27:45]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:27:59]	INFO	node server shutdown
+[2014-10-22 14:28:03]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:28:03]	INFO	node server start
+[2014-10-22 14:28:03]	INFO	node worker start
+[2014-10-22 14:28:03]	INFO	connect to master:true
+[2014-10-22 14:28:13]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web
+[2014-10-22 14:28:13]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:29:13]	INFO	node server shutdown
+[2014-10-22 14:29:14]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:29:14]	INFO	node server start
+[2014-10-22 14:29:14]	INFO	node worker start
+[2014-10-22 14:29:14]	INFO	connect to master:true
+[2014-10-22 14:29:39]	INFO	node server shutdown
+[2014-10-22 14:29:40]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:29:41]	INFO	node server start
+[2014-10-22 14:29:41]	INFO	node worker start
+[2014-10-22 14:29:58]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28418
+)
+
+[2014-10-22 14:29:58]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:33:23]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28513
+)
+
+[2014-10-22 14:33:23]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:36:24]	INFO	node server shutdown
+[2014-10-22 14:36:25]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:36:25]	INFO	node server start
+[2014-10-22 14:36:25]	INFO	node worker start
+[2014-10-22 14:36:31]	INFO	
+[2014-10-22 14:36:31]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28606
+)
+
+[2014-10-22 14:36:31]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:37:38]	INFO	
+[2014-10-22 14:37:38]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28634
+)
+
+[2014-10-22 14:37:38]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-22 14:38:44]	INFO	node server shutdown
+[2014-10-22 14:38:45]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:38:45]	INFO	node server start
+[2014-10-22 14:38:45]	INFO	node worker start
+[2014-10-22 14:38:51]	INFO	
+[2014-10-22 14:38:51]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28698
+)
+
+[2014-10-22 14:38:51]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:41:28]	INFO	node server shutdown
+[2014-10-22 14:41:29]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:41:29]	INFO	node server start
+[2014-10-22 14:41:29]	INFO	node worker start
+[2014-10-22 14:41:55]	INFO	
+[2014-10-22 14:41:55]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28795
+)
+
+[2014-10-22 14:41:55]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:46:19]	INFO	
+[2014-10-22 14:46:19]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28894
+)
+
+[2014-10-22 14:46:19]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:49:02]	INFO	node server shutdown
+[2014-10-22 14:49:03]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:49:03]	INFO	node server start
+[2014-10-22 14:49:03]	INFO	node worker start
+[2014-10-22 14:49:08]	INFO	
+[2014-10-22 14:49:08]	INFO	Array
+(
+    [code] => 0
+    [pid] => 28996
+)
+
+[2014-10-22 14:49:08]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:49:35]	INFO	node server shutdown
+[2014-10-22 14:49:36]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:49:36]	INFO	node server start
+[2014-10-22 14:49:36]	INFO	node worker start
+[2014-10-22 14:49:42]	INFO	
+[2014-10-22 14:49:42]	INFO	Array
+(
+    [code] => 0
+    [pid] => 29041
+)
+
+[2014-10-22 14:49:42]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:50:44]	INFO	node server shutdown
+[2014-10-22 14:50:45]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:50:45]	INFO	node server start
+[2014-10-22 14:50:45]	INFO	node worker start
+[2014-10-22 14:50:51]	INFO	
+[2014-10-22 14:50:51]	INFO	Array
+(
+    [code] => 0
+    [pid] => 29088
+)
+
+[2014-10-22 14:50:51]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 14:54:42]	INFO	node server shutdown
+[2014-10-22 14:54:43]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:54:44]	INFO	node server start
+[2014-10-22 14:54:44]	INFO	node worker start
+[2014-10-22 14:54:49]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+)
+
+[2014-10-22 14:55:30]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => stop stats_web success
+)
+
+[2014-10-22 14:56:07]	INFO	node server shutdown
+[2014-10-22 14:56:08]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:56:08]	INFO	node server start
+[2014-10-22 14:56:08]	INFO	node worker start
+[2014-10-22 14:57:00]	INFO	clientClose passive
+[2014-10-22 14:57:00]	INFO	node server shutdown
+[2014-10-22 14:57:21]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 14:57:21]	INFO	node server start
+[2014-10-22 14:57:21]	INFO	node worker start
+[2014-10-22 14:57:37]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => stop stats_web failed
+)
+
+[2014-10-22 14:59:05]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+)
+
+[2014-10-22 15:01:42]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => stop stats_web success
+)
+
+[2014-10-22 15:04:03]	INFO	node server shutdown
+[2014-10-22 15:04:04]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:04:04]	INFO	node server start
+[2014-10-22 15:04:04]	INFO	node worker start
+[2014-10-22 15:04:17]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+)
+
+[2014-10-22 15:07:52]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => stop stats_web success
+)
+
+[2014-10-22 15:09:41]	INFO	node server shutdown
+[2014-10-22 15:09:42]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:09:42]	INFO	node server start
+[2014-10-22 15:09:42]	INFO	node worker start
+[2014-10-22 15:09:54]	INFO	clientClose passive
+[2014-10-22 15:09:54]	INFO	node server shutdown
+[2014-10-22 15:10:04]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:10:04]	INFO	node server start
+[2014-10-22 15:10:04]	INFO	node worker start
+[2014-10-22 15:10:50]	INFO	
+[2014-10-22 15:10:50]	INFO	Array
+(
+    [code] => 0
+    [pid] => 29851
+)
+
+[2014-10-22 15:10:50]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 15:11:59]	INFO	node server shutdown
+[2014-10-22 15:12:00]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:12:01]	INFO	node server start
+[2014-10-22 15:12:01]	INFO	node worker start
+[2014-10-22 15:12:07]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => start stats_web failed
+)
+
+[2014-10-22 15:13:53]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => stop stats_web success
+)
+
+[2014-10-22 15:14:40]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => start stats_web failed
+)
+
+[2014-10-22 15:26:36]	INFO	node server shutdown
+[2014-10-22 15:26:38]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:26:38]	INFO	node server start
+[2014-10-22 15:26:38]	INFO	node worker start
+[2014-10-22 15:26:48]	INFO	
+[2014-10-22 15:26:48]	INFO	Array
+(
+    [code] => 0
+    [pid] => 30323
+)
+
+[2014-10-22 15:26:48]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 15:27:30]	INFO	node server shutdown
+[2014-10-22 15:27:31]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:27:31]	INFO	node server start
+[2014-10-22 15:27:31]	INFO	node worker start
+[2014-10-22 15:27:36]	INFO	
+[2014-10-22 15:27:36]	INFO	Array
+(
+    [code] => 0
+    [pid] => 30373
+)
+
+[2014-10-22 15:27:36]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 15:43:15]	INFO	clientClose passive
+[2014-10-22 15:43:15]	INFO	node server shutdown
+[2014-10-22 15:43:24]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:43:24]	INFO	node server start
+[2014-10-22 15:43:24]	INFO	node worker start
+[2014-10-22 15:43:51]	INFO	node server shutdown
+[2014-10-22 15:43:52]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:43:52]	INFO	node server start
+[2014-10-22 15:43:52]	INFO	node worker start
+[2014-10-22 15:43:57]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => start stats_web success
+)
+
+[2014-10-22 15:56:53]	INFO	clientClose passive
+[2014-10-22 15:56:53]	INFO	node server shutdown
+[2014-10-22 15:57:00]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 15:57:00]	INFO	node server start
+[2014-10-22 15:57:00]	INFO	node worker start
+[2014-10-22 15:57:26]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:01:01]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:05:37]	INFO	clientClose passive
+[2014-10-22 16:05:37]	INFO	node server shutdown
+[2014-10-22 16:06:00]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:06:01]	INFO	node server start
+[2014-10-22 16:06:01]	INFO	node worker start
+[2014-10-22 16:06:27]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:09:49]	INFO	node server shutdown
+[2014-10-22 16:09:50]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:09:50]	INFO	node server start
+[2014-10-22 16:09:50]	INFO	node worker start
+[2014-10-22 16:10:40]	INFO	
+[2014-10-22 16:10:40]	INFO	Array
+(
+    [code] => 0
+    [pid] => 2091
+)
+
+[2014-10-22 16:10:40]	INFO	Array
+(
+    [0] => start stats_web failed
+)
+
+[2014-10-22 16:10:55]	INFO	
+[2014-10-22 16:10:55]	INFO	Array
+(
+    [code] => 0
+    [pid] => 2095
+)
+
+[2014-10-22 16:10:55]	INFO	Array
+(
+    [0] => start stats_web failed
+)
+
+[2014-10-22 16:13:18]	INFO	node server shutdown
+[2014-10-22 16:13:19]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:13:19]	INFO	node server start
+[2014-10-22 16:13:19]	INFO	node worker start
+[2014-10-22 16:13:28]	INFO	
+[2014-10-22 16:13:28]	INFO	Array
+(
+    [code] => 0
+    [pid] => 2176
+)
+
+[2014-10-22 16:13:28]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:14:51]	INFO	
+[2014-10-22 16:14:51]	INFO	Array
+(
+    [code] => 0
+    [pid] => 2210
+)
+
+[2014-10-22 16:14:51]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:24:02]	INFO	
+[2014-10-22 16:24:02]	INFO	Array
+(
+    [code] => 0
+    [pid] => 2245
+)
+
+[2014-10-22 16:24:02]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:24:45]	INFO	clientClose passive
+[2014-10-22 16:24:45]	INFO	node server shutdown
+[2014-10-22 16:24:51]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:24:51]	INFO	node server start
+[2014-10-22 16:24:51]	INFO	node worker start
+[2014-10-22 16:25:23]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web
+[2014-10-22 16:25:23]	INFO	/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+
+[2014-10-22 16:25:23]	INFO	Array
+(
+    [code] => 0
+    [pid] => 3817
+)
+
+[2014-10-22 16:25:23]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:27:54]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web
+[2014-10-22 16:27:54]	INFO	/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+
+[2014-10-22 16:27:54]	INFO	Array
+(
+    [code] => 0
+    [pid] => 3879
+)
+
+[2014-10-22 16:27:54]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:29:01]	INFO	node server shutdown
+[2014-10-22 16:29:02]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:29:02]	INFO	node server start
+[2014-10-22 16:29:02]	INFO	node worker start
+[2014-10-22 16:29:18]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/stats_web/server/stats_web
+    [1] => /home/shiguangqi/workspace/module_stats/server/run/stats_web.pid
+    [2] => stop stats_web success
+)
+
+[2014-10-22 16:29:50]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/server/stats_web
+
+[2014-10-22 16:29:50]	INFO	Array
+(
+    [code] => 0
+    [pid] => 4008
+)
+
+[2014-10-22 16:29:50]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:30:00]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/stats_web/server/stats_web
+    [1] => stop stats_web success
+)
+
+[2014-10-22 16:30:04]	INFO	/home/shiguangqi/workspace/module_stats/server/stats_web/server/stats_web
+
+[2014-10-22 16:30:04]	INFO	Array
+(
+    [code] => 0
+    [pid] => 4034
+)
+
+[2014-10-22 16:30:04]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:32:07]	INFO	node server shutdown
+[2014-10-22 16:32:08]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:32:08]	INFO	node server start
+[2014-10-22 16:32:08]	INFO	node worker start
+[2014-10-22 16:32:19]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/stats_web/server/stats_web
+    [1] => stop stats_web success
+)
+
+[2014-10-22 16:32:24]	INFO	Array
+(
+    [0] => /home/shiguangqi/workspace/module_stats/server/stats_web/server/stats_web
+
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:32:58]	INFO	Array
+(
+    [0] => asdddsssaassd
+    [1] => stop stats_web success
+)
+
+[2014-10-22 16:33:03]	INFO	Array
+(
+    [0] => asdddsssaassd
+
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:33:25]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:33:58]	INFO	node server shutdown
+[2014-10-22 16:33:59]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:33:59]	INFO	node server start
+[2014-10-22 16:33:59]	INFO	node worker start
+[2014-10-22 16:34:06]	INFO	clientClose passive
+[2014-10-22 16:34:06]	INFO	node server shutdown
+[2014-10-22 16:34:20]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:34:20]	INFO	node server start
+[2014-10-22 16:34:20]	INFO	node worker start
+[2014-10-22 16:34:26]	INFO	Array
+(
+    [0] => 
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:34:26]	INFO	clientClose passive
+[2014-10-22 16:34:27]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:36:44]	INFO	Array
+(
+    [0] => 
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:37:45]	INFO	node server shutdown
+[2014-10-22 16:37:46]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:37:47]	INFO	node server start
+[2014-10-22 16:37:47]	INFO	node worker start
+[2014-10-22 16:37:52]	INFO	clientClose passive
+[2014-10-22 16:37:52]	INFO	node server shutdown
+[2014-10-22 16:37:58]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:37:58]	INFO	node server start
+[2014-10-22 16:37:58]	INFO	node worker start
+[2014-10-22 16:38:08]	INFO	Array
+(
+    [0] => 
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:38:08]	INFO	clientClose passive
+[2014-10-22 16:38:09]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:39:34]	INFO	node server shutdown
+[2014-10-22 16:39:35]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:39:35]	INFO	node server start
+[2014-10-22 16:39:35]	INFO	node worker start
+[2014-10-22 16:39:47]	INFO	clientClose passive
+[2014-10-22 16:39:47]	INFO	node server shutdown
+[2014-10-22 16:39:51]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:39:52]	INFO	node server start
+[2014-10-22 16:39:52]	INFO	node worker start
+[2014-10-22 16:39:57]	INFO	Array
+(
+    [code] => 0
+    [pid] => 4701
+)
+
+[2014-10-22 16:39:57]	INFO	Array
+(
+    [0] => 
+    [1] => start stats_web success
+)
+
+[2014-10-22 16:39:57]	INFO	clientClose passive
+[2014-10-22 16:39:58]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:40:00]	INFO	Array
+(
+    [code] => 0
+    [pid] => 4864
+)
+
+[2014-10-22 16:40:00]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:40:07]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:40:08]	INFO	Array
+(
+    [code] => 0
+    [pid] => 4901
+)
+
+[2014-10-22 16:40:08]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:40:15]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:40:17]	INFO	Array
+(
+    [code] => 0
+    [pid] => 4920
+)
+
+[2014-10-22 16:40:17]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:41:00]	INFO	node server shutdown
+[2014-10-22 16:41:18]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:41:18]	INFO	node server start
+[2014-10-22 16:41:18]	INFO	node worker start
+[2014-10-22 16:41:28]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:41:31]	INFO	Array
+(
+    [code] => 0
+    [pid] => 5023
+)
+
+[2014-10-22 16:41:31]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:41:42]	INFO	node server shutdown
+[2014-10-22 16:41:48]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:41:48]	INFO	node server start
+[2014-10-22 16:41:48]	INFO	node worker start
+[2014-10-22 16:42:05]	INFO	node server shutdown
+[2014-10-22 16:42:29]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:42:29]	INFO	node worker start
+[2014-10-22 16:42:29]	INFO	node server start
+[2014-10-22 16:42:50]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:42:51]	INFO	Array
+(
+    [code] => 0
+    [pid] => 5189
+)
+
+[2014-10-22 16:42:51]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:42:58]	INFO	node server shutdown
+[2014-10-22 16:43:17]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:43:17]	INFO	node server start
+[2014-10-22 16:43:17]	INFO	node worker start
+[2014-10-22 16:43:23]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:43:26]	INFO	Array
+(
+    [code] => 0
+    [pid] => 5301
+)
+
+[2014-10-22 16:43:26]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:43:33]	INFO	node server shutdown
+[2014-10-22 16:43:39]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:43:39]	INFO	node server start
+[2014-10-22 16:43:39]	INFO	node worker start
+[2014-10-22 16:49:02]	INFO	node server shutdown
+[2014-10-22 16:50:18]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:50:18]	INFO	node server start
+[2014-10-22 16:50:18]	INFO	node worker start
+[2014-10-22 16:52:56]	INFO	node server shutdown
+[2014-10-22 16:53:01]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:53:01]	INFO	node server start
+[2014-10-22 16:53:01]	INFO	node worker start
+[2014-10-22 16:53:21]	INFO	node server shutdown
+[2014-10-22 16:53:31]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:53:31]	INFO	node server start
+[2014-10-22 16:53:31]	INFO	node worker start
+[2014-10-22 16:55:04]	INFO	node server shutdown
+[2014-10-22 16:55:10]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:55:10]	INFO	node server start
+[2014-10-22 16:55:10]	INFO	node worker start
+[2014-10-22 16:55:19]	INFO	node server shutdown
+[2014-10-22 16:55:23]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:55:23]	INFO	node server start
+[2014-10-22 16:55:23]	INFO	node worker start
+[2014-10-22 16:55:32]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:55:37]	INFO	Array
+(
+    [code] => 0
+    [pid] => 5777
+)
+
+[2014-10-22 16:55:37]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:57:18]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:58:01]	INFO	Array
+(
+    [code] => 0
+    [pid] => 5840
+)
+
+[2014-10-22 16:58:01]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 16:58:28]	INFO	node server shutdown
+[2014-10-22 16:58:31]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 16:58:31]	INFO	node server start
+[2014-10-22 16:58:31]	INFO	node worker start
+[2014-10-22 16:58:43]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 16:58:47]	INFO	Array
+(
+    [code] => 0
+    [pid] => 5932
+)
+
+[2014-10-22 16:58:47]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:21:22]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:21:24]	INFO	Array
+(
+    [code] => 0
+    [pid] => 6379
+)
+
+[2014-10-22 17:21:24]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:24:09]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:24:12]	INFO	Array
+(
+    [code] => 0
+    [pid] => 6441
+)
+
+[2014-10-22 17:24:12]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:31:01]	INFO	clientClose passive
+[2014-10-22 17:31:01]	INFO	node server shutdown
+[2014-10-22 17:31:06]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 17:31:07]	INFO	node server start
+[2014-10-22 17:31:07]	INFO	node worker start
+[2014-10-22 17:31:14]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:31:24]	INFO	Array
+(
+    [code] => 0
+    [pid] => 6632
+)
+
+[2014-10-22 17:31:24]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:35:18]	INFO	clientClose passive
+[2014-10-22 17:35:18]	INFO	node server shutdown
+[2014-10-22 17:35:23]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 17:35:23]	INFO	node server start
+[2014-10-22 17:35:23]	INFO	node worker start
+[2014-10-22 17:35:45]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:35:50]	INFO	Array
+(
+    [code] => 0
+    [pid] => 6796
+)
+
+[2014-10-22 17:35:50]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:37:57]	INFO	node server shutdown
+[2014-10-22 17:37:58]	INFO	upload server 已经在执行 pid=21363
+[2014-10-22 17:37:58]	INFO	node server start
+[2014-10-22 17:37:58]	INFO	node worker start
+[2014-10-22 17:38:06]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:38:09]	INFO	Array
+(
+    [code] => 0
+    [pid] => 6890
+)
+
+[2014-10-22 17:38:09]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:38:43]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:38:52]	INFO	Array
+(
+    [code] => 0
+    [pid] => 6934
+)
+
+[2014-10-22 17:38:52]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:41:10]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:41:12]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7067
+)
+
+[2014-10-22 17:41:12]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:42:05]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:42:07]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7112
+)
+
+[2014-10-22 17:42:07]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 17:59:33]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 17:59:37]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7437
+)
+
+[2014-10-22 17:59:37]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:04:11]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:04:13]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7589
+)
+
+[2014-10-22 18:04:13]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:04:54]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:04:57]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7627
+)
+
+[2014-10-22 18:04:57]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:05:20]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:05:23]	INFO	Array
+(
+    [0] => stop stats_web failed
+)
+
+[2014-10-22 18:05:36]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7679
+)
+
+[2014-10-22 18:05:36]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:10:02]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:10:04]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7809
+)
+
+[2014-10-22 18:10:04]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:10:45]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:10:49]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7847
+)
+
+[2014-10-22 18:10:49]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:12:00]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:12:06]	INFO	Array
+(
+    [code] => 0
+    [pid] => 7893
+)
+
+[2014-10-22 18:12:06]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:14:11]	INFO	1
+[2014-10-22 18:14:11]	INFO	array (
+  0 => '/install.sh',
+  1 => 'install failed',
+)
+[2014-10-22 18:15:23]	INFO	1
+[2014-10-22 18:15:23]	INFO	array (
+  0 => '/install.sh',
+  1 => 'install failed',
+)
+[2014-10-22 18:30:30]	INFO	0
+[2014-10-22 18:30:30]	INFO	array (
+  0 => 'node/install.sh',
+  1 => 'install success',
+)
+[2014-10-22 18:30:43]	INFO	0
+[2014-10-22 18:30:43]	INFO	array (
+  0 => 'node/install.sh',
+  1 => 'install success',
+)
+[2014-10-22 18:31:50]	INFO	0
+[2014-10-22 18:31:50]	INFO	array (
+  0 => 'node/install.sh',
+  1 => 'install success',
+)
+[2014-10-22 18:33:53]	INFO	0
+[2014-10-22 18:33:53]	INFO	array (
+  0 => 'node/install.sh',
+  1 => 'install success',
+)
+[2014-10-22 18:34:07]	INFO	0
+[2014-10-22 18:34:07]	INFO	array (
+  0 => 'node/install.sh',
+  1 => 'install success',
+)
+[2014-10-22 18:34:14]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:34:16]	INFO	Array
+(
+    [code] => 0
+    [pid] => 8445
+)
+
+[2014-10-22 18:34:16]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:37:49]	INFO	Array
+(
+    [code] => 0
+    [pid] => 8555
+)
+
+[2014-10-22 18:37:49]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-22 18:37:58]	INFO	Array
+(
+    [code] => 0
+    [pid] => 8569
+)
+
+[2014-10-22 18:37:58]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-22 18:39:51]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-22 18:39:54]	INFO	Array
+(
+    [code] => 0
+    [pid] => 8658
+)
+
+[2014-10-22 18:39:54]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-22 18:42:42]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 8560).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-22 18:42:46]	INFO	Array
+(
+    [code] => 0
+    [pid] => 8727
+)
+
+[2014-10-22 18:42:46]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-22 18:43:56]	INFO	0
+[2014-10-22 18:43:56]	INFO	array (
+  0 => 'node/install.sh',
+  1 => 'install success',
+)
+[2014-10-22 18:50:45]	INFO	1
+[2014-10-22 18:50:45]	INFO	array (
+  0 => 'master/install.sh',
+  1 => 'install failed',
+)
+[2014-10-23 11:04:31]	INFO	Array
+(
+    [code] => 0
+    [pid] => 22047
+)
+
+[2014-10-23 11:04:31]	INFO	Array
+(
+    [0] => start log_svr success
+)
+
+[2014-10-23 11:39:29]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 11:39:32]	INFO	Array
+(
+    [code] => 0
+    [pid] => 22854
+)
+
+[2014-10-23 11:39:32]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 11:39:38]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 12:22:16]	INFO	Array
+(
+    [code] => 0
+    [pid] => 24055
+)
+
+[2014-10-23 12:22:16]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 14:28:24]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 8732).
+    [1] => stop mostats_svr success
+)
+

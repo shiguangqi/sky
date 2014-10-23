@@ -67,6 +67,9 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
             if (array_key_exists($node,$this->sky->nodes))
             {
                 $return['s'] = $params['s'];
+                $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+                $return['c'] =  $params['c']; //client id
+                $return['sn'] =  $params['sn'];
                 $this->send($node,$return);
             }
             else
@@ -94,6 +97,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
                 $return['s'] = $params['s'];
                 $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
                 $return['c'] =  $params['c']; //client id
+                $return['sn'] =  $params['sn'];
                 $this->send($node,$return);
             }
             else
@@ -121,6 +125,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
                 $return['m'] = $params['m'];
                 $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
                 $return['c'] =  $params['c']; //client id
+                $return['sn'] =  $params['sn'];
                 $this->send($node,$return);
             }
             else
@@ -148,6 +153,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
                 $return['m'] = $params['m'];
                 $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
                 $return['c'] =  $params['c']; //client id
+                $return['sn'] =  $params['sn'];
                 $this->send($node,$return);
             }
             else
@@ -175,6 +181,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
                 $return['m'] = $params['m'];
                 $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
                 $return['c'] =  $params['c']; //client id
+                $return['sn'] =  $params['sn'];
                 $this->send($node,$return);
             }
             else
@@ -202,6 +209,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
             $return['o'] = $params['o'];
             $return['m'] = $params['m'];
             $return['fd'] = $params['fd'];
+            $return['n'] =  $params['n'];
             $this->send($ctl_fd, array('params'=>$return));
         }
     }
@@ -215,6 +223,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
             $return['o'] = $params['o'];
             $return['m'] = $params['m'];
             $return['fd'] = $params['fd'];
+            $return['n'] =  $params['n']; //client id
             $this->send($ctl_fd, array('params'=>$return));
         }
     }
@@ -229,6 +238,7 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
             $return['o'] = $params['o'];
             $return['m'] = $params['m'];
             $return['fd'] = $params['fd'];
+            $return['n'] =  $params['n'];
             $this->send($ctl_fd, array('params'=>$return));
         }
     }

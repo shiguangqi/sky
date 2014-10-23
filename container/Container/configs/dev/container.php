@@ -21,13 +21,13 @@ $container['project'] = array(
         ),
         'server' => array(
             'max_request' => 2000,
-            'webroot' => 'http://127.0.0.1:7777',
+            'webroot' => 'http://127.0.0.1:7000',
             'document_root' => CROOT.'/root/project1',
             'process_rename' => 1,
             'keepalive' => 1,
             //'gzip_open' => 1,
             'user' => 'www-data',
-            'expire_open' => 1,
+            'expire_open' => 0,
         ),
         'session' =>  array(
             'cookie_life' => 1800,

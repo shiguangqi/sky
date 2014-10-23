@@ -7,14 +7,9 @@ namespace Sky;
 class Cmd
 {
     public $node;
-    public $register_cmd = array('pre_install','post_install');//支持的指令
-    public $upload_tmp_path = '/tmp';
-    public $install_sh = 'install.sh';
 
     private $cmd_header = "cmd ";
     private $protocol_end = "\r\n";
-
-    private $init;
 
     public function __construct($config,$node)
     {
@@ -46,8 +41,6 @@ class Cmd
                         $output[] = 'install failed';
                         $params['status'] = 1;
                     }
-                    $this->node->log(var_export($return,1));
-                    $this->node->log(var_export($output,1));
                     $client->send($this->response($params,$output,'file_install'));
                     break;
                 case 'start_monitor':
@@ -75,7 +68,7 @@ class Cmd
                 break;
             case 'stop_monitor' :
             case 'start_monitor' :
-                $line = $this->cmd_header."_{$type} -s {$params['status']} -m {$data['data']['m']} -fd {$data['data']['fd']} -c {$data['data']['c']} -o $o ".$this->protocol_end;
+                $line = $this->cmd_header."_{$type} -s {$params['status']} -m {$data['data']['m']} -fd {$data['data']['fd']} -c {$data['data']['c']} -n {$data['data']['sn']} -o $o ".$this->protocol_end;
                 break;
         }
         return $line;
@@ -84,8 +77,9 @@ class Cmd
     public function start_monitor($params,$client)
     {
         $name = $params['content']['data']['m'];
-        $this->init = $this->config[$name]['init'];
-        $worker = new \swoole_process(array($this, 'do_start'), false, true);
+        $init = $this->config[$name]['init'];
+        $worker = new \swoole_process(array($this, 'do_start'), true);
+        $worker->init = $init;
         $output = array();
         $worker->start();
         $return = \swoole_process::wait();
@@ -97,7 +91,6 @@ class Cmd
         {
             $output[] = "start {$name} failed";
         }
-        $this->node->log(print_r($output,1));
         $params['status'] = $return['code'];
         $client->send($this->response($params,$output,'start_monitor'));
         return  $return['code'];
@@ -106,14 +99,14 @@ class Cmd
     function do_start(\swoole_process $worker)
     {
         $this->node->client->close();
-        $worker->exec("/bin/sh",array($this->init,"_start"));
+        $worker->exec("/bin/sh",array($worker->init,"_start"));
     }
 
     public function stop_monitor($params,$client)
     {
         $name = $params['content']['data']['m'];
         $init = $this->config[$name]['init'];
-        exec($init." _stop {$client->sock}",$output,$return);
+        exec($init." _stop",$output,$return);
         if ($return === 0)
         {
             $output[] = "stop {$name} success";
@@ -124,14 +117,13 @@ class Cmd
             $output[] = "stop {$name} failed";
             $params['status'] = 1;
         }
-        $this->node->log(print_r($output,1));
         $client->send($this->response($params,$output,'stop_monitor'));
         return  $return;
     }
 
     public function restart_monitor($params,$client)
     {
-        if (!$this->stop_monitor($params,$client,1))
+        if (!$this->stop_monitor($params,$client))
         {
             $this->start_monitor($params,$client);
         }

@@ -86,17 +86,51 @@ class Sky extends \App\LoginController
     public function updateVersion()
     {
         $name = $_POST['name'];
+        $ip = $_POST['ip'];
         $version = $_POST['version'];
         $return['status'] = 400;
         //\Swoole\Error::dbd();
+        $now = date('Y-m-d H:i:s');
         if (!empty($name))
         {
-            if (table('app_install')->exists(array('name'=>$name)))
+            if (table('app_install')->exists(array('name'=>$name,'ip'=>$ip)))
             {
-                $res = table('app_install')->set($name,array('version'=>$version),'name');
+                $user  = table('user')->get($_SESSION['userinfo']['username'],'username')->get();
+                $updates['version'] = $version;
+                $updates['last_install_time'] = $now;
+                $updates['last_start_by'] = $user['id'];
+                $where = array('name'=>$name,'ip'=>$ip);
+                $res = table('app_install')->sets($updates,$where);
                 if ($res)
                 {
                     $return['status'] = 200;
+                    $return['last_install_time'] = $now;
+                }
+            }
+        }
+        echo json_encode($return);
+    }
+
+    public function updateStartTime()
+    {
+        $name = $_POST['name'];
+        $ip = $_POST['ip'];
+        $return['status'] = 400;
+        $now = date('Y-m-d H:i:s');
+        //\Swoole\Error::dbd();
+        if (!empty($name))
+        {
+            if (table('app_install')->exists(array('name'=>$name,'ip'=>$ip)))
+            {
+                $user  = table('user')->get($_SESSION['userinfo']['username'],'username')->get();
+                $updates['last_start_time'] = $now;
+                $updates['last_start_by'] = $user['id'];
+                $where = array('name'=>$name,'ip'=>$ip);
+                $res = table('app_install')->sets($updates,$where);
+                if ($res)
+                {
+                    $return['status'] = 200;
+                    $return['last_start_time'] = $now;
                 }
             }
         }

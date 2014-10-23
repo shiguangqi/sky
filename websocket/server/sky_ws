@@ -14,7 +14,7 @@ if (get_cfg_var('env.name') == 'dev')
 }
 else
 {
-    $config = parse_ini_file(__DIR__.'/../configs/master.ini',true);
+    $config = parse_ini_file(__DIR__.'/../configs/ws.ini',true);
 }
 
 $web = new Sky\WebsocketSvr();

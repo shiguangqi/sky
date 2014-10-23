@@ -35,7 +35,7 @@ class ClientHandler
             $data = json_decode($data,1);
             if (in_array($data['cmd'],array('start_service','stop_service')))
             {
-                call_user_func(array($this->node->daemon,"cmd"),$data);
+                call_user_func(array($this->node->daemon,"cmd"),array('client'=>$client,'content'=>$data));
             }
             else //指令服务
             {
