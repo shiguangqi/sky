@@ -1,7 +1,4 @@
-/.project
 /.idea
-*.o
-*.lo
 *.gz
 
 vendor/
