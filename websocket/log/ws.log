@@ -8922,3 +8922,6341 @@ stop mostats_svr success
 
 [2014-10-23 14:29:05]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
 
+[2014-10-23 18:10:31]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:10:31]	INFO	[10] opcode=8
+[2014-10-23 18:10:31]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:10:31]	INFO	close client_id = 10
+[2014-10-23 18:10:31]	INFO	client[#10@0] close
+[2014-10-23 18:10:41]	INFO	connected client_id = 10
+[2014-10-23 18:10:41]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: bH/+uxDQZqimPkJ3CwiV3A==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:10:41]	INFO	new http request. fd=10
+[2014-10-23 18:10:41]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:10:41]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:10:41]	INFO	[10] opcode=1
+[2014-10-23 18:10:41]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:10:41]	INFO	node webinit -c 10
+
+[2014-10-23 18:10:53]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 18:10:53]	INFO	[10] opcode=1
+[2014-10-23 18:10:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:10:53]	INFO	cmd restart_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:10:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:10:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:11:17]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 18:11:17]	INFO	[10] opcode=1
+[2014-10-23 18:11:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:11:17]	INFO	cmd restart_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:11:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:11:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:12:58]	INFO	NewFrame finish. Opcode=1|Length=72
+[2014-10-23 18:12:58]	INFO	[10] opcode=1
+[2014-10-23 18:12:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 18:12:58]	INFO	cmd restart_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:13:29]	INFO	NewFrame finish. Opcode=1|Length=72
+[2014-10-23 18:13:29]	INFO	[10] opcode=1
+[2014-10-23 18:13:29]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 18:13:29]	INFO	cmd restart_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:13:40]	INFO	NewFrame finish. Opcode=1|Length=72
+[2014-10-23 18:13:40]	INFO	[10] opcode=1
+[2014-10-23 18:13:40]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 18:13:40]	INFO	cmd restart_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 18:13:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:13:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:14:19]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 18:14:19]	INFO	[10] opcode=1
+[2014-10-23 18:14:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 18:14:19]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 18:14:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:33:58]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:33:58]	INFO	[10] opcode=8
+[2014-10-23 18:33:58]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:33:58]	INFO	close client_id = 10
+[2014-10-23 18:33:58]	INFO	client[#10@0] close
+[2014-10-23 18:33:58]	INFO	connected client_id = 10
+[2014-10-23 18:33:58]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: f8CYBKpUvjufZNwc+15BVg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:33:58]	INFO	new http request. fd=10
+[2014-10-23 18:33:58]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:33:58]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:33:58]	INFO	[10] opcode=1
+[2014-10-23 18:33:58]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:33:58]	INFO	node webinit -c 10
+
+[2014-10-23 18:34:03]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 18:34:03]	INFO	[10] opcode=1
+[2014-10-23 18:34:03]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:34:03]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:34:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:34:08]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 18:34:08]	INFO	[10] opcode=1
+[2014-10-23 18:34:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:34:08]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:34:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:35:06]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:35:06]	INFO	[10] opcode=8
+[2014-10-23 18:35:06]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:35:06]	INFO	close client_id = 10
+[2014-10-23 18:35:06]	INFO	client[#10@0] close
+[2014-10-23 18:35:06]	INFO	connected client_id = 10
+[2014-10-23 18:35:06]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: BtI3Qn6lTgPHHLCYQ2j13A==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:35:06]	INFO	new http request. fd=10
+[2014-10-23 18:35:06]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:35:07]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:35:07]	INFO	[10] opcode=1
+[2014-10-23 18:35:07]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:35:07]	INFO	node webinit -c 10
+
+[2014-10-23 18:35:14]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 18:35:14]	INFO	[10] opcode=1
+[2014-10-23 18:35:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:35:14]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:35:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:35:19]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 18:35:19]	INFO	[10] opcode=1
+[2014-10-23 18:35:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:35:19]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:35:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:35:27]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 18:35:27]	INFO	[10] opcode=1
+[2014-10-23 18:35:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 18:35:27]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 18:36:54]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:36:54]	INFO	[10] opcode=8
+[2014-10-23 18:36:54]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:36:54]	INFO	close client_id = 10
+[2014-10-23 18:36:54]	INFO	client[#10@0] close
+[2014-10-23 18:36:54]	INFO	connected client_id = 10
+[2014-10-23 18:36:54]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: mkmt5L5OBtoKIOKPZYAGyg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:36:54]	INFO	new http request. fd=10
+[2014-10-23 18:36:54]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:36:54]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:36:54]	INFO	[10] opcode=1
+[2014-10-23 18:36:54]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:36:54]	INFO	node webinit -c 10
+
+[2014-10-23 18:37:00]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 18:37:00]	INFO	[10] opcode=1
+[2014-10-23 18:37:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:37:00]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:37:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:37:04]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 18:37:04]	INFO	[10] opcode=1
+[2014-10-23 18:37:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:37:04]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:37:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:39:49]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 18:39:49]	INFO	[10] opcode=1
+[2014-10-23 18:39:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:39:49]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:39:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:39:59]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 18:39:59]	INFO	[10] opcode=1
+[2014-10-23 18:39:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:39:59]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:39:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:43:33]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 18:43:33]	INFO	[10] opcode=1
+[2014-10-23 18:43:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:43:33]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:43:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:44:03]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:44:03]	INFO	[10] opcode=8
+[2014-10-23 18:44:03]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:44:03]	INFO	close client_id = 10
+[2014-10-23 18:44:03]	INFO	client[#10@0] close
+[2014-10-23 18:44:03]	INFO	connected client_id = 10
+[2014-10-23 18:44:03]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: hktiFmJFMapB0kEqx1zUmw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:44:03]	INFO	new http request. fd=10
+[2014-10-23 18:44:03]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:44:03]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:44:03]	INFO	[10] opcode=1
+[2014-10-23 18:44:03]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:44:03]	INFO	node webinit -c 10
+
+[2014-10-23 18:44:09]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 18:44:09]	INFO	[10] opcode=1
+[2014-10-23 18:44:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:44:09]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:44:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:44:12]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 18:44:12]	INFO	[10] opcode=1
+[2014-10-23 18:44:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 18:44:12]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 18:44:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:44:17]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 18:44:17]	INFO	[10] opcode=1
+[2014-10-23 18:44:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 18:44:17]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 18:44:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 31721).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:44:20]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 18:44:20]	INFO	[10] opcode=1
+[2014-10-23 18:44:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 18:44:20]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 18:44:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:44:27]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 18:44:27]	INFO	[10] opcode=1
+[2014-10-23 18:44:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 18:44:27]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 18:44:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 32425).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:44:35]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 18:44:35]	INFO	[10] opcode=1
+[2014-10-23 18:44:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 18:44:35]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 18:44:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:56:47]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:56:47]	INFO	[10] opcode=8
+[2014-10-23 18:56:47]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:56:47]	INFO	close client_id = 10
+[2014-10-23 18:56:47]	INFO	client[#10@0] close
+[2014-10-23 18:56:48]	INFO	connected client_id = 10
+[2014-10-23 18:56:48]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: uLnM96hCST00GMtB4Mswgw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:56:48]	INFO	new http request. fd=10
+[2014-10-23 18:56:48]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:56:48]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:56:48]	INFO	[10] opcode=1
+[2014-10-23 18:56:48]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:56:48]	INFO	node webinit -c 10
+
+[2014-10-23 18:56:55]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 18:56:55]	INFO	[10] opcode=1
+[2014-10-23 18:56:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 18:56:55]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 18:56:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 32448).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:57:07]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:57:07]	INFO	[10] opcode=8
+[2014-10-23 18:57:07]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:57:07]	INFO	close client_id = 10
+[2014-10-23 18:57:07]	INFO	client[#10@0] close
+[2014-10-23 18:57:07]	INFO	connected client_id = 10
+[2014-10-23 18:57:07]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: xm6n4j/4tpCepv9hQplwDQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:57:07]	INFO	new http request. fd=10
+[2014-10-23 18:57:07]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:57:07]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:57:07]	INFO	[10] opcode=1
+[2014-10-23 18:57:07]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:57:07]	INFO	node webinit -c 10
+
+[2014-10-23 18:57:22]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 18:57:22]	INFO	[10] opcode=1
+[2014-10-23 18:57:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 18:57:22]	INFO	cmd stop_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 18:57:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 18:57:28]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:57:28]	INFO	[10] opcode=8
+[2014-10-23 18:57:28]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:57:28]	INFO	close client_id = 10
+[2014-10-23 18:57:28]	INFO	client[#10@0] close
+[2014-10-23 18:57:28]	INFO	connected client_id = 10
+[2014-10-23 18:57:28]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: gCo62z0lG1H2ia3E6E594g==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:57:28]	INFO	new http request. fd=10
+[2014-10-23 18:57:28]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:57:28]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:57:28]	INFO	[10] opcode=1
+[2014-10-23 18:57:28]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:57:28]	INFO	node webinit -c 10
+
+[2014-10-23 18:58:22]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 18:58:22]	INFO	[10] opcode=8
+[2014-10-23 18:58:22]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 18:58:22]	INFO	close client_id = 10
+[2014-10-23 18:58:22]	INFO	client[#10@0] close
+[2014-10-23 18:58:22]	INFO	connected client_id = 10
+[2014-10-23 18:58:22]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: P1+sLXeA47nJbP3hwUas2A==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 18:58:22]	INFO	new http request. fd=10
+[2014-10-23 18:58:22]	INFO	WebSocket connection #10 is connected
+[2014-10-23 18:58:22]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 18:58:22]	INFO	[10] opcode=1
+[2014-10-23 18:58:22]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 18:58:22]	INFO	node webinit -c 10
+
+[2014-10-23 19:00:04]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:00:04]	INFO	[10] opcode=8
+[2014-10-23 19:00:04]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:00:04]	INFO	close client_id = 10
+[2014-10-23 19:00:04]	INFO	client[#10@0] close
+[2014-10-23 19:00:04]	INFO	connected client_id = 10
+[2014-10-23 19:00:04]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: I7hLWDR2sWvtoCxH98etWw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:00:04]	INFO	new http request. fd=10
+[2014-10-23 19:00:04]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:00:04]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:00:04]	INFO	[10] opcode=1
+[2014-10-23 19:00:04]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:00:04]	INFO	node webinit -c 10
+
+[2014-10-23 19:01:46]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:01:46]	INFO	[10] opcode=8
+[2014-10-23 19:01:46]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:01:46]	INFO	close client_id = 10
+[2014-10-23 19:01:46]	INFO	client[#10@0] close
+[2014-10-23 19:01:46]	INFO	connected client_id = 10
+[2014-10-23 19:01:46]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: 5QavmUnznCYL8X7ylXWwaA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:01:46]	INFO	new http request. fd=10
+[2014-10-23 19:01:46]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:01:46]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:01:46]	INFO	[10] opcode=1
+[2014-10-23 19:01:46]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:01:46]	INFO	node webinit -c 10
+
+[2014-10-23 19:01:54]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:01:54]	INFO	[10] opcode=1
+[2014-10-23 19:01:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:01:54]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:01:58]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:01:58]	INFO	[10] opcode=1
+[2014-10-23 19:01:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:01:58]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:01:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:01]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:02:01]	INFO	[10] opcode=1
+[2014-10-23 19:02:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:02:01]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:02:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:06]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:02:06]	INFO	[10] opcode=1
+[2014-10-23 19:02:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:06]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:07]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:09]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:02:09]	INFO	[10] opcode=1
+[2014-10-23 19:02:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:09]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => start mostats_svr failed
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:18]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 19:02:18]	INFO	[10] opcode=1
+[2014-10-23 19:02:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:18]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 368).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:22]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:02:22]	INFO	[10] opcode=1
+[2014-10-23 19:02:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:22]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:25]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 19:02:25]	INFO	[10] opcode=1
+[2014-10-23 19:02:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:25]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:26]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 395).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:52]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:02:52]	INFO	[10] opcode=1
+[2014-10-23 19:02:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:52]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:02:58]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 19:02:58]	INFO	[10] opcode=1
+[2014-10-23 19:02:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:02:58]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:02:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 423).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:03:02]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:03:02]	INFO	[10] opcode=1
+[2014-10-23 19:03:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:03:02]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:03:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:03:08]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 19:03:08]	INFO	[10] opcode=1
+[2014-10-23 19:03:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:03:08]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:03:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 450).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:03:13]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:03:13]	INFO	[10] opcode=1
+[2014-10-23 19:03:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:03:13]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:03:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:03:15]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:03:15]	INFO	[10] opcode=1
+[2014-10-23 19:03:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:03:15]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:03:16]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:03:20]	INFO	NewFrame finish. Opcode=1|Length=70
+[2014-10-23 19:03:20]	INFO	[10] opcode=1
+[2014-10-23 19:03:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 19:03:20]	INFO	cmd start_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 19:03:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:03:24]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:03:24]	INFO	[10] opcode=1
+[2014-10-23 19:03:24]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 19:03:24]	INFO	cmd stop_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 19:03:26]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:13:40]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:13:40]	INFO	[10] opcode=8
+[2014-10-23 19:13:40]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:13:40]	INFO	close client_id = 10
+[2014-10-23 19:13:40]	INFO	client[#10@0] close
+[2014-10-23 19:13:40]	INFO	connected client_id = 10
+[2014-10-23 19:13:40]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: fFdpjTdNfey/LKO0Jy8J8w==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:13:40]	INFO	new http request. fd=10
+[2014-10-23 19:13:40]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:13:40]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:13:40]	INFO	[10] opcode=1
+[2014-10-23 19:13:40]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:13:40]	INFO	node webinit -c 10
+
+[2014-10-23 19:13:46]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:13:46]	INFO	[10] opcode=1
+[2014-10-23 19:13:46]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:13:46]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:13:46]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:13:54]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:13:54]	INFO	[10] opcode=1
+[2014-10-23 19:13:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:13:54]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:13:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:14:04]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:14:04]	INFO	[10] opcode=1
+[2014-10-23 19:14:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:14:04]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:14:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:14:08]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:14:08]	INFO	[10] opcode=1
+[2014-10-23 19:14:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:14:08]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:14:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:14:32]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 19:14:32]	INFO	[10] opcode=1
+[2014-10-23 19:14:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:14:32]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:14:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 733).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:14:36]	INFO	NewFrame finish. Opcode=1|Length=67
+[2014-10-23 19:14:36]	INFO	[10] opcode=1
+[2014-10-23 19:14:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:14:36]	INFO	cmd start_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:14:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:15:00]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:15:00]	INFO	[10] opcode=1
+[2014-10-23 19:15:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:15:00]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:15:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:15:44]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:15:44]	INFO	[10] opcode=8
+[2014-10-23 19:15:44]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:15:44]	INFO	close client_id = 10
+[2014-10-23 19:15:44]	INFO	client[#10@0] close
+[2014-10-23 19:15:45]	INFO	connected client_id = 10
+[2014-10-23 19:15:45]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: fg30SWBPKziqxkwftklMIA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:15:45]	INFO	new http request. fd=10
+[2014-10-23 19:15:45]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:15:45]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:15:45]	INFO	[10] opcode=1
+[2014-10-23 19:15:45]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:15:45]	INFO	node webinit -c 10
+
+[2014-10-23 19:15:48]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:15:48]	INFO	[10] opcode=1
+[2014-10-23 19:15:48]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:15:48]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:15:48]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:16:00]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:16:00]	INFO	[10] opcode=1
+[2014-10-23 19:16:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:16:00]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:16:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:07]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:20:07]	INFO	[10] opcode=8
+[2014-10-23 19:20:07]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:20:07]	INFO	close client_id = 10
+[2014-10-23 19:20:07]	INFO	client[#10@0] close
+[2014-10-23 19:20:07]	INFO	connected client_id = 10
+[2014-10-23 19:20:07]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: CB52wXjVI/c19aEifOC3+w==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:20:07]	INFO	new http request. fd=10
+[2014-10-23 19:20:07]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:20:07]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:20:07]	INFO	[10] opcode=1
+[2014-10-23 19:20:07]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:20:07]	INFO	node webinit -c 10
+
+[2014-10-23 19:20:12]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:20:12]	INFO	[10] opcode=1
+[2014-10-23 19:20:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:12]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:16]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:20:16]	INFO	[10] opcode=1
+[2014-10-23 19:20:16]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:16]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:19]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:20:19]	INFO	[10] opcode=1
+[2014-10-23 19:20:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:19]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:21]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:20:21]	INFO	[10] opcode=1
+[2014-10-23 19:20:21]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:21]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:25]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:20:25]	INFO	[10] opcode=1
+[2014-10-23 19:20:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:25]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:32]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:20:32]	INFO	[10] opcode=1
+[2014-10-23 19:20:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:32]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:36]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:20:36]	INFO	[10] opcode=1
+[2014-10-23 19:20:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:36]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:53]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:20:53]	INFO	[10] opcode=1
+[2014-10-23 19:20:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:53]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:20:59]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:20:59]	INFO	[10] opcode=1
+[2014-10-23 19:20:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:20:59]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:20:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:21:04]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:21:04]	INFO	[10] opcode=1
+[2014-10-23 19:21:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:21:04]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:21:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:21:29]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:21:29]	INFO	[10] opcode=1
+[2014-10-23 19:21:29]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:21:29]	INFO	cmd restart_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 779).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:22:09]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:22:09]	INFO	[10] opcode=8
+[2014-10-23 19:22:09]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:22:09]	INFO	close client_id = 10
+[2014-10-23 19:22:09]	INFO	client[#10@0] close
+[2014-10-23 19:22:09]	INFO	connected client_id = 10
+[2014-10-23 19:22:09]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: NlvBZjcDpjUZQiH5TVv0MA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:22:09]	INFO	new http request. fd=10
+[2014-10-23 19:22:09]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:22:09]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:22:09]	INFO	[10] opcode=1
+[2014-10-23 19:22:09]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:22:09]	INFO	node webinit -c 10
+
+[2014-10-23 19:22:13]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:22:13]	INFO	[10] opcode=1
+[2014-10-23 19:22:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:22:13]	INFO	cmd restart_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 1081).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:22:58]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:22:58]	INFO	[10] opcode=1
+[2014-10-23 19:22:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:22:58]	INFO	cmd restart_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 1125).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:07]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:23:07]	INFO	[10] opcode=1
+[2014-10-23 19:23:07]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:23:07]	INFO	cmd restart_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 1154).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:11]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:23:11]	INFO	[10] opcode=1
+[2014-10-23 19:23:11]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:23:11]	INFO	cmd restart_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 1176).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:14]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:23:14]	INFO	[10] opcode=1
+[2014-10-23 19:23:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:23:14]	INFO	cmd restart_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 1207).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:37]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:23:37]	INFO	[10] opcode=1
+[2014-10-23 19:23:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:23:37]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:23:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:39]	INFO	NewFrame finish. Opcode=1|Length=70
+[2014-10-23 19:23:39]	INFO	[10] opcode=1
+[2014-10-23 19:23:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => auto_interface
+    [c] => 10
+)
+
+[2014-10-23 19:23:39]	INFO	cmd start_monitor -sn 12 -m auto_interface -c 10
+
+[2014-10-23 19:23:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start auto_interface success
+                    [m] => auto_interface
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:23:42]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:23:42]	INFO	[10] opcode=1
+[2014-10-23 19:23:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:23:42]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:23:43]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:23:43]	INFO	[10] opcode=1
+[2014-10-23 19:23:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:23:43]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:29:47]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:29:47]	INFO	[10] opcode=8
+[2014-10-23 19:29:47]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:29:47]	INFO	close client_id = 10
+[2014-10-23 19:29:47]	INFO	client[#10@0] close
+[2014-10-23 19:29:47]	INFO	connected client_id = 10
+[2014-10-23 19:29:47]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: AXDd0//9BhybTBTHXdws2Q==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:29:47]	INFO	new http request. fd=10
+[2014-10-23 19:29:47]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:29:47]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:29:47]	INFO	[10] opcode=1
+[2014-10-23 19:29:47]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:29:47]	INFO	node webinit -c 10
+
+[2014-10-23 19:32:21]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:32:21]	INFO	[10] opcode=8
+[2014-10-23 19:32:21]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:32:21]	INFO	close client_id = 10
+[2014-10-23 19:32:21]	INFO	client[#10@0] close
+[2014-10-23 19:32:21]	INFO	connected client_id = 10
+[2014-10-23 19:32:21]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: zGCSUXc6p1fifvRu+3KFJw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:32:21]	INFO	new http request. fd=10
+[2014-10-23 19:32:21]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:32:21]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:32:21]	INFO	[10] opcode=1
+[2014-10-23 19:32:21]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:32:21]	INFO	node webinit -c 10
+
+[2014-10-23 19:32:32]	INFO	NewFrame finish. Opcode=1|Length=66
+[2014-10-23 19:32:32]	INFO	[10] opcode=1
+[2014-10-23 19:32:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => mostats_svr
+    [c] => 10
+)
+
+[2014-10-23 19:32:32]	INFO	cmd stop_monitor -sn 12 -m mostats_svr -c 10
+
+[2014-10-23 19:32:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped mostats_svr (pid 1234).
+stop mostats_svr success
+                    [m] => mostats_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:32:36]	INFO	NewFrame finish. Opcode=1|Length=62
+[2014-10-23 19:32:36]	INFO	[10] opcode=1
+[2014-10-23 19:32:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => log_svr
+    [c] => 10
+)
+
+[2014-10-23 19:32:36]	INFO	cmd stop_monitor -sn 12 -m log_svr -c 10
+
+[2014-10-23 19:32:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop log_svr success
+                    [m] => log_svr
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:20]	INFO	SwooleFramework shutdown
+[2014-10-23 19:41:28]	INFO	clientConnect
+[2014-10-23 19:41:34]	INFO	connected client_id = 10
+[2014-10-23 19:41:34]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: chyWCas5CCoPFCUKvW2Unw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:41:34]	INFO	new http request. fd=10
+[2014-10-23 19:41:34]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:41:35]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:41:35]	INFO	[10] opcode=1
+[2014-10-23 19:41:35]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:41:35]	INFO	node webinit -c 10
+
+[2014-10-23 19:41:38]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:41:38]	INFO	[10] opcode=1
+[2014-10-23 19:41:38]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:41:38]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:41:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:40]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:41:40]	INFO	[10] opcode=1
+[2014-10-23 19:41:40]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:41:40]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:41:41]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:41]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:41:41]	INFO	[10] opcode=1
+[2014-10-23 19:41:41]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:41:41]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:41:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:43]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:41:43]	INFO	[10] opcode=1
+[2014-10-23 19:41:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:41:43]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:41:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:50]	INFO	NewFrame finish. Opcode=1|Length=64
+[2014-10-23 19:41:50]	INFO	[10] opcode=1
+[2014-10-23 19:41:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:41:50]	INFO	cmd stop_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:41:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => stop stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:52]	INFO	NewFrame finish. Opcode=1|Length=65
+[2014-10-23 19:41:52]	INFO	[10] opcode=1
+[2014-10-23 19:41:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [sn] => 12
+    [m] => stats_web
+    [c] => 10
+)
+
+[2014-10-23 19:41:52]	INFO	cmd start_monitor -sn 12 -m stats_web -c 10
+
+[2014-10-23 19:41:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => start stats_web success
+                    [m] => stats_web
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:41:55]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:41:55]	INFO	[10] opcode=1
+[2014-10-23 19:41:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:41:55]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:42:00]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:42:00]	INFO	[10] opcode=1
+[2014-10-23 19:42:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:42:00]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:44:07]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:44:07]	INFO	[10] opcode=8
+[2014-10-23 19:44:07]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:44:07]	INFO	close client_id = 10
+[2014-10-23 19:44:07]	INFO	client[#10@0] close
+[2014-10-23 19:44:08]	INFO	connected client_id = 10
+[2014-10-23 19:44:08]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: YnJsyv6Cu+OUiXCtNbe9aA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:44:08]	INFO	new http request. fd=10
+[2014-10-23 19:44:08]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:44:08]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:44:08]	INFO	[10] opcode=1
+[2014-10-23 19:44:08]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:44:08]	INFO	node webinit -c 10
+
+[2014-10-23 19:44:09]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:44:09]	INFO	[10] opcode=1
+[2014-10-23 19:44:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:44:09]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:44:28]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:44:28]	INFO	[10] opcode=1
+[2014-10-23 19:44:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:44:28]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:45:35]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:45:35]	INFO	[10] opcode=1
+[2014-10-23 19:45:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:45:35]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:45:39]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:45:39]	INFO	[10] opcode=1
+[2014-10-23 19:45:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:45:39]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:46:20]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:46:20]	INFO	[10] opcode=8
+[2014-10-23 19:46:20]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:46:20]	INFO	close client_id = 10
+[2014-10-23 19:46:20]	INFO	client[#10@0] close
+[2014-10-23 19:46:20]	INFO	connected client_id = 10
+[2014-10-23 19:46:20]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: 3nn9JuCc+v1WijSaovi9sQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:46:20]	INFO	new http request. fd=10
+[2014-10-23 19:46:20]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:46:20]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:46:20]	INFO	[10] opcode=1
+[2014-10-23 19:46:20]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:46:20]	INFO	node webinit -c 10
+
+[2014-10-23 19:46:24]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:46:24]	INFO	[10] opcode=1
+[2014-10-23 19:46:24]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:46:24]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:46:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2008).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:46:30]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:46:30]	INFO	[10] opcode=1
+[2014-10-23 19:46:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:46:30]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:46:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:46:41]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:46:41]	INFO	[10] opcode=1
+[2014-10-23 19:46:41]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:46:41]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:46:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2070).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:46:53]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:46:53]	INFO	[10] opcode=1
+[2014-10-23 19:46:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:46:53]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:46:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:50:36]	INFO	SwooleFramework shutdown
+[2014-10-23 19:50:40]	INFO	clientConnect
+[2014-10-23 19:50:46]	INFO	connected client_id = 10
+[2014-10-23 19:50:46]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: wrAHpmE3hefEStqyyNCwtQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:50:46]	INFO	new http request. fd=10
+[2014-10-23 19:50:46]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:50:46]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:50:46]	INFO	[10] opcode=1
+[2014-10-23 19:50:46]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:50:46]	INFO	node webinit -c 10
+
+[2014-10-23 19:50:49]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:50:49]	INFO	[10] opcode=1
+[2014-10-23 19:50:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:50:49]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:50:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2093).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:50:53]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:50:53]	INFO	[10] opcode=1
+[2014-10-23 19:50:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:50:53]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:50:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:50:55]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:50:55]	INFO	[10] opcode=1
+[2014-10-23 19:50:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:50:55]	INFO	cmd restart_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:50:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:51:01]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:51:01]	INFO	[10] opcode=1
+[2014-10-23 19:51:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:51:01]	INFO	cmd restart_service -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:51:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [data] => Array
+        (
+            [msg] => 参数错误
+
+            [params] => Array
+                (
+                    [c] => 10
+                )
+
+        )
+
+)
+
+[2014-10-23 19:51:06]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:51:06]	INFO	[10] opcode=8
+[2014-10-23 19:51:06]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:51:06]	INFO	close client_id = 10
+[2014-10-23 19:51:06]	INFO	client[#10@0] close
+[2014-10-23 19:51:06]	INFO	connected client_id = 10
+[2014-10-23 19:51:06]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: Bd5p9vhLiHm6FbkbrwVz6A==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:51:06]	INFO	new http request. fd=10
+[2014-10-23 19:51:06]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:51:06]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:51:06]	INFO	[10] opcode=1
+[2014-10-23 19:51:06]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:51:06]	INFO	node webinit -c 10
+
+[2014-10-23 19:51:09]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:51:09]	INFO	[10] opcode=1
+[2014-10-23 19:51:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:51:09]	INFO	cmd restart_service -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:51:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [data] => Array
+        (
+            [msg] => 参数错误
+
+            [params] => Array
+                (
+                    [c] => 10
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:13]	INFO	SwooleFramework shutdown
+[2014-10-23 19:52:16]	INFO	clientConnect
+[2014-10-23 19:52:21]	INFO	connected client_id = 10
+[2014-10-23 19:52:21]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: I2BvIHDksZEYpF0JK7P63Q==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:52:21]	INFO	new http request. fd=10
+[2014-10-23 19:52:21]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:52:21]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:52:21]	INFO	[10] opcode=1
+[2014-10-23 19:52:21]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:52:21]	INFO	node webinit -c 10
+
+[2014-10-23 19:52:24]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:52:24]	INFO	[10] opcode=1
+[2014-10-23 19:52:24]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:24]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2253).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:27]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:52:27]	INFO	[10] opcode=1
+[2014-10-23 19:52:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:27]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:30]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:52:30]	INFO	[10] opcode=1
+[2014-10-23 19:52:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:30]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:52:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:33]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:52:33]	INFO	[10] opcode=1
+[2014-10-23 19:52:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:33]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2372).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:38]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:52:38]	INFO	[10] opcode=1
+[2014-10-23 19:52:38]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:38]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:38]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:42]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:52:42]	INFO	[10] opcode=1
+[2014-10-23 19:52:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:42]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2391).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:47]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:52:47]	INFO	[10] opcode=1
+[2014-10-23 19:52:47]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:47]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:47]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:55]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:52:55]	INFO	[10] opcode=1
+[2014-10-23 19:52:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:55]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2409).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:52:58]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:52:58]	INFO	[10] opcode=1
+[2014-10-23 19:52:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:52:58]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:52:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:53:22]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:53:22]	INFO	[10] opcode=1
+[2014-10-23 19:53:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:53:22]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:53:28]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:53:28]	INFO	[10] opcode=8
+[2014-10-23 19:53:28]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:53:28]	INFO	close client_id = 10
+[2014-10-23 19:53:28]	INFO	client[#10@0] close
+[2014-10-23 19:53:29]	INFO	connected client_id = 10
+[2014-10-23 19:53:29]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: 8OeZ+7jNGZFJq+Oii+cmNg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:53:29]	INFO	new http request. fd=10
+[2014-10-23 19:53:29]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:53:29]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:53:29]	INFO	[10] opcode=1
+[2014-10-23 19:53:29]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:53:29]	INFO	node webinit -c 10
+
+[2014-10-23 19:53:32]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:53:32]	INFO	[10] opcode=1
+[2014-10-23 19:53:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:53:32]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:53:49]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:53:49]	INFO	[10] opcode=8
+[2014-10-23 19:53:49]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:53:49]	INFO	close client_id = 10
+[2014-10-23 19:53:49]	INFO	client[#10@0] close
+[2014-10-23 19:53:49]	INFO	connected client_id = 10
+[2014-10-23 19:53:49]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: CO/on07mD7dywrUQqvzqxQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:53:49]	INFO	new http request. fd=10
+[2014-10-23 19:53:49]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:53:49]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:53:49]	INFO	[10] opcode=1
+[2014-10-23 19:53:49]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:53:49]	INFO	node webinit -c 10
+
+[2014-10-23 19:53:52]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:53:52]	INFO	[10] opcode=1
+[2014-10-23 19:53:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:53:52]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:54:21]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:54:21]	INFO	[10] opcode=8
+[2014-10-23 19:54:21]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:54:21]	INFO	close client_id = 10
+[2014-10-23 19:54:21]	INFO	client[#10@0] close
+[2014-10-23 19:54:21]	INFO	connected client_id = 10
+[2014-10-23 19:54:21]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: U1Jm4Z/fkIkmYjPWH3x2zA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:54:21]	INFO	new http request. fd=10
+[2014-10-23 19:54:21]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:54:21]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:54:21]	INFO	[10] opcode=1
+[2014-10-23 19:54:21]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:54:21]	INFO	node webinit -c 10
+
+[2014-10-23 19:54:28]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:54:28]	INFO	[10] opcode=1
+[2014-10-23 19:54:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:54:28]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:54:51]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:54:51]	INFO	[10] opcode=1
+[2014-10-23 19:54:51]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:54:51]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:54:56]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 19:54:56]	INFO	[10] opcode=1
+[2014-10-23 19:54:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:54:56]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:56:54]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:56:54]	INFO	[10] opcode=1
+[2014-10-23 19:56:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:56:54]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:56:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2427).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:56:57]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:56:57]	INFO	[10] opcode=1
+[2014-10-23 19:56:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:56:57]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:56:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:00]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:00]	INFO	[10] opcode=1
+[2014-10-23 19:57:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:00]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2526).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:02]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:02]	INFO	[10] opcode=1
+[2014-10-23 19:57:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:02]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:57:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:09]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:57:09]	INFO	[10] opcode=1
+[2014-10-23 19:57:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:09]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:10]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:13]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:13]	INFO	[10] opcode=1
+[2014-10-23 19:57:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:13]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2544).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:17]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:57:17]	INFO	[10] opcode=1
+[2014-10-23 19:57:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:17]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:19]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:19]	INFO	[10] opcode=1
+[2014-10-23 19:57:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:19]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2561).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:22]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:22]	INFO	[10] opcode=1
+[2014-10-23 19:57:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:22]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:57:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:49]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:57:49]	INFO	[10] opcode=1
+[2014-10-23 19:57:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:49]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:50]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:50]	INFO	[10] opcode=1
+[2014-10-23 19:57:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:50]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:57:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:57:53]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:57:53]	INFO	[10] opcode=1
+[2014-10-23 19:57:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:57:53]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:57:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2585).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:22]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 19:59:22]	INFO	[10] opcode=8
+[2014-10-23 19:59:22]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 19:59:22]	INFO	close client_id = 10
+[2014-10-23 19:59:22]	INFO	client[#10@0] close
+[2014-10-23 19:59:22]	INFO	connected client_id = 10
+[2014-10-23 19:59:22]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: FwvF75euEstw4p6lqr5ZMw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 19:59:22]	INFO	new http request. fd=10
+[2014-10-23 19:59:22]	INFO	WebSocket connection #10 is connected
+[2014-10-23 19:59:22]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 19:59:22]	INFO	[10] opcode=1
+[2014-10-23 19:59:22]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 19:59:22]	INFO	node webinit -c 10
+
+[2014-10-23 19:59:27]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:59:27]	INFO	[10] opcode=1
+[2014-10-23 19:59:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:27]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:59:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2644).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:31]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:59:31]	INFO	[10] opcode=1
+[2014-10-23 19:59:31]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:31]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:59:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:33]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:59:33]	INFO	[10] opcode=1
+[2014-10-23 19:59:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:33]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:59:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2676).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:35]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:59:35]	INFO	[10] opcode=1
+[2014-10-23 19:59:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:35]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 19:59:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:50]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:59:50]	INFO	[10] opcode=1
+[2014-10-23 19:59:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:50]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:59:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:52]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 19:59:52]	INFO	[10] opcode=1
+[2014-10-23 19:59:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:52]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:59:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2697).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 19:59:57]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 19:59:57]	INFO	[10] opcode=1
+[2014-10-23 19:59:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 19:59:57]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 19:59:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:00]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:00:00]	INFO	[10] opcode=1
+[2014-10-23 20:00:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:00]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 20:00:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:03]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:00:03]	INFO	[10] opcode=1
+[2014-10-23 20:00:03]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:03]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2714).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:12]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:00:12]	INFO	[10] opcode=1
+[2014-10-23 20:00:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:12]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:19]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:00:19]	INFO	[10] opcode=1
+[2014-10-23 20:00:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:19]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2752).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:23]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:00:23]	INFO	[10] opcode=1
+[2014-10-23 20:00:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:23]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:25]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:00:25]	INFO	[10] opcode=1
+[2014-10-23 20:00:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:25]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:26]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2769).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:28]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:00:28]	INFO	[10] opcode=1
+[2014-10-23 20:00:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:28]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 20:00:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:44]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:00:44]	INFO	[10] opcode=1
+[2014-10-23 20:00:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:44]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:50]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:00:50]	INFO	[10] opcode=1
+[2014-10-23 20:00:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:50]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:51]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2790).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:00:59]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:00:59]	INFO	[10] opcode=1
+[2014-10-23 20:00:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:00:59]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:00:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:01:05]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:01:05]	INFO	[10] opcode=1
+[2014-10-23 20:01:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:01:05]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:01:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2808).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:01:10]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:01:10]	INFO	[10] opcode=1
+[2014-10-23 20:01:10]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:01:10]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:01:10]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:01:12]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:01:12]	INFO	[10] opcode=1
+[2014-10-23 20:01:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:01:12]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 20:01:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:01:20]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:01:20]	INFO	[10] opcode=1
+[2014-10-23 20:01:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:01:20]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:01:21]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2825).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:01:43]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:01:43]	INFO	[10] opcode=1
+[2014-10-23 20:01:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:01:43]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:01:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:01:44]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:01:44]	INFO	[10] opcode=1
+[2014-10-23 20:01:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [sn] => 12
+    [m] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:01:44]	INFO	cmd stop_monitor -sn 12 -m upload_server -c 10
+
+[2014-10-23 20:01:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 1
+                    [o] => stop upload_server failed
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:02:23]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:02:23]	INFO	[10] opcode=8
+[2014-10-23 20:02:23]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:02:23]	INFO	close client_id = 10
+[2014-10-23 20:02:23]	INFO	client[#10@0] close
+[2014-10-23 20:02:23]	INFO	connected client_id = 10
+[2014-10-23 20:02:23]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: yHjoLm+YefJdX+kXr9RzbA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:02:23]	INFO	new http request. fd=10
+[2014-10-23 20:02:23]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:02:23]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:02:23]	INFO	[10] opcode=1
+[2014-10-23 20:02:23]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:02:23]	INFO	node webinit -c 10
+
+[2014-10-23 20:02:28]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:02:28]	INFO	[10] opcode=1
+[2014-10-23 20:02:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:02:28]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:03:12]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:03:12]	INFO	[10] opcode=8
+[2014-10-23 20:03:12]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:03:12]	INFO	close client_id = 10
+[2014-10-23 20:03:12]	INFO	client[#10@0] close
+[2014-10-23 20:03:12]	INFO	connected client_id = 10
+[2014-10-23 20:03:12]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: jgYZ/s5nRz6xg/3JABbT4w==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:03:12]	INFO	new http request. fd=10
+[2014-10-23 20:03:12]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:03:12]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:03:12]	INFO	[10] opcode=1
+[2014-10-23 20:03:12]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:03:12]	INFO	node webinit -c 10
+
+[2014-10-23 20:03:15]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:03:15]	INFO	[10] opcode=1
+[2014-10-23 20:03:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:03:15]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:03:16]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2850).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:03:18]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:03:18]	INFO	[10] opcode=1
+[2014-10-23 20:03:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:03:18]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:03:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:03:22]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:03:22]	INFO	[10] opcode=1
+[2014-10-23 20:03:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:03:22]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:04:24]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:04:24]	INFO	[10] opcode=8
+[2014-10-23 20:04:24]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:04:24]	INFO	close client_id = 10
+[2014-10-23 20:04:24]	INFO	client[#10@0] close
+[2014-10-23 20:04:24]	INFO	connected client_id = 10
+[2014-10-23 20:04:24]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: gwDK5iI/udQGmWZzIPW/eQ==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:04:24]	INFO	new http request. fd=10
+[2014-10-23 20:04:24]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:04:24]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:04:24]	INFO	[10] opcode=1
+[2014-10-23 20:04:24]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:04:24]	INFO	node webinit -c 10
+
+[2014-10-23 20:04:28]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:04:28]	INFO	[10] opcode=1
+[2014-10-23 20:04:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:04:28]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:05:10]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:05:10]	INFO	[10] opcode=8
+[2014-10-23 20:05:10]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:05:10]	INFO	close client_id = 10
+[2014-10-23 20:05:10]	INFO	client[#10@0] close
+[2014-10-23 20:05:10]	INFO	connected client_id = 10
+[2014-10-23 20:05:10]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: UYaSYOsgKU446UArle/7Pg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:05:10]	INFO	new http request. fd=10
+[2014-10-23 20:05:10]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:05:10]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:05:10]	INFO	[10] opcode=1
+[2014-10-23 20:05:10]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:05:10]	INFO	node webinit -c 10
+
+[2014-10-23 20:05:12]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:05:12]	INFO	[10] opcode=1
+[2014-10-23 20:05:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:05:12]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:06:21]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:06:21]	INFO	[10] opcode=8
+[2014-10-23 20:06:21]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:06:21]	INFO	close client_id = 10
+[2014-10-23 20:06:21]	INFO	client[#10@0] close
+[2014-10-23 20:06:21]	INFO	connected client_id = 10
+[2014-10-23 20:06:21]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: rjdCjsMs6HwXna42PiVM6w==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:06:21]	INFO	new http request. fd=10
+[2014-10-23 20:06:21]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:06:22]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:06:22]	INFO	[10] opcode=1
+[2014-10-23 20:06:22]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:06:22]	INFO	node webinit -c 10
+
+[2014-10-23 20:06:25]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:06:25]	INFO	[10] opcode=1
+[2014-10-23 20:06:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:06:25]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:06:57]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:06:57]	INFO	[10] opcode=8
+[2014-10-23 20:06:57]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:06:57]	INFO	close client_id = 10
+[2014-10-23 20:06:57]	INFO	client[#10@0] close
+[2014-10-23 20:06:57]	INFO	connected client_id = 10
+[2014-10-23 20:06:57]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: lJVii17sAX5UPSOfExBenw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:06:57]	INFO	new http request. fd=10
+[2014-10-23 20:06:57]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:06:57]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:06:57]	INFO	[10] opcode=1
+[2014-10-23 20:06:57]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:06:57]	INFO	node webinit -c 10
+
+[2014-10-23 20:07:01]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:07:01]	INFO	[10] opcode=1
+[2014-10-23 20:07:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:07:01]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:09:16]	INFO	SwooleFramework shutdown
+[2014-10-23 20:09:19]	INFO	clientConnect
+[2014-10-23 20:09:25]	INFO	connected client_id = 10
+[2014-10-23 20:09:25]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: q4aewsbniRxfEvt6UVDS6A==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:09:25]	INFO	new http request. fd=10
+[2014-10-23 20:09:25]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:09:25]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:09:25]	INFO	[10] opcode=1
+[2014-10-23 20:09:25]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:09:25]	INFO	node webinit -c 10
+
+[2014-10-23 20:09:28]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:09:28]	INFO	[10] opcode=1
+[2014-10-23 20:09:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:09:28]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:09:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 2945).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:09:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:10:52]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:10:52]	INFO	[10] opcode=8
+[2014-10-23 20:10:52]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:10:52]	INFO	close client_id = 10
+[2014-10-23 20:10:52]	INFO	client[#10@0] close
+[2014-10-23 20:10:52]	INFO	connected client_id = 10
+[2014-10-23 20:10:52]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: JhDiyAH5X0kK09a0OFSTog==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:10:52]	INFO	new http request. fd=10
+[2014-10-23 20:10:52]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:10:52]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:10:52]	INFO	[10] opcode=1
+[2014-10-23 20:10:52]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:10:52]	INFO	node webinit -c 10
+
+[2014-10-23 20:10:56]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:10:56]	INFO	[10] opcode=1
+[2014-10-23 20:10:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:10:56]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:10:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 3272).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:10:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:11:02]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 20:11:02]	INFO	[10] opcode=8
+[2014-10-23 20:11:02]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 20:11:02]	INFO	close client_id = 10
+[2014-10-23 20:11:02]	INFO	client[#10@0] close
+[2014-10-23 20:11:02]	INFO	connected client_id = 10
+[2014-10-23 20:11:02]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: 8Ov4TRsw5d5ntjWGaLXm1g==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 20:11:02]	INFO	new http request. fd=10
+[2014-10-23 20:11:02]	INFO	WebSocket connection #10 is connected
+[2014-10-23 20:11:02]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 20:11:02]	INFO	[10] opcode=1
+[2014-10-23 20:11:02]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 20:11:02]	INFO	node webinit -c 10
+
+[2014-10-23 20:11:14]	INFO	NewFrame finish. Opcode=1|Length=71
+[2014-10-23 20:11:14]	INFO	[10] opcode=1
+[2014-10-23 20:11:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:11:14]	INFO	cmd restart_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:11:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 3341).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:11:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:11:22]	INFO	NewFrame finish. Opcode=1|Length=68
+[2014-10-23 20:11:22]	INFO	[10] opcode=1
+[2014-10-23 20:11:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:11:22]	INFO	cmd stop_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:11:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => Stopped upload_server (pid 3361).
+stop upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 20:11:28]	INFO	NewFrame finish. Opcode=1|Length=69
+[2014-10-23 20:11:28]	INFO	[10] opcode=1
+[2014-10-23 20:11:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [sn] => 12
+    [s] => upload_server
+    [c] => 10
+)
+
+[2014-10-23 20:11:28]	INFO	cmd start_service -sn 12 -s upload_server -c 10
+
+[2014-10-23 20:11:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 
+                    [o] => start upload_server success
+                    [m] => upload_server
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-23 21:33:44]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-23 21:33:44]	INFO	[10] opcode=8
+[2014-10-23 21:33:44]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-23 21:33:44]	INFO	close client_id = 10
+[2014-10-23 21:33:44]	INFO	client[#10@0] close
+[2014-10-23 21:33:57]	INFO	connected client_id = 10
+[2014-10-23 21:33:57]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: tk2JW0TesX50TUsAdPTiyA==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-23 21:33:57]	INFO	new http request. fd=10
+[2014-10-23 21:33:57]	INFO	WebSocket connection #10 is connected
+[2014-10-23 21:33:57]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-23 21:33:57]	INFO	[10] opcode=1
+[2014-10-23 21:33:57]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-23 21:33:57]	INFO	node webinit -c 10
+
+[2014-10-23 21:34:05]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-23 21:34:05]	INFO	[10] opcode=1
+[2014-10-23 21:34:05]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 12
+        )
+
+    [f] => node.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_node
+    [c] => 10
+)
+
+[2014-10-23 21:34:05]	INFO	file sendnodes -n 12 -f node.tar.gz__1.0.2 -p sky_node -c 10
+
+[2014-10-23 21:34:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => node/install.sh
+install success
+                    [f] => node.tar.gz__1.0.2
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+
+[2014-10-24 11:08:47]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-24 11:08:47]	INFO	[10] opcode=8
+[2014-10-24 11:08:47]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-24 11:08:47]	INFO	close client_id = 10
+[2014-10-24 11:08:47]	INFO	client[#10@0] close
+[2014-10-24 11:09:07]	INFO	connected client_id = 10
+[2014-10-24 11:09:07]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: /3p3lAnBXlbtw64HHmVZ0g==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-24 11:09:07]	INFO	new http request. fd=10
+[2014-10-24 11:09:07]	INFO	WebSocket connection #10 is connected
+[2014-10-24 11:09:07]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-24 11:09:07]	INFO	[10] opcode=1
+[2014-10-24 11:09:07]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-24 11:09:07]	INFO	node webinit -c 10
+
+[2014-10-24 11:13:04]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-24 11:13:04]	INFO	[10] opcode=8
+[2014-10-24 11:13:04]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-24 11:13:04]	INFO	close client_id = 10
+[2014-10-24 11:13:04]	INFO	client[#10@0] close
+[2014-10-24 11:13:04]	INFO	connected client_id = 10
+[2014-10-24 11:13:04]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: E0go3+lyb1xb2xMI/BYftg==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-24 11:13:04]	INFO	new http request. fd=10
+[2014-10-24 11:13:04]	INFO	WebSocket connection #10 is connected
+[2014-10-24 11:13:04]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-24 11:13:04]	INFO	[10] opcode=1
+[2014-10-24 11:13:04]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-24 11:13:04]	INFO	node webinit -c 10
+
+[2014-10-24 12:34:26]	INFO	NewFrame finish. Opcode=8|Length=2
+[2014-10-24 12:34:26]	INFO	[10] opcode=8
+[2014-10-24 12:34:26]	INFO	server close connection[10]. reason: , OPCODE = 1000
+[2014-10-24 12:34:26]	INFO	close client_id = 10
+[2014-10-24 12:34:26]	INFO	client[#10@0] close
+[2014-10-24 12:34:35]	INFO	connected client_id = 10
+[2014-10-24 12:34:35]	INFO	[10] received data: GET / HTTP/1.1
+Upgrade: websocket
+Connection: Upgrade
+Host: 127.0.0.1:9991
+Origin: http://local.sky.duowan.com
+Pragma: no-cache
+Cache-Control: no-cache
+Sec-WebSocket-Key: LgK4pRhmdihQTfMQrcRdrw==
+Sec-WebSocket-Version: 13
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits, x-webkit-deflate-frame
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36
+
+. length = 446
+[2014-10-24 12:34:35]	INFO	new http request. fd=10
+[2014-10-24 12:34:35]	INFO	WebSocket connection #10 is connected
+[2014-10-24 12:34:35]	INFO	NewFrame finish. Opcode=1|Length=34
+[2014-10-24 12:34:35]	INFO	[10] opcode=1
+[2014-10-24 12:34:35]	INFO	Array
+(
+    [service] => node
+    [cmd] => webinit
+    [c] => 10
+)
+
+[2014-10-24 12:34:35]	INFO	node webinit -c 10
+
+[2014-10-24 12:34:45]	INFO	NewFrame finish. Opcode=1|Length=99
+[2014-10-24 12:34:45]	INFO	[10] opcode=1
+[2014-10-24 12:34:45]	INFO	Array
+(
+    [service] => file
+    [cmd] => sendnodes
+    [n] => Array
+        (
+            [0] => 12
+        )
+
+    [f] => node.tar.gz__1.0.2
+    [v] => 1.0.2
+    [p] => sky_node
+    [c] => 10
+)
+
+[2014-10-24 12:34:45]	INFO	file sendnodes -n 12 -f node.tar.gz__1.0.2 -p sky_node -c 10
+
+[2014-10-24 12:34:46]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [data] => Array
+        (
+            [params] => Array
+                (
+                    [c] => 10
+                    [s] => 0
+                    [o] => node/install.sh
+install success
+                    [f] => node.tar.gz__1.0.2
+                    [fd] => 11
+                    [n] => 12
+                )
+
+        )
+
+)
+

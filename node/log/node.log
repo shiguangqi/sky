@@ -3281,3 +3281,2050 @@
     [1] => stop mostats_svr success
 )
 
+[2014-10-23 18:10:54]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:10:55]	INFO	Array
+(
+    [code] => 0
+    [pid] => 31578
+)
+
+[2014-10-23 18:10:55]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:11:18]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:11:19]	INFO	Array
+(
+    [code] => 0
+    [pid] => 31599
+)
+
+[2014-10-23 18:11:19]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [0] => stop auto_interface success
+)
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [code] => 0
+    [pid] => 31640
+)
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [0] => stop auto_interface success
+)
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [code] => 0
+    [pid] => 31668
+)
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-23 18:13:41]	INFO	Array
+(
+    [0] => stop auto_interface success
+)
+
+[2014-10-23 18:13:42]	INFO	Array
+(
+    [code] => 0
+    [pid] => 31694
+)
+
+[2014-10-23 18:13:42]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-23 18:14:19]	INFO	Array
+(
+    [code] => 0
+    [pid] => 31716
+)
+
+[2014-10-23 18:14:19]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 18:34:04]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:34:09]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32087
+)
+
+[2014-10-23 18:34:09]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:35:15]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:35:20]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32132
+)
+
+[2014-10-23 18:35:20]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:37:01]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:37:04]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32205
+)
+
+[2014-10-23 18:37:04]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:39:50]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:39:59]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32281
+)
+
+[2014-10-23 18:39:59]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:43:34]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:44:09]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32395
+)
+
+[2014-10-23 18:44:09]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 18:44:13]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 18:44:18]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 31721).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 18:44:20]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32420
+)
+
+[2014-10-23 18:44:20]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 18:44:28]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 32425).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 18:44:35]	INFO	Array
+(
+    [code] => 0
+    [pid] => 32443
+)
+
+[2014-10-23 18:44:35]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 18:56:56]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 32448).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 18:57:23]	INFO	Array
+(
+    [0] => stop auto_interface success
+)
+
+[2014-10-23 19:01:58]	INFO	Array
+(
+    [code] => 0
+    [pid] => 341
+)
+
+[2014-10-23 19:01:58]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:02:02]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:02:07]	INFO	Array
+(
+    [code] => 0
+    [pid] => 363
+)
+
+[2014-10-23 19:02:07]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:02:09]	INFO	Array
+(
+    [code] => 1
+    [pid] => 376
+)
+
+[2014-10-23 19:02:09]	INFO	Array
+(
+    [0] => start mostats_svr failed
+)
+
+[2014-10-23 19:02:19]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 368).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:02:22]	INFO	Array
+(
+    [code] => 0
+    [pid] => 390
+)
+
+[2014-10-23 19:02:22]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:02:26]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 395).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:02:52]	INFO	Array
+(
+    [code] => 0
+    [pid] => 418
+)
+
+[2014-10-23 19:02:52]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:02:59]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 423).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:03:02]	INFO	Array
+(
+    [code] => 0
+    [pid] => 445
+)
+
+[2014-10-23 19:03:02]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:03:09]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 450).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:03:14]	INFO	Array
+(
+    [code] => 0
+    [pid] => 470
+)
+
+[2014-10-23 19:03:14]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:03:16]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:03:20]	INFO	Array
+(
+    [code] => 0
+    [pid] => 488
+)
+
+[2014-10-23 19:03:20]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-23 19:03:26]	INFO	Array
+(
+    [0] => stop auto_interface success
+)
+
+[2014-10-23 19:13:46]	INFO	Array
+(
+    [code] => 0
+    [pid] => 717
+)
+
+[2014-10-23 19:13:46]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:13:54]	INFO	Array
+(
+    [code] => 0
+    [pid] => 728
+)
+
+[2014-10-23 19:13:54]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:14:05]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:14:08]	INFO	Array
+(
+    [code] => 0
+    [pid] => 751
+)
+
+[2014-10-23 19:14:08]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:14:33]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 733).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:14:37]	INFO	Array
+(
+    [code] => 0
+    [pid] => 774
+)
+
+[2014-10-23 19:14:37]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:15:01]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:15:48]	INFO	Array
+(
+    [code] => 0
+    [pid] => 827
+)
+
+[2014-10-23 19:15:48]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:16:01]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:20:12]	INFO	Array
+(
+    [code] => 0
+    [pid] => 957
+)
+
+[2014-10-23 19:20:12]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:20:17]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:20:19]	INFO	Array
+(
+    [code] => 0
+    [pid] => 975
+)
+
+[2014-10-23 19:20:19]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:20:22]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:20:25]	INFO	Array
+(
+    [code] => 0
+    [pid] => 993
+)
+
+[2014-10-23 19:20:25]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:20:34]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:20:36]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1013
+)
+
+[2014-10-23 19:20:36]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:20:54]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:20:59]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1042
+)
+
+[2014-10-23 19:20:59]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:21:05]	INFO	Array
+(
+    [0] => stop stats_web success
+)
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 779).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1076
+)
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 1081).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1119
+)
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 1125).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1149
+)
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 1154).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1170
+)
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 1176).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1192
+)
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 1207).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1229
+)
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [0] => start mostats_svr success
+)
+
+[2014-10-23 19:23:37]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1248
+)
+
+[2014-10-23 19:23:37]	INFO	Array
+(
+    [0] => start stats_web success
+)
+
+[2014-10-23 19:23:39]	INFO	Array
+(
+    [code] => 0
+    [pid] => 1261
+)
+
+[2014-10-23 19:23:39]	INFO	Array
+(
+    [0] => start auto_interface success
+)
+
+[2014-10-23 19:32:33]	INFO	Array
+(
+    [0] => Stopped mostats_svr (pid 1234).
+    [1] => stop mostats_svr success
+)
+
+[2014-10-23 19:32:37]	INFO	Array
+(
+    [0] => stop log_svr success
+)
+
+[2014-10-23 19:41:20]	INFO	clientClose passive
+[2014-10-23 19:41:20]	INFO	node server shutdown
+[2014-10-23 19:41:32]	INFO	start service upload server ok
+[2014-10-23 19:41:33]	INFO	node server start
+[2014-10-23 19:41:33]	INFO	node worker start
+[2014-10-23 19:44:03]	INFO	node server shutdown
+[2014-10-23 19:44:04]	INFO	upload server 已经在执行 pid=1743
+[2014-10-23 19:44:04]	INFO	node server start
+[2014-10-23 19:44:04]	INFO	node worker start
+[2014-10-23 19:45:28]	INFO	node server shutdown
+[2014-10-23 19:45:29]	INFO	upload server 已经在执行 pid=1949
+[2014-10-23 19:45:29]	INFO	node server start
+[2014-10-23 19:45:29]	INFO	node worker start
+[2014-10-23 19:45:36]	INFO	
+[2014-10-23 19:45:39]	INFO	
+[2014-10-23 19:46:17]	INFO	node server shutdown
+[2014-10-23 19:46:18]	INFO	upload server 已经在执行 pid=2008
+[2014-10-23 19:46:19]	INFO	node server start
+[2014-10-23 19:46:19]	INFO	node worker start
+[2014-10-23 19:46:25]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2008).
+stop upload_server success 
+
+[2014-10-23 19:46:30]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:46:42]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2070).
+stop upload_server success 
+
+[2014-10-23 19:46:54]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:50:36]	INFO	clientClose passive
+[2014-10-23 19:50:36]	INFO	node server shutdown
+[2014-10-23 19:50:43]	INFO	upload server 已经在执行 pid=2093
+[2014-10-23 19:50:43]	INFO	node server start
+[2014-10-23 19:50:43]	INFO	node worker start
+[2014-10-23 19:50:50]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2093).
+stop upload_server success 
+
+[2014-10-23 19:50:53]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:52:13]	INFO	clientClose passive
+[2014-10-23 19:52:13]	INFO	node server shutdown
+[2014-10-23 19:52:18]	INFO	upload server 已经在执行 pid=2253
+[2014-10-23 19:52:19]	INFO	node server start
+[2014-10-23 19:52:19]	INFO	node worker start
+[2014-10-23 19:52:25]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2253).
+stop upload_server success 
+
+[2014-10-23 19:52:27]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:52:34]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2372).
+stop upload_server success 
+
+[2014-10-23 19:52:38]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:52:43]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2391).
+stop upload_server success 
+
+[2014-10-23 19:52:47]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:52:56]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2409).
+stop upload_server success 
+
+[2014-10-23 19:52:59]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:56:55]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2427).
+stop upload_server success 
+
+[2014-10-23 19:56:57]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:57:01]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2526).
+stop upload_server success 
+
+[2014-10-23 19:57:10]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:57:14]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2544).
+stop upload_server success 
+
+[2014-10-23 19:57:17]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:57:20]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2561).
+stop upload_server success 
+
+[2014-10-23 19:57:49]	INFO	cmd _start_service -s  -m upload_server -fd 11 -c 10 -n 12 -o start upload_server success 
+
+[2014-10-23 19:57:54]	INFO	cmd _start_service -s 0 -m upload_server -fd 11 -c 10 -n 12 -o Stopped upload_server (pid 2585).
+stop upload_server success 
+
+[2014-10-23 19:59:19]	INFO	node server shutdown
+[2014-10-23 19:59:20]	INFO	start service upload server ok
+[2014-10-23 19:59:20]	INFO	node server start
+[2014-10-23 19:59:20]	INFO	node worker start
+[2014-10-23 19:59:28]	INFO	0
+[2014-10-23 19:59:34]	INFO	0
+[2014-10-23 19:59:54]	INFO	0
+[2014-10-23 20:00:05]	INFO	0
+[2014-10-23 20:00:20]	INFO	0
+[2014-10-23 20:00:26]	INFO	0
+[2014-10-23 20:00:51]	INFO	0
+[2014-10-23 20:01:06]	INFO	0
+[2014-10-23 20:01:21]	INFO	0
+[2014-10-23 20:03:08]	INFO	node server shutdown
+[2014-10-23 20:03:09]	INFO	upload server 已经在执行 pid=2850
+[2014-10-23 20:03:09]	INFO	node server start
+[2014-10-23 20:03:09]	INFO	node worker start
+[2014-10-23 20:04:21]	INFO	node server shutdown
+[2014-10-23 20:04:22]	INFO	upload server 已经在执行 pid=2945
+[2014-10-23 20:04:22]	INFO	node server start
+[2014-10-23 20:04:22]	INFO	node worker start
+[2014-10-23 20:05:06]	INFO	node server shutdown
+[2014-10-23 20:05:07]	INFO	upload server 已经在执行 pid=2945
+[2014-10-23 20:05:07]	INFO	node server start
+[2014-10-23 20:05:07]	INFO	node worker start
+[2014-10-23 20:05:12]	INFO	array (
+  'service' => 'cmd',
+  'cmd' => 'restart_service',
+  'data' => 
+  array (
+    'm' => 'upload_server',
+    'fd' => 11,
+    'c' => '10',
+    'sn' => '12',
+  ),
+)
+[2014-10-23 20:06:18]	INFO	node server shutdown
+[2014-10-23 20:06:19]	INFO	upload server 已经在执行 pid=2945
+[2014-10-23 20:06:20]	INFO	node server start
+[2014-10-23 20:06:20]	INFO	node worker start
+[2014-10-23 20:06:55]	INFO	node server shutdown
+[2014-10-23 20:06:56]	INFO	upload server 已经在执行 pid=2945
+[2014-10-23 20:06:56]	INFO	node server start
+[2014-10-23 20:06:56]	INFO	node worker start
+[2014-10-23 20:07:01]	INFO	array (
+  'client' => 
+  swoole_client::__set_state(array(
+     'errCode' => 0,
+     'sock' => 9,
+     'type' => 1025,
+     'onConnect' => 
+    array (
+      0 => 
+      sky\ClientHandler::__set_state(array(
+         'node' => 
+        Sky\Node::__set_state(array(
+           'client' => NULL,
+           'client_handler' => NULL,
+           'node_name' => 'sky_node_01',
+           'server' => 
+          swoole_server::__set_state(array(
+             '_server' => NULL,
+             'setting' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+             'master_pid' => 3122,
+             'manager_pid' => 3124,
+             'worker_id' => 0,
+             'worker_pid' => 3128,
+          )),
+           'worker_id' => 0,
+           'config' => 
+          array (
+            'log' => 
+            array (
+              'type' => 'file',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+            ),
+            'master' => 
+            array (
+              'host' => '127.0.0.1',
+              'port' => '9999',
+            ),
+            'node' => 
+            array (
+              'name' => 'sky_node_01',
+              'host' => '0.0.0.0',
+              'port' => '9997',
+              'heartbeat' => '4000',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+            ),
+            'swoole' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+            'protocol' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+            'daemon' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+              ),
+            ),
+            'monitor' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+              ),
+            ),
+          ),
+           'setting' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+           'loger' => 
+          Swoole\Log\FileLog::__set_state(array(
+             'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+             'fp' => NULL,
+             'level_line' => NULL,
+          )),
+           'daemon' => 
+          Sky\Daemon::__set_state(array(
+             'config' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+                '_pid' => '2945',
+              ),
+            ),
+             'daemons' => NULL,
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+          )),
+           'cmd' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+                '_pid' => 0,
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+                '_pid' => '1828',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+                '_pid' => 0,
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+                '_pid' => '1268',
+              ),
+            ),
+          )),
+           'container' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+          )),
+           'pid_file' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+        )),
+         'config' => 
+        array (
+          'log' => 
+          array (
+            'type' => 'file',
+            'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+          ),
+          'master' => 
+          array (
+            'host' => '127.0.0.1',
+            'port' => '9999',
+          ),
+          'node' => 
+          array (
+            'name' => 'sky_node_01',
+            'host' => '0.0.0.0',
+            'port' => '9997',
+            'heartbeat' => '4000',
+            'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+          ),
+          'swoole' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+          'protocol' => 
+          array (
+            'http' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'contaniner_http',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+              'host' => '0.0.0.0',
+              'port' => '9800',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+            ),
+          ),
+          'daemon' => 
+          array (
+            'upload_server' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'upload_server',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+              'host' => '0.0.0.0',
+              'port' => '9507',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+            ),
+          ),
+          'monitor' => 
+          array (
+            'mostats_svr' => 
+            array (
+              'name' => 'mostats_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9903',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+            ),
+            'stats_web' => 
+            array (
+              'name' => 'stats_web',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+              'host' => '0.0.0.0',
+              'port' => '9905',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+            ),
+            'log_svr' => 
+            array (
+              'name' => 'log_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9902',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+            ),
+            'auto_interface' => 
+            array (
+              'name' => 'auto_interface',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+              'host' => '0.0.0.0',
+              'port' => '9904',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+            ),
+          ),
+        ),
+         'timer_header' => 'heart bit ',
+         'name_header' => 'node addname ',
+         'protocol_end' => '
+',
+      )),
+      1 => 'clientConnect',
+    ),
+     'onReceive' => 
+    array (
+      0 => 
+      sky\ClientHandler::__set_state(array(
+         'node' => 
+        Sky\Node::__set_state(array(
+           'client' => NULL,
+           'client_handler' => NULL,
+           'node_name' => 'sky_node_01',
+           'server' => 
+          swoole_server::__set_state(array(
+             '_server' => NULL,
+             'setting' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+             'master_pid' => 3122,
+             'manager_pid' => 3124,
+             'worker_id' => 0,
+             'worker_pid' => 3128,
+          )),
+           'worker_id' => 0,
+           'config' => 
+          array (
+            'log' => 
+            array (
+              'type' => 'file',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+            ),
+            'master' => 
+            array (
+              'host' => '127.0.0.1',
+              'port' => '9999',
+            ),
+            'node' => 
+            array (
+              'name' => 'sky_node_01',
+              'host' => '0.0.0.0',
+              'port' => '9997',
+              'heartbeat' => '4000',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+            ),
+            'swoole' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+            'protocol' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+            'daemon' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+              ),
+            ),
+            'monitor' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+              ),
+            ),
+          ),
+           'setting' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+           'loger' => 
+          Swoole\Log\FileLog::__set_state(array(
+             'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+             'fp' => NULL,
+             'level_line' => NULL,
+          )),
+           'daemon' => 
+          Sky\Daemon::__set_state(array(
+             'config' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+                '_pid' => '2945',
+              ),
+            ),
+             'daemons' => NULL,
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+          )),
+           'cmd' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+                '_pid' => 0,
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+                '_pid' => '1828',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+                '_pid' => 0,
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+                '_pid' => '1268',
+              ),
+            ),
+          )),
+           'container' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+          )),
+           'pid_file' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+        )),
+         'config' => 
+        array (
+          'log' => 
+          array (
+            'type' => 'file',
+            'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+          ),
+          'master' => 
+          array (
+            'host' => '127.0.0.1',
+            'port' => '9999',
+          ),
+          'node' => 
+          array (
+            'name' => 'sky_node_01',
+            'host' => '0.0.0.0',
+            'port' => '9997',
+            'heartbeat' => '4000',
+            'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+          ),
+          'swoole' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+          'protocol' => 
+          array (
+            'http' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'contaniner_http',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+              'host' => '0.0.0.0',
+              'port' => '9800',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+            ),
+          ),
+          'daemon' => 
+          array (
+            'upload_server' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'upload_server',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+              'host' => '0.0.0.0',
+              'port' => '9507',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+            ),
+          ),
+          'monitor' => 
+          array (
+            'mostats_svr' => 
+            array (
+              'name' => 'mostats_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9903',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+            ),
+            'stats_web' => 
+            array (
+              'name' => 'stats_web',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+              'host' => '0.0.0.0',
+              'port' => '9905',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+            ),
+            'log_svr' => 
+            array (
+              'name' => 'log_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9902',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+            ),
+            'auto_interface' => 
+            array (
+              'name' => 'auto_interface',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+              'host' => '0.0.0.0',
+              'port' => '9904',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+            ),
+          ),
+        ),
+         'timer_header' => 'heart bit ',
+         'name_header' => 'node addname ',
+         'protocol_end' => '
+',
+      )),
+      1 => 'clientReceive',
+    ),
+     'onClose' => 
+    array (
+      0 => 
+      sky\ClientHandler::__set_state(array(
+         'node' => 
+        Sky\Node::__set_state(array(
+           'client' => NULL,
+           'client_handler' => NULL,
+           'node_name' => 'sky_node_01',
+           'server' => 
+          swoole_server::__set_state(array(
+             '_server' => NULL,
+             'setting' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+             'master_pid' => 3122,
+             'manager_pid' => 3124,
+             'worker_id' => 0,
+             'worker_pid' => 3128,
+          )),
+           'worker_id' => 0,
+           'config' => 
+          array (
+            'log' => 
+            array (
+              'type' => 'file',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+            ),
+            'master' => 
+            array (
+              'host' => '127.0.0.1',
+              'port' => '9999',
+            ),
+            'node' => 
+            array (
+              'name' => 'sky_node_01',
+              'host' => '0.0.0.0',
+              'port' => '9997',
+              'heartbeat' => '4000',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+            ),
+            'swoole' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+            'protocol' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+            'daemon' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+              ),
+            ),
+            'monitor' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+              ),
+            ),
+          ),
+           'setting' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+           'loger' => 
+          Swoole\Log\FileLog::__set_state(array(
+             'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+             'fp' => NULL,
+             'level_line' => NULL,
+          )),
+           'daemon' => 
+          Sky\Daemon::__set_state(array(
+             'config' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+                '_pid' => '2945',
+              ),
+            ),
+             'daemons' => NULL,
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+          )),
+           'cmd' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+                '_pid' => 0,
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+                '_pid' => '1828',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+                '_pid' => 0,
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+                '_pid' => '1268',
+              ),
+            ),
+          )),
+           'container' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+          )),
+           'pid_file' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+        )),
+         'config' => 
+        array (
+          'log' => 
+          array (
+            'type' => 'file',
+            'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+          ),
+          'master' => 
+          array (
+            'host' => '127.0.0.1',
+            'port' => '9999',
+          ),
+          'node' => 
+          array (
+            'name' => 'sky_node_01',
+            'host' => '0.0.0.0',
+            'port' => '9997',
+            'heartbeat' => '4000',
+            'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+          ),
+          'swoole' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+          'protocol' => 
+          array (
+            'http' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'contaniner_http',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+              'host' => '0.0.0.0',
+              'port' => '9800',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+            ),
+          ),
+          'daemon' => 
+          array (
+            'upload_server' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'upload_server',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+              'host' => '0.0.0.0',
+              'port' => '9507',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+            ),
+          ),
+          'monitor' => 
+          array (
+            'mostats_svr' => 
+            array (
+              'name' => 'mostats_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9903',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+            ),
+            'stats_web' => 
+            array (
+              'name' => 'stats_web',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+              'host' => '0.0.0.0',
+              'port' => '9905',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+            ),
+            'log_svr' => 
+            array (
+              'name' => 'log_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9902',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+            ),
+            'auto_interface' => 
+            array (
+              'name' => 'auto_interface',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+              'host' => '0.0.0.0',
+              'port' => '9904',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+            ),
+          ),
+        ),
+         'timer_header' => 'heart bit ',
+         'name_header' => 'node addname ',
+         'protocol_end' => '
+',
+      )),
+      1 => 'clientClose',
+    ),
+     'onError' => 
+    array (
+      0 => 
+      sky\ClientHandler::__set_state(array(
+         'node' => 
+        Sky\Node::__set_state(array(
+           'client' => NULL,
+           'client_handler' => NULL,
+           'node_name' => 'sky_node_01',
+           'server' => 
+          swoole_server::__set_state(array(
+             '_server' => NULL,
+             'setting' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+             'master_pid' => 3122,
+             'manager_pid' => 3124,
+             'worker_id' => 0,
+             'worker_pid' => 3128,
+          )),
+           'worker_id' => 0,
+           'config' => 
+          array (
+            'log' => 
+            array (
+              'type' => 'file',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+            ),
+            'master' => 
+            array (
+              'host' => '127.0.0.1',
+              'port' => '9999',
+            ),
+            'node' => 
+            array (
+              'name' => 'sky_node_01',
+              'host' => '0.0.0.0',
+              'port' => '9997',
+              'heartbeat' => '4000',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+            ),
+            'swoole' => 
+            array (
+              'worker_num' => 1,
+              'max_request' => 0,
+              'daemonize' => 1,
+            ),
+            'protocol' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+            'daemon' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+              ),
+            ),
+            'monitor' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+              ),
+            ),
+          ),
+           'setting' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+           'loger' => 
+          Swoole\Log\FileLog::__set_state(array(
+             'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+             'fp' => NULL,
+             'level_line' => NULL,
+          )),
+           'daemon' => 
+          Sky\Daemon::__set_state(array(
+             'config' => 
+            array (
+              'upload_server' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'upload_server',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+                'host' => '0.0.0.0',
+                'port' => '9507',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+                '_pid' => '2945',
+              ),
+            ),
+             'daemons' => NULL,
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+          )),
+           'cmd' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'mostats_svr' => 
+              array (
+                'name' => 'mostats_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9903',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+                '_pid' => 0,
+              ),
+              'stats_web' => 
+              array (
+                'name' => 'stats_web',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+                'host' => '0.0.0.0',
+                'port' => '9905',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+                '_pid' => '1828',
+              ),
+              'log_svr' => 
+              array (
+                'name' => 'log_svr',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+                'host' => '0.0.0.0',
+                'port' => '9902',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+                '_pid' => 0,
+              ),
+              'auto_interface' => 
+              array (
+                'name' => 'auto_interface',
+                'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+                'host' => '0.0.0.0',
+                'port' => '9904',
+                'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+                '_pid' => '1268',
+              ),
+            ),
+          )),
+           'container' => 
+          Sky\Cmd::__set_state(array(
+             'node' => NULL,
+             'cmd_header' => 'cmd ',
+             'protocol_end' => '
+',
+             'config' => 
+            array (
+              'http' => 
+              array (
+                'auto_start' => '1',
+                'name' => 'contaniner_http',
+                'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+                'host' => '0.0.0.0',
+                'port' => '9800',
+                'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+                'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+              ),
+            ),
+          )),
+           'pid_file' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+        )),
+         'config' => 
+        array (
+          'log' => 
+          array (
+            'type' => 'file',
+            'log_file' => '/home/shiguangqi/workspace/sky/node/log/node.log',
+          ),
+          'master' => 
+          array (
+            'host' => '127.0.0.1',
+            'port' => '9999',
+          ),
+          'node' => 
+          array (
+            'name' => 'sky_node_01',
+            'host' => '0.0.0.0',
+            'port' => '9997',
+            'heartbeat' => '4000',
+            'pid' => '/home/shiguangqi/workspace/sky/node/run/node.pid',
+          ),
+          'swoole' => 
+          array (
+            'worker_num' => 1,
+            'max_request' => 0,
+            'daemonize' => 1,
+          ),
+          'protocol' => 
+          array (
+            'http' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'contaniner_http',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/http.pid',
+              'host' => '0.0.0.0',
+              'port' => '9800',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/http',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/http.log',
+            ),
+          ),
+          'daemon' => 
+          array (
+            'upload_server' => 
+            array (
+              'auto_start' => '1',
+              'name' => 'upload_server',
+              'pid' => '/home/shiguangqi/workspace/sky/node/run/upload_server.pid',
+              'host' => '0.0.0.0',
+              'port' => '9507',
+              'init' => '/home/shiguangqi/workspace/sky/node/init.d/upload_server',
+              'log_file' => '/home/shiguangqi/workspace/sky/node/log/upload_server.log',
+            ),
+          ),
+          'monitor' => 
+          array (
+            'mostats_svr' => 
+            array (
+              'name' => 'mostats_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/mostats_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9903',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/mostats_svr/init.d/mostats_svr',
+            ),
+            'stats_web' => 
+            array (
+              'name' => 'stats_web',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/stats_web.pid',
+              'host' => '0.0.0.0',
+              'port' => '9905',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/stats_web/init.d/stats_web',
+            ),
+            'log_svr' => 
+            array (
+              'name' => 'log_svr',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/log_svr.pid',
+              'host' => '0.0.0.0',
+              'port' => '9902',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/log_svr/init.d/log_svr',
+            ),
+            'auto_interface' => 
+            array (
+              'name' => 'auto_interface',
+              'pid' => '/home/shiguangqi/workspace/module_stats/server/run/auto_interface.pid',
+              'host' => '0.0.0.0',
+              'port' => '9904',
+              'init' => '/home/shiguangqi/workspace/module_stats/server/auto_interface/init.d/auto_interface',
+            ),
+          ),
+        ),
+         'timer_header' => 'heart bit ',
+         'name_header' => 'node addname ',
+         'protocol_end' => '
+',
+      )),
+      1 => 'clientError',
+    ),
+     '_client' => NULL,
+  )),
+  'content' => 
+  array (
+    'service' => 'cmd',
+    'cmd' => 'restart_service',
+    'data' => 
+    array (
+      'm' => 'upload_server',
+      'fd' => 11,
+      'c' => '10',
+      'sn' => '12',
+    ),
+  ),
+)
+[2014-10-23 20:09:16]	INFO	clientClose passive
+[2014-10-23 20:09:16]	INFO	node server shutdown
+[2014-10-23 20:09:23]	INFO	upload server 已经在执行 pid=2945
+[2014-10-23 20:09:23]	INFO	node server start
+[2014-10-23 20:09:23]	INFO	node worker start
+[2014-10-23 20:09:28]	INFO	array (
+  'service' => 'cmd',
+  'cmd' => 'restart_service',
+  'data' => 
+  array (
+    's' => 'upload_server',
+    'fd' => 11,
+    'c' => '10',
+    'sn' => '12',
+  ),
+)
+[2014-10-23 20:10:50]	INFO	node server shutdown
+[2014-10-23 20:10:51]	INFO	upload server 已经在执行 pid=3272
+[2014-10-23 20:10:51]	INFO	node server start
+[2014-10-23 20:10:51]	INFO	node worker start

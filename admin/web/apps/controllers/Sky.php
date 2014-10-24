@@ -66,6 +66,7 @@ class Sky extends \App\LoginController
         $map = array(
             '1' => '动态服务',
             '2' => '静态服务',
+            '3' => '自带服务',
         );
         if (!empty($res))
         {

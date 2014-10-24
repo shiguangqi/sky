@@ -1,33 +1,12 @@
 $('.collapse').collapse({
     toggle: false
 });
-term.welcome = "<span>欢迎SKY</span>";
-term.echo = function($msg) {
-    var line = "<span>"+$msg+"</span>";
-    $(".console").append(line);
-    term.resize();
+
+var STSTUS = {
+    'running':'<span style="color: green" style="padding: 6px 0" class="glyphicon glyphicon-ok">正在运行</span>',
+    'stop':'<span style="color: red" style="padding: 6px 0" class="glyphicon glyphicon-remove">停止运行</span>',
+    'handling':'<span style="color: #0033CC" style="padding: 6px 0" class="glyphicon glyphicon-forward">正在处理</span>'
 };
-
-term.clear = function() {
-    $(".console").empty();
-}
-
-term.ps1 = function() {
-    $(".console-bg").append(term.ps1_flag);
-}
-
-term.resize = function () {
-    var _term = $(".console-box").innerHeight();
-    var _log = $(".console-bg").innerHeight();
-    if (_term < _log) {
-        $(".console-box").scrollTop(_log - _term + 20);
-    }
-}
-$(document).ready(function () {
-    term.echo(term.welcome);
-    term.ps1();
-    connect();
-});
 
 var version = '';
 var project = '';
@@ -71,6 +50,35 @@ $("#install").click(function(){
     }
 });
 
+term.welcome = "<span>欢迎SKY</span>";
+term.echo = function($msg) {
+    var line = "<span>"+$msg+"</span>";
+    $(".console").append(line);
+    term.resize();
+};
+
+term.clear = function() {
+    $(".console").empty();
+}
+
+term.ps1 = function() {
+    $(".console-bg").append(term.ps1_flag);
+}
+
+term.resize = function () {
+    var _term = $(".console-box").innerHeight();
+    var _log = $(".console-bg").innerHeight();
+    if (_term < _log) {
+        $(".console-box").scrollTop(_log - _term + 20);
+    }
+};
+
+$(document).ready(function () {
+    term.echo(term.welcome);
+    term.ps1();
+    connect();
+});
+
 function connect()
 {
     if (window.WebSocket || window.MozWebSocket) {
@@ -83,7 +91,6 @@ function exit()
 {
     term.echo("服务已关闭");
 }
-var self = $(".console");
 
 function listen()
 {
@@ -194,6 +201,7 @@ function nodeHandler(res)
             break;
     }
 }
+
 function addTr(o)
 {
     var tr = '';
@@ -242,7 +250,7 @@ function getNodeInfo(o)
                 var content = data.content;
                 for (var j in content)
                 {
-                    if (content[j]['type'] == 1)
+                    if (content[j]['type'] != 2)
                     {
                         var td = "<td colspan=5 style='padding: 0'>" +
                             "<div class='daemon-row'>" +
@@ -316,23 +324,15 @@ function showService(run,i,service)
     for (var j in run)
     {
         var running = '';
-        var action = '';
-        var action1 = '<span><button node='+i+' service='+run[j].name+'  type="button" ' +
-            'class="btn btn-danger btn-xs" onclick="stop'+service+'(this)">停止服务</button></span>';
-        var action2 = '<span><button node='+i+' service='+run[j].name+'  type="button" ' +
-            'class="btn btn-success btn-xs" onclick="start'+service+'(this)">启动服务</button></span>';
-        var action3 = '<span style="padding-left: 5px"><button node='+i+' service='+run[j].name+'  type="button" ' +
-            'class="btn btn-info btn-xs" onclick="reStart'+service+'(this)">重启服务</button></span>';
-        var action = action1+action3;
         if (run[j]._pid == 0)
         {
-            running = '<span style="color: red" style="padding: 6px 0" class="glyphicon glyphicon-remove">停止运行</span>';
-            action = action2;
+            running = STSTUS.stop;
         }
         else
         {
-            running = '<span style="color: green" style="padding: 6px 0" class="glyphicon glyphicon-ok">正在运行</span>';
+            running = STSTUS.running;
         }
+        action = getButton(i,run[j].name,service,run[j]._pid);
         var td = "<td colspan=5 style='padding: 0'>" +
             "<div class='daemon-row'>" +
             "<div class='col-sm-1'><span id='"+i+"_"+run[j].name+"_name' style='padding: 6px 0'>"+run[j].name+"</span></div>" +
@@ -357,6 +357,23 @@ function showService(run,i,service)
             $("#"+i+"_"+run[j].name+"_action").html(action);
         }
     }
+}
+
+
+function getButton(node,name,service,status)
+{
+    var action1 = '<span><button node='+node+' service='+name+'  type="button" ' +
+        'class="btn btn-danger btn-xs" onclick="stop'+service+'(this)">停止服务</button></span>';
+    var action2 = '<span><button node='+node+' service='+name+'  type="button" ' +
+        'class="btn btn-success btn-xs" onclick="start'+service+'(this)">启动服务</button></span>';
+    var action3 = '<span style="padding-left: 5px"><button node='+node+' service='+name+'  type="button" ' +
+        'class="btn btn-info btn-xs" onclick="reStart'+service+'(this)">重启服务</button></span>';
+    var action = action1+action3;
+    if (status == 0)
+    {
+        return action2;
+    }
+    return action1+action3;
 }
 
 function fileHandler(res)
@@ -416,11 +433,36 @@ function cmdHandler(res)
                         }
                     }
                 });
+                $("#"+node+"_"+name+"_status").html(STSTUS.running);
+                $("#"+node+"_"+name+"_action").html(getButton(node,name,'Monitor',1));
             }
             term.echo(content.o+"</br>");
             break;
         case '_stop_monitor':
-            var status = content.s;
+            var name = content.m;
+            if (content.s == 0)
+            {
+                $("#"+node+"_"+content.m+"_status").html(STSTUS.stop);
+                $("#"+node+"_"+name+"_action").html(getButton(node,name,'Monitor',0));
+            }
+            term.echo(content.o+"</br>");
+            break;
+        case '_start_service':
+            var name = content.m;
+            if (content.s == 0)
+            {
+                $("#"+node+"_"+name+"_status").html(STSTUS.running);
+                $("#"+node+"_"+name+"_action").html(getButton(node,name,'Monitor',1));
+            }
+            term.echo(content.o+"</br>");
+            break;
+        case '_stop_service':
+            var name = content.m;
+            if (content.s == 0)
+            {
+                $("#"+node+"_"+name+"_status").html(STSTUS.running);
+                $("#"+node+"_"+name+"_action").html(getButton(node,name,'Monitor',0));
+            }
             term.echo(content.o+"</br>");
             break;
     }
@@ -433,15 +475,19 @@ function toggleDaemon(o)
     $("."+id+"_daemon").toggle();
 }
 
-function reStartNode(o)
+function reStartService(o)
 {
+    $(o).remove();
     var node = $(o).attr("node");
+    var name = $(o).attr("service");
+    $("#"+node+"_"+name+"_status").html(STSTUS.handling);
     msg = {};
     msg.service = 'cmd';
-    msg.cmd = 'restart_node';
+    msg.cmd = 'restart_service';
     msg.sn = node;
-    msg.s = service;
+    msg.s = name;
     ws.send($.toJSON(msg));
+    return true;
 }
 
 function startService(o)
@@ -449,6 +495,7 @@ function startService(o)
     $(o).remove();
     var node = $(o).attr("node");
     var service = $(o).attr("service");
+    $("#"+node+"_"+service+"_status").html(STSTUS.handling);
     msg = {};
     msg.service = 'cmd';
     msg.cmd = 'start_service';
@@ -463,6 +510,7 @@ function stopService(o)
     $(o).remove();
     var node = $(o).attr("node");
     var service = $(o).attr("service");
+    $("#"+node+"_"+service+"_status").html(STSTUS.handling);
     msg = {};
     msg.service = 'cmd';
     msg.cmd = 'stop_service';
@@ -477,6 +525,7 @@ function startMonitor(o)
     $(o).remove();
     var node = $(o).attr("node");
     var name = $(o).attr("service");
+    $("#"+node+"_"+name+"_status").html(STSTUS.handling);
     msg = {};
     msg.service = 'cmd';
     msg.cmd = 'start_monitor';
@@ -491,6 +540,7 @@ function stopMonitor(o)
     $(o).remove();
     var node = $(o).attr("node");
     var name = $(o).attr("service");
+    $("#"+node+"_"+name+"_status").html(STSTUS.handling);
     msg = {};
     msg.service = 'cmd';
     msg.cmd = 'stop_monitor';
@@ -505,6 +555,7 @@ function reStartMonitor(o)
     $(o).remove();
     var node = $(o).attr("node");
     var name = $(o).attr("service");
+    $("#"+node+"_"+name+"_status").html(STSTUS.handling);
     msg = {};
     msg.service = 'cmd';
     msg.cmd = 'restart_monitor';

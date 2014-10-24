@@ -5029,4 +5029,38 @@ select count(*) as c from `node`  where ip="127.0.0.1"  <br />
 select count(*) as c from `node`  where ip="127.0.0.1"  <br />
 <hr />update `node` set `last_time`='2014-10-22 17:37:57' where ip='127.0.0.1' <br />
 <hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />[2014-10-23 19:41:20]	NOTICE	Server is shutdown now.
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 19:44:03' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 19:45:28' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 19:46:17' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />[2014-10-23 19:50:36]	NOTICE	Server is shutdown now.
+[2014-10-23 19:52:13]	NOTICE	Server is shutdown now.
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 19:59:19' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 20:03:08' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 20:04:21' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 20:05:06' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 20:06:18' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 20:06:55' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />[2014-10-23 20:09:16]	NOTICE	Server is shutdown now.
+select count(*) as c from `node`  where ip="127.0.0.1"  <br />
+<hr />update `node` set `last_time`='2014-10-23 20:10:50' where ip='127.0.0.1' <br />
+<hr />select count(*) as c from `node`  where ip="127.0.0.1"  <br />
 <hr />

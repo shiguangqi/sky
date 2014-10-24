@@ -61810,3 +61810,5463 @@ stop mostats_svr success
 
 )
 
+[2014-10-23 18:10:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:10:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:10:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:11:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:11:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:11:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:12:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop auto_interface success
+        )
+
+)
+
+[2014-10-23 18:12:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start auto_interface success
+        )
+
+)
+
+[2014-10-23 18:13:29]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop auto_interface success
+        )
+
+)
+
+[2014-10-23 18:13:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start auto_interface success
+        )
+
+)
+
+[2014-10-23 18:13:40]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:13:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop auto_interface success
+        )
+
+)
+
+[2014-10-23 18:13:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start auto_interface success
+        )
+
+)
+
+[2014-10-23 18:14:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:14:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 18:34:03]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:34:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:34:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:34:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:35:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:35:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:35:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:35:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:35:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:37:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:37:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:37:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:37:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:39:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:39:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:39:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:39:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:43:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:43:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:44:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:44:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 18:44:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:44:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 18:44:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:44:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 31721).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 18:44:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:44:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 18:44:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:44:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 32425).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 18:44:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:44:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 18:56:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:56:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 32448).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 18:57:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 18:57:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop auto_interface success
+        )
+
+)
+
+[2014-10-23 19:01:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:01:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:01:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:02:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:02:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:07]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:02:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr failed
+        )
+
+)
+
+[2014-10-23 19:02:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 368).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:02:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:02:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:26]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 395).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:02:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:02:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:02:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 423).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:03:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:03:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:03:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:03:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 450).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:03:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:03:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:03:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:03:16]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:03:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:03:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start auto_interface success
+        )
+
+)
+
+[2014-10-23 19:03:24]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:03:26]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop auto_interface success
+        )
+
+)
+
+[2014-10-23 19:13:46]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:13:46]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:13:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:13:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:14:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:14:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:14:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:14:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:14:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:14:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 733).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:14:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:14:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:15:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:15:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:15:48]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:15:48]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:16:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:16:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:16]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:21]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:20:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:20:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:21:04]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:21:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:21:29]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 779).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:21:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:22:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 1081).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:22:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:22:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 1125).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:22:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:07]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 1154).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:08]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:11]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 1176).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 1207).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:23:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:23:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:23:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => auto_interface
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:23:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => auto_interface
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start auto_interface success
+        )
+
+)
+
+[2014-10-23 19:23:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:23:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:32:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => mostats_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:32:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => mostats_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped mostats_svr (pid 1234).
+stop mostats_svr success
+        )
+
+)
+
+[2014-10-23 19:32:36]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => log_svr
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:32:37]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => log_svr
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop log_svr success
+        )
+
+)
+
+[2014-10-23 19:41:20]	INFO	master server stop
+[2014-10-23 19:41:22]	INFO	set timer 5000ms on worker 0 
+[2014-10-23 19:41:22]	INFO	master server start
+[2014-10-23 19:41:28]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1414064488
+    [last_time] => 1414064488
+    [from_port] => 9998
+    [remote_port] => 60647
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:41:28]	INFO	add node nodes:
+[2014-10-23 19:41:28]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:41:33]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414064493
+    [last_time] => 1414064493
+    [from_port] => 9999
+    [remote_port] => 52577
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:41:33]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52577
+            [connect_time] => 1414064493
+            [last_time] => 1414064493
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:41:33]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:41:33]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52577
+            [connect_time] => 1414064493
+            [last_time] => 1414064493
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:41:38]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:41:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:41:40]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:41:41]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:41:41]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:41:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:41:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:41:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:41:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:41:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop stats_web success
+        )
+
+)
+
+[2014-10-23 19:41:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => stats_web
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:41:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_monitor
+    [params] => Array
+        (
+            [s] => 0
+            [m] => stats_web
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start stats_web success
+        )
+
+)
+
+[2014-10-23 19:41:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:42:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:44:03]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 19:44:03]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:44:04]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414064644
+    [last_time] => 1414064644
+    [from_port] => 9999
+    [remote_port] => 52617
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:44:04]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52617
+            [connect_time] => 1414064644
+            [last_time] => 1414064644
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:44:04]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:44:04]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52617
+            [connect_time] => 1414064644
+            [last_time] => 1414064644
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:44:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:44:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:45:28]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 19:45:28]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:45:29]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414064729
+    [last_time] => 1414064729
+    [from_port] => 9999
+    [remote_port] => 52644
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:45:29]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52644
+            [connect_time] => 1414064729
+            [last_time] => 1414064729
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:45:29]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:45:29]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52644
+            [connect_time] => 1414064729
+            [last_time] => 1414064729
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:45:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:45:39]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:46:17]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 19:46:17]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:46:19]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414064778
+    [last_time] => 1414064779
+    [from_port] => 9999
+    [remote_port] => 52650
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:46:19]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52650
+            [connect_time] => 1414064778
+            [last_time] => 1414064779
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:46:19]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60647
+            [connect_time] => 1414064488
+            [last_time] => 1414064488
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:46:19]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52650
+            [connect_time] => 1414064778
+            [last_time] => 1414064779
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:46:24]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:46:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2008).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:46:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:46:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:46:41]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:46:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2070).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:46:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:46:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:50:36]	INFO	master server stop
+[2014-10-23 19:50:38]	INFO	set timer 5000ms on worker 0 
+[2014-10-23 19:50:38]	INFO	master server start
+[2014-10-23 19:50:40]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1414065039
+    [last_time] => 1414065039
+    [from_port] => 9998
+    [remote_port] => 60761
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:50:40]	INFO	add node nodes:
+[2014-10-23 19:50:40]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60761
+            [connect_time] => 1414065039
+            [last_time] => 1414065039
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:50:43]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065043
+    [last_time] => 1414065043
+    [from_port] => 9999
+    [remote_port] => 52693
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:50:43]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52693
+            [connect_time] => 1414065043
+            [last_time] => 1414065043
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:50:43]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60761
+            [connect_time] => 1414065039
+            [last_time] => 1414065039
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:50:43]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52693
+            [connect_time] => 1414065043
+            [last_time] => 1414065043
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:50:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:50:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2093).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:50:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:50:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:50:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:50:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 19:51:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:51:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:13]	INFO	master server stop
+[2014-10-23 19:52:15]	INFO	master server start
+[2014-10-23 19:52:15]	INFO	set timer 5000ms on worker 0 
+[2014-10-23 19:52:16]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1414065136
+    [last_time] => 1414065136
+    [from_port] => 9998
+    [remote_port] => 60800
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:52:16]	INFO	add node nodes:
+[2014-10-23 19:52:16]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:52:19]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065138
+    [last_time] => 1414065139
+    [from_port] => 9999
+    [remote_port] => 52730
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:52:19]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52730
+            [connect_time] => 1414065138
+            [last_time] => 1414065139
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:52:19]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:52:19]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52730
+            [connect_time] => 1414065138
+            [last_time] => 1414065139
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:52:24]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2253).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 19:52:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2372).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:38]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:38]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:42]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2391).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:47]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:47]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2409).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:52:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:52:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:53:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:53:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:53:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:54:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:54:51]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:54:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:56:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:56:55]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2427).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:56:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:56:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2526).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:02]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 19:57:09]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:10]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:13]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2544).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:17]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2561).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 19:57:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:49]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:57:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 19:57:53]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:57:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2585).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:59:19]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 19:59:19]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:59:20]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065560
+    [last_time] => 1414065560
+    [from_port] => 9999
+    [remote_port] => 52825
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 19:59:20]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52825
+            [connect_time] => 1414065560
+            [last_time] => 1414065560
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 19:59:20]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 19:59:20]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52825
+            [connect_time] => 1414065560
+            [last_time] => 1414065560
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 19:59:27]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2644).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:59:31]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:32]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:59:33]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:34]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2676).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:59:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:35]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 19:59:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 19:59:52]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:54]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2697).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 19:59:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 19:59:58]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:00]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 20:00:03]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2714).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:19]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2752).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:26]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2769).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 20:00:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:50]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:51]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2790).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:00:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:00:59]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:01:05]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:01:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2808).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:01:10]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:01:10]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:01:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:01:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 20:01:20]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:01:21]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2825).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:01:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:01:43]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:01:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_monitor
+    [params] => Array
+        (
+            [sn] => 12
+            [m] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:01:44]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_monitor
+    [params] => Array
+        (
+            [s] => 1
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => stop upload_server failed
+        )
+
+)
+
+[2014-10-23 20:02:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:03:08]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 20:03:08]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:03:09]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065788
+    [last_time] => 1414065789
+    [from_port] => 9999
+    [remote_port] => 52885
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:03:09]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52885
+            [connect_time] => 1414065788
+            [last_time] => 1414065789
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:03:09]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:03:09]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52885
+            [connect_time] => 1414065788
+            [last_time] => 1414065789
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:03:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:03:16]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2850).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:03:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:03:18]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:03:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:04:21]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 20:04:21]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:04:22]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065862
+    [last_time] => 1414065862
+    [from_port] => 9999
+    [remote_port] => 52905
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:04:22]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52905
+            [connect_time] => 1414065862
+            [last_time] => 1414065862
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:04:22]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:04:22]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52905
+            [connect_time] => 1414065862
+            [last_time] => 1414065862
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:04:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:05:06]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 20:05:06]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:05:07]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065906
+    [last_time] => 1414065907
+    [from_port] => 9999
+    [remote_port] => 52921
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:05:07]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52921
+            [connect_time] => 1414065906
+            [last_time] => 1414065907
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:05:07]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:05:07]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52921
+            [connect_time] => 1414065906
+            [last_time] => 1414065907
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:05:12]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:06:18]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 20:06:18]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:06:20]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414065979
+    [last_time] => 1414065980
+    [from_port] => 9999
+    [remote_port] => 52948
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:06:20]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52948
+            [connect_time] => 1414065979
+            [last_time] => 1414065980
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:06:20]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:06:20]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52948
+            [connect_time] => 1414065979
+            [last_time] => 1414065980
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:06:25]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:06:55]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 20:06:55]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:06:56]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414066016
+    [last_time] => 1414066016
+    [from_port] => 9999
+    [remote_port] => 52966
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:06:56]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52966
+            [connect_time] => 1414066016
+            [last_time] => 1414066016
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:06:56]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 60800
+            [connect_time] => 1414065136
+            [last_time] => 1414065136
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:06:56]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 52966
+            [connect_time] => 1414066016
+            [last_time] => 1414066016
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:07:01]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:09:16]	INFO	master server stop
+[2014-10-23 20:09:17]	INFO	master server start
+[2014-10-23 20:09:17]	INFO	set timer 5000ms on worker 0 
+[2014-10-23 20:09:19]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 8
+    [connect_time] => 1414066158
+    [last_time] => 1414066158
+    [from_port] => 9998
+    [remote_port] => 32842
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:09:19]	INFO	add node nodes:
+[2014-10-23 20:09:19]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 32842
+            [connect_time] => 1414066158
+            [last_time] => 1414066158
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:09:23]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414066163
+    [last_time] => 1414066163
+    [from_port] => 9999
+    [remote_port] => 53005
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:09:23]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 53005
+            [connect_time] => 1414066163
+            [last_time] => 1414066163
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:09:23]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 32842
+            [connect_time] => 1414066158
+            [last_time] => 1414066158
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:09:23]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 53005
+            [connect_time] => 1414066163
+            [last_time] => 1414066163
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:09:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:09:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 2945).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:09:30]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:10:50]	INFO	del node nodes:Array
+(
+)
+
+[2014-10-23 20:10:50]	INFO	del node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 32842
+            [connect_time] => 1414066158
+            [last_time] => 1414066158
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:10:51]	INFO	node info:Array
+(
+    [from_id] => 0
+    [from_fd] => 7
+    [connect_time] => 1414066250
+    [last_time] => 1414066251
+    [from_port] => 9999
+    [remote_port] => 53030
+    [remote_ip] => 127.0.0.1
+)
+
+[2014-10-23 20:10:51]	INFO	add node nodes:Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 53030
+            [connect_time] => 1414066250
+            [last_time] => 1414066251
+            [group] => 0
+            [fd] => 12
+        )
+
+)
+
+[2014-10-23 20:10:51]	INFO	add node ctls:Array
+(
+    [11] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 32842
+            [connect_time] => 1414066158
+            [last_time] => 1414066158
+            [group] => 0
+            [fd] => 11
+        )
+
+)
+
+[2014-10-23 20:10:51]	INFO	add name Array
+(
+    [12] => Array
+        (
+            [host] => 127.0.0.1
+            [port] => 53030
+            [connect_time] => 1414066250
+            [last_time] => 1414066251
+            [group] => 0
+            [fd] => 12
+            [name] => sky_node_01
+        )
+
+)
+
+[2014-10-23 20:10:56]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:10:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 3272).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:10:57]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:11:14]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => restart_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:11:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 3341).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:11:15]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 20:11:22]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => stop_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:11:23]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _stop_service
+    [params] => Array
+        (
+            [s] => 0
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => Stopped upload_server (pid 3361).
+stop upload_server success
+        )
+
+)
+
+[2014-10-23 20:11:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => start_service
+    [params] => Array
+        (
+            [sn] => 12
+            [s] => upload_server
+            [c] => 10
+        )
+
+)
+
+[2014-10-23 20:11:28]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _start_service
+    [params] => Array
+        (
+            [s] => 
+            [m] => upload_server
+            [fd] => 11
+            [c] => 10
+            [n] => 12
+            [o] => start upload_server success
+        )
+
+)
+
+[2014-10-23 21:34:06]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 0
+            [f] => node.tar.gz__1.0.2
+            [fd] => 11
+            [c] => 10
+            [o] => node/install.sh
+install success
+        )
+
+)
+
+[2014-10-24 12:34:46]	INFO	Array
+(
+    [service] => cmd
+    [cmd] => _file_install
+    [params] => Array
+        (
+            [s] => 0
+            [f] => node.tar.gz__1.0.2
+            [fd] => 11
+            [c] => 10
+            [o] => node/install.sh
+install success
+        )
+
+)
+

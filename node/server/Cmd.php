@@ -7,6 +7,7 @@ namespace Sky;
 class Cmd
 {
     public $node;
+    public $config;
 
     private $cmd_header = "cmd ";
     private $protocol_end = "\r\n";

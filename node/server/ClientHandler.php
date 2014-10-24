@@ -33,7 +33,7 @@ class ClientHandler
                 continue;
             }
             $data = json_decode($data,1);
-            if (in_array($data['cmd'],array('start_service','stop_service')))
+            if (in_array($data['cmd'],array('start_service','stop_service','restart_service')))
             {
                 call_user_func(array($this->node->daemon,"cmd"),array('client'=>$client,'content'=>$data));
             }

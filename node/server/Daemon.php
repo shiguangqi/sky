@@ -107,7 +107,7 @@ class Daemon
                     $this->startDaemon($params,$client);
                     break;
                 case 'stop_service':
-                    $this->startDaemon($params,$client);
+                    $this->stopDaemon($params,$client);
                     break;
                 case 'restart_service':
                     $this->restartDaemon($params,$client);
@@ -143,7 +143,7 @@ class Daemon
         $name = $params['data']['s'];
         $init = $this->config[$name]['init'];
         exec($init." _stop",$output,$return);
-        if ($return === 0)
+        if ($return == 0)
         {
             $output[] = "stop {$name} success";
             $params['status'] = 0;
@@ -153,7 +153,7 @@ class Daemon
             $output[] = "stop {$name} failed";
             $params['status'] = 1;
         }
-        $client->send($this->response($params,$output,'start_service'));
+        $client->send($this->response($params,$output,'stop_service'));
         return $return;
     }
 
@@ -168,13 +168,12 @@ class Daemon
     public function response($params,$output,$type)
     {
         $o = implode("\n",$output);
-        $data = $params['content'];
         $line = '';
         switch ($type)
         {
-            case 'stop_monitor' :
-            case 'start_monitor' :
-                $line = $this->cmd_header."_{$type} -s {$params['status']} -m {$data['data']['m']} -fd {$data['data']['fd']} -c {$data['data']['c']} -n {$data['data']['sn']} -o $o ".$this->protocol_end;
+            case 'stop_service' :
+            case 'start_service' :
+                $line = $this->cmd_header."_{$type} -s {$params['status']} -m {$params['data']['s']} -fd {$params['data']['fd']} -c {$params['data']['c']} -n {$params['data']['sn']} -o $o ".$this->protocol_end;
                 break;
         }
         return $line;

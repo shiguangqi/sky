@@ -81,8 +81,8 @@ class Node
         $this->node_name = $config['node']['name'];
         $this->daemon = new \Sky\Daemon($config['daemon'],$this);
         //$this->monitor = new \Sky\Monitor($config['monitor'],$this);
-        if (isset($config['monitor']) and !empty($config['monitor']))
-            $this->cmd = new \Sky\Cmd($config['monitor'],$this);
+        //if (isset($config['monitor']) and !empty($config['monitor']))
+        $this->cmd = new \Sky\Cmd($config['monitor'],$this);
         if (isset($config['protocol']) and !empty($config['protocol']))
             $this->container = new \Sky\Cmd($config['protocol'],$this);
     }

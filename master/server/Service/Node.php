@@ -137,7 +137,6 @@ class Node extends \Sky\Service implements \Sky\Service\IService
         $node_info['last_time'] = $info['last_time'];
         $node_info['group'] = 0;//默认分组为0
         $node_info['fd'] = $fd;
-        $this->log("node info:".print_r($info,1));
         if ($info['from_port'] == $this->sky->port)//实体节点
         {
             $this->sky->nodes[$fd] = $node_info;
@@ -163,7 +162,7 @@ class Node extends \Sky\Service implements \Sky\Service\IService
         if (isset($this->sky->nodes[$fd]) and !empty($this->sky->nodes[$fd]))
         {
             //更新mysql中节点最后心跳时间
-            \Swoole\Error::dbd();
+            //\Swoole\Error::dbd();
             if (table('node')->exists(array('ip' => $this->sky->nodes[$fd]['host'])))
             {
                 $insert['alias'] = $this->sky->nodes[$fd]['name'];

@@ -155,6 +155,7 @@ class File extends \Sky\Service implements \Sky\Service\IService
 
     public function uploadFile($server, $fd, $from_id,$params)
     {
+        $this->setRes($this->service,$this->cmd);
         $return['params']['c'] = $params['c'];
         $client = new \swoole_client(SWOOLE_SOCK_TCP, SWOOLE_SOCK_SYNC);
         $file = $params['f'];

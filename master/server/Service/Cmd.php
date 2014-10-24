@@ -30,6 +30,9 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
             case 'stop_service':
                 $this->stop_service($server, $fd, $from_id,$data['params']);
                 break;
+            case 'restart_service':
+                $this->restart_service($server, $fd, $from_id,$data['params']);
+                break;
             case 'start_monitor':
                 $this->start_monitor($server, $fd, $from_id,$data['params']);
                 break;
@@ -38,6 +41,12 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
                 break;
             case 'restart_monitor':
                 $this->restart_monitor($server, $fd, $from_id,$data['params']);
+                break;
+            case '_start_service':
+                $this->_start_service($server, $fd, $from_id,$data['params']);
+                break;
+            case '_stop_service':
+                $this->_stop_service($server, $fd, $from_id,$data['params']);
                 break;
             case '_start_monitor':
                 $this->_start_monitor($server, $fd, $from_id,$data['params']);
@@ -88,6 +97,34 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
     }
 
     public function stop_service($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['sn']) and !empty($params['s']))
+        {
+            $node = $params['sn'];
+            if (array_key_exists($node,$this->sky->nodes))
+            {
+                $return['s'] = $params['s'];
+                $return['fd'] =  $fd;//需要带上控制节点的fd,response 下次通信用
+                $return['c'] =  $params['c']; //client id
+                $return['sn'] =  $params['sn'];
+                $this->send($node,$return);
+            }
+            else
+            {
+                $return['msg'] = "节点不存在\n";
+                $return['params']['c'] = $params['c'];
+                $this->send($fd,$return);
+            }
+        }
+        else
+        {
+            $return['msg'] = "参数错误\n";
+            $return['params']['c'] = $params['c'];
+            $this->send($fd,$return);
+        }
+    }
+
+    public function restart_service($server, $fd, $from_id,$params)
     {
         if (!empty($params['sn']) and !empty($params['s']))
         {
@@ -196,6 +233,35 @@ class Cmd extends \Sky\Service implements \Sky\Service\IService
             $return['msg'] = "参数错误\n";
             $return['params']['c'] = $params['c'];
             $this->send($fd,$return);
+        }
+    }
+
+    public function _start_service($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
+        {
+            $ctl_fd = $params['fd'];
+            $return['c'] = $params['c'];
+            $return['s'] = $params['s'];
+            $return['o'] = $params['o'];
+            $return['m'] = $params['m'];
+            $return['fd'] = $params['fd'];
+            $return['n'] =  $params['n'];
+            $this->send($ctl_fd, array('params'=>$return));
+        }
+    }
+    public function _stop_service($server, $fd, $from_id,$params)
+    {
+        if (!empty($params['c']))//返回状态日后可以选择从web客户端启动 也按照状态直接启动
+        {
+            $ctl_fd = $params['fd'];
+            $return['c'] = $params['c'];
+            $return['s'] = $params['s'];
+            $return['o'] = $params['o'];
+            $return['m'] = $params['m'];
+            $return['fd'] = $params['fd'];
+            $return['n'] =  $params['n']; //client id
+            $this->send($ctl_fd, array('params'=>$return));
         }
     }
 
