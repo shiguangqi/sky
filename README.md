@@ -35,4 +35,4 @@ sky
    mostats_svr[init] = path/to/server/init.d/server_name
 ```
 #####后台效果
-
+![](https://raw.githubusercontent.com/shiguangqi/sky/master/raw/raw1.png)
