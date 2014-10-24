@@ -9,7 +9,7 @@ sky
 4. container 容器服务
 
 ###### 功能
-1. master服务中心和node节点tcp协议通信
+1. master服务中心
 2. 协议
     * node 节点控制协议
       1. getallnode
