@@ -4,7 +4,7 @@
 *.lo
 *.gz
 
-/vendor/*
+vendor/
 
 /admin/backup/
 /admin/web/static/
